@@ -1,0 +1,299 @@
+{
+  "instrument": {
+    "id": "tek_vor 1300c",
+    "name": "Tek-Vor 1300C",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Vor 1300C",
+    "description": "Configurator for Tek-Vor 1300C",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Tamaño",
+        "shortLabel": "Tamaño",
+        "helpText": "Selecciona Tamaño",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "015S",
+            "label": "1/2\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "1/2\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "025S",
+            "label": "1\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "1\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "040S",
+            "label": "1-1/2\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "1-1/2\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "050S",
+            "label": "2\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "2\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "080S",
+            "label": "3\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "3\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "100S",
+            "label": "4\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "4\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "150S",
+            "label": "6\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "6\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "200S",
+            "label": "8\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "8\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "250S",
+            "label": "10\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "10\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "300S",
+            "label": "12\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "description": "12\", +/- 1.0% Accuracy, Standard Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "015M",
+            "label": "1/2\", +/- 1.0% Accuracy, Multivariable Vortex Mete",
+            "description": "1/2\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "025M",
+            "label": "1\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "description": "1\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "040M",
+            "label": "1-1/2\", +/- 1.0% Accuracy, Multivariable Vortex Me",
+            "description": "1-1/2\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "050M",
+            "label": "2\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "description": "2\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "080M",
+            "label": "3\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "description": "3\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "100M",
+            "label": "4\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "description": "4\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "150M",
+            "label": "6\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "description": "6\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "200M",
+            "label": "8\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "description": "8\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "250M",
+            "label": "10\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "description": "10\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          },
+          {
+            "code": "300M",
+            "label": "12\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "description": "12\", +/- 1.0% Accuracy, Multivariable Vortex Meter",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "W",
+            "label": "Wafer (Comes with two weld neck type flange adapto",
+            "description": "Wafer (Comes with two weld neck type flange adaptors,150#) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "F",
+            "label": "150# ANSI Flange- Integral Type",
+            "description": "150# ANSI Flange- Integral Type",
+            "constraints": {}
+          },
+          {
+            "code": "T",
+            "label": "300# ANSI Flange - Integral Type",
+            "description": "300# ANSI Flange - Integral Type",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "I",
+            "label": "4-20mA, Pulse",
+            "description": "4-20mA, Pulse",
+            "constraints": {}
+          },
+          {
+            "code": "H",
+            "label": "4-20mA, Pulse, HART (only available for direct mou",
+            "description": "4-20mA, Pulse, HART (only available for direct mount)",
+            "constraints": {}
+          },
+          {
+            "code": "R",
+            "label": "4-20mA, Pulse, Modbus RS485",
+            "description": "4-20mA, Pulse, Modbus RS485",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Temp. de Proceso",
+        "shortLabel": "Temp.",
+        "helpText": "Selecciona Temp. de Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "S",
+            "label": "302 Degrees F (150 Degrees C) $ -",
+            "description": "302 Degrees F (150 Degrees C) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "M",
+            "label": "482 Degrees F (250 Degrees C)",
+            "description": "482 Degrees F (250 Degrees C)",
+            "constraints": {}
+          },
+          {
+            "code": "H",
+            "label": "660 Degrees F (350 Degrees C)",
+            "description": "660 Degrees F (350 Degrees C)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Electrónica",
+        "shortLabel": "Electrónica",
+        "helpText": "Selecciona Electrónica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Direct Mount $ -",
+            "description": "Direct Mount $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "Remote Mount (comes with 15 ft. of cable)",
+            "description": "Remote Mount (comes with 15 ft. of cable)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Diagnósticos",
+        "shortLabel": "Diagnósticos",
+        "helpText": "Selecciona Diagnósticos",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "B",
+            "label": "Bluetooth ( With Modbus Only) $ -",
+            "description": "Bluetooth ( With Modbus Only) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Steam",
+            "label": "Quality Meter Tek-Flo Mass 1300D",
+            "description": "Quality Meter Tek-Flo Mass 1300D",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Price",
+            "description": "No. Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

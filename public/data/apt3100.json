@@ -1,0 +1,324 @@
+﻿{
+  "instrument": {
+    "baseModel": "APT 3100",
+    "name": "Transmisor de Presión Inteligente Autrol APT 3100",
+    "brand": "Autrol / Duon System",
+    "description": "Transmisor de presión inteligente con protocolo HART® para medición de presión diferencial, manométrica y absoluta en aplicaciones industriales de proceso.",
+    "features": [
+      "Protocolo de comunicación HART®",
+      "Precisión de ±0.075% del span calibrado",
+      "Cuerpo de acero inoxidable 316L",
+      "Rango de temperatura de proceso: -40°C a 120°C",
+      "Pantalla LCD opcional de 5 dígitos",
+      "Autodiagnóstico continuo",
+      "Certificaciones ATEX, IECEx, FM, CSA"
+    ],
+    "steps": [
+      {
+        "stepId": "transmitter_type",
+        "label": "Tipo de Transmisor",
+        "shortLabel": "Tipo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione el principio de medición según la variable de proceso a medir.",
+        "options": [
+          {
+            "code": "D",
+            "label": "Diferencial (DP)",
+            "description": "Medición de presión diferencial entre dos puntos de proceso. Aplicaciones: caudal por placa orificio, nivel en tanques cerrados, filtros.",
+            "specs": "Rangos disponibles: 0.025 kPa a 14 MPa"
+          },
+          {
+            "code": "G",
+            "label": "Manométrico (Gauge)",
+            "description": "Medición de presión relativa respecto a la presión atmosférica. Aplicaciones: presión en líneas, tanques abiertos, sistemas hidráulicos.",
+            "specs": "Rangos disponibles: 3.5 kPa a 68.9 MPa"
+          },
+          {
+            "code": "A",
+            "label": "Absoluto (Absolute)",
+            "description": "Medición de presión referida al vacío absoluto. Aplicaciones: destilación, reactores al vacío, meteorología industrial.",
+            "specs": "Rangos disponibles: 0.16 kPa a 6.89 MPa"
+          }
+        ]
+      },
+      {
+        "stepId": "calibration_range",
+        "label": "Rango de Calibración",
+        "shortLabel": "Rango",
+        "prefix": "",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Determine el rango de presión según las condiciones del proceso. Seleccionar el rango adecuado garantiza la mayor precisión.",
+        "options": [
+          {
+            "code": "3",
+            "label": "Rango 3 — Ultra Bajo",
+            "description": "Rango de presión ultra bajo para aplicaciones de baja presión diferencial, como medición de caudal de aire en HVAC.",
+            "specs": "0.025 a 6.22 kPa (0.1 a 25 inH₂O)",
+            "constraints": {
+              "incompatibleWith": {
+                "transmitter_type": ["A"]
+              }
+            }
+          },
+          {
+            "code": "4",
+            "label": "Rango 4 — Bajo",
+            "description": "Rango bajo para presiones diferenciales moderadas. Ideal para medición de nivel en tanques y caudal.",
+            "specs": "0.25 a 62.2 kPa (1 a 250 inH₂O)",
+            "constraints": {
+              "incompatibleWith": {
+                "transmitter_type": ["A"]
+              }
+            }
+          },
+          {
+            "code": "5",
+            "label": "Rango 5 — Medio",
+            "description": "Rango medio para la mayoría de aplicaciones industriales estándar de presión de proceso.",
+            "specs": "1.04 a 689 kPa (0.15 a 100 psi)"
+          },
+          {
+            "code": "6",
+            "label": "Rango 6 — Alto",
+            "description": "Rango alto para sistemas de alta presión en refinerías, plantas químicas y generación de energía.",
+            "specs": "0.34 a 6,890 kPa (0.05 a 1000 psi)"
+          },
+          {
+            "code": "7",
+            "label": "Rango 7 — Ultra Alto",
+            "description": "Rango ultra alto para aplicaciones de presión extrema en pozos petroleros, sistemas hidráulicos pesados.",
+            "specs": "3.45 a 68,900 kPa (0.5 a 10,000 psi)",
+            "constraints": {
+              "incompatibleWith": {
+                "transmitter_type": ["D"]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "stepId": "flange_material",
+        "label": "Material de Brida y Diafragma",
+        "shortLabel": "Material",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "El material de la brida y el diafragma sensor debe ser compatible con el fluido de proceso para evitar corrosión.",
+        "options": [
+          {
+            "code": "M11",
+            "label": "316 Stainless Steel (SS)",
+            "description": "Acero inoxidable 316 austenítico. Resistencia general a la corrosión. El más utilizado en aplicaciones estándar de proceso.",
+            "specs": "Temp. máx: 120°C | Resistencia: Ácidos moderados, agua, vapor"
+          },
+          {
+            "code": "M12",
+            "label": "Hastelloy® C-276",
+            "description": "Superaleación de níquel-molibdeno-cromo. Excelente resistencia a ambientes oxidantes y reductores severos.",
+            "specs": "Temp. máx: 120°C | Resistencia: Ácido clorhídrico, ácido sulfúrico, cloro"
+          },
+          {
+            "code": "M13",
+            "label": "Monel® 400 (Ni-Cu)",
+            "description": "Aleación de níquel-cobre con alta resistencia mecánica y a la corrosión en ambientes marinos y alcalinos.",
+            "specs": "Temp. máx: 120°C | Resistencia: Agua de mar, ácido fluorhídrico, álcalis"
+          },
+          {
+            "code": "M14",
+            "label": "Tantalum (Ta)",
+            "description": "Metal refractario con resistencia excepcional a ácidos. Para las aplicaciones más agresivas de la industria química.",
+            "specs": "Temp. máx: 120°C | Resistencia: Ácido clorhídrico concentrado, ácido nítrico caliente"
+          }
+        ]
+      },
+      {
+        "stepId": "area_certification",
+        "label": "Certificación de Área Clasificada",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione la certificación de protección contra explosión requerida según la clasificación del área de instalación.",
+        "options": [
+          {
+            "code": "E1",
+            "label": "ATEX Flameproof (Ex d)",
+            "description": "Envolvente antideflagrante ATEX/IECEx. Permite la instalación en Zona 1 y Zona 2 de gases explosivos.",
+            "specs": "II 2 G Ex d IIC T6 Gb | IP67"
+          },
+          {
+            "code": "E2",
+            "label": "ATEX Intrinsic Safety (Ex ia)",
+            "description": "Seguridad intrínseca ATEX/IECEx. Limita la energía eléctrica para impedir ignición. Zona 0, 1, 2.",
+            "specs": "II 1/2 G Ex ia IIC T4 Ga/Gb | IP67"
+          },
+          {
+            "code": "FM",
+            "label": "FM Approved (Factory Mutual)",
+            "description": "Certificación FM para instalaciones en Norteamérica. Explosionproof y Intrinsic Safety según NEC/CEC.",
+            "specs": "Class I, Div. 1 & 2, Groups A-D | Class II, III"
+          },
+          {
+            "code": "KO",
+            "label": "Estándar (Sin certificación Ex)",
+            "description": "Sin certificación de área clasificada. Para instalación en áreas no peligrosas (áreas seguras / no clasificadas).",
+            "specs": "Protección IP65 estándar"
+          }
+        ]
+      },
+      {
+        "stepId": "fill_fluid",
+        "label": "Fluido de Llenado del Sensor",
+        "shortLabel": "Fluido",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "El fluido de llenado transmite la presión al sensor. Seleccione según compatibilidad con el proceso y temperatura.",
+        "options": [
+          {
+            "code": "1",
+            "label": "Silicona DC 200",
+            "description": "Fluido estándar de silicona. Amplio rango de temperatura y excelente estabilidad. Uso general en la mayoría de aplicaciones industriales.",
+            "specs": "Rango: -40°C a 120°C | Viscosidad: Estable | FDA: No"
+          },
+          {
+            "code": "2",
+            "label": "Inert Fill (Fluorolube)",
+            "description": "Fluido inerte de fluorocarbono. Para aplicaciones donde el contacto con silicona es inaceptable (ej: oxígeno puro).",
+            "specs": "Rango: -20°C a 120°C | Viscosidad: Moderada | Oxígeno: Compatible"
+          },
+          {
+            "code": "3",
+            "label": "Aceite Fluorado (High Temp)",
+            "description": "Fluido fluorado de alta temperatura para procesos con temperatura extrema sostenida.",
+            "specs": "Rango: -15°C a 200°C | Viscosidad: Baja | FDA: No",
+            "constraints": {
+              "incompatibleWith": {
+                "flange_material": ["M14"]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "stepId": "process_connection",
+        "label": "Conexión de Proceso",
+        "shortLabel": "Proceso",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Conexión mecánica al proceso. Verifique compatibilidad con la tubería y la brida de montaje existente.",
+        "options": [
+          {
+            "code": "S",
+            "label": "1/4\"-18 NPT, Female Adapter",
+            "description": "Conexión NPT hembra de 1/4\" con adaptador. Estándar americano, la más común en instrumentación industrial.",
+            "specs": "Rosca: 1/4-18 NPT | Tipo: Hembra | Material: 316 SS"
+          },
+          {
+            "code": "T",
+            "label": "1/2\"-14 NPT, Female Adapter",
+            "description": "Conexión NPT hembra de 1/2\" con adaptador. Para líneas de impulso de mayor diámetro.",
+            "specs": "Rosca: 1/2-14 NPT | Tipo: Hembra | Material: 316 SS"
+          },
+          {
+            "code": "U",
+            "label": "M20 × 1.5, Female Adapter",
+            "description": "Conexión métrica M20 hembra. Estándar europeo/internacional para instalaciones con tubería métrica.",
+            "specs": "Rosca: M20 x 1.5 | Tipo: Hembra | Material: 316 SS"
+          },
+          {
+            "code": "V",
+            "label": "1/2\"-14 NPT, Coplanar Flange",
+            "description": "Brida coplanar con conexión de 1/2\" NPT. Para montaje directo a manifolds y válvulas de bloqueo.",
+            "specs": "Rosca: 1/2-14 NPT | Tipo: Brida Coplanar | Material: 316 SS / CF8M"
+          }
+        ]
+      },
+      {
+        "stepId": "electrical_connection",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Eléctrica",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Entrada de cable o conduit al transmisor. Debe ser compatible con la certificación de área seleccionada.",
+        "options": [
+          {
+            "code": "1",
+            "label": "G 1/2\" Male (BSP)",
+            "description": "Rosca BSP (British Standard Pipe) de 1/2\" macho. Estándar europeo e internacional.",
+            "specs": "Rosca: G 1/2\" | Tipo: Macho | Estándar: BS EN ISO 228"
+          },
+          {
+            "code": "2",
+            "label": "1/2\"-14 NPT Male",
+            "description": "Rosca NPT de 1/2\" macho. Estándar americano para conduit y cable glands.",
+            "specs": "Rosca: 1/2-14 NPT | Tipo: Macho | Estándar: ANSI/ASME B1.20.1",
+            "constraints": {
+              "incompatibleWith": {
+                "area_certification": ["E1"]
+              }
+            }
+          },
+          {
+            "code": "3",
+            "label": "M20 × 1.5 Male (Metric)",
+            "description": "Rosca métrica M20 macho. Compatible con cable glands métricos y ATEX Ex d/Ex e.",
+            "specs": "Rosca: M20 x 1.5 | Tipo: Macho | Estándar: ISO 261/262"
+          }
+        ]
+      },
+      {
+        "stepId": "additional_options",
+        "label": "Opciones Adicionales",
+        "shortLabel": "Opciones",
+        "prefix": "-",
+        "required": false,
+        "multiSelect": true,
+        "helpText": "Seleccione accesorios y funcionalidades adicionales. Puede elegir múltiples opciones o ninguna.",
+        "options": [
+          {
+            "code": "M1",
+            "label": "Indicador LCD Local",
+            "description": "Pantalla LCD de 5 dígitos con gráfico de barras integrado. Lectura directa en campo sin equipo adicional.",
+            "specs": "Display: LCD 5 dígitos + barra | Rotación: 90° | Rango visible: -20°C a 70°C"
+          },
+          {
+            "code": "M3",
+            "label": "Ajuste Zero/Span Externo",
+            "description": "Botones externos de ajuste de cero y span accesibles sin abrir la tapa del transmisor.",
+            "specs": "Ajuste: ±5% Zero, ±10% Span | Acceso: Externo sin herramientas"
+          },
+          {
+            "code": "BA",
+            "label": "Soporte Montaje SS (Ángulo)",
+            "description": "Soporte de montaje angular en acero inoxidable 316 para instalación en tubería de 2\" o en pared.",
+            "specs": "Material: 316 SS | Tubería: 50mm (2\") | Tipo: Angular"
+          },
+          {
+            "code": "BF",
+            "label": "Soporte Montaje SS (Plano)",
+            "description": "Soporte de montaje plano en acero inoxidable 316 para instalación en panel o superficie plana.",
+            "specs": "Material: 316 SS | Fijación: 4 tornillos M8 | Tipo: Plano"
+          },
+          {
+            "code": "LC",
+            "label": "Protección contra Rayos",
+            "description": "Supresor de transientes y protección contra descargas atmosféricas integrado en la conexión eléctrica.",
+            "specs": "Protección: ≤600V pico | Tiempo de respuesta: <1ns | Norm: IEC 61643-21"
+          },
+          {
+            "code": "TP",
+            "label": "Tag Plate (Placa de Identificación)",
+            "description": "Placa de identificación adicional en acero inoxidable con grabado láser del TAG del instrumento.",
+            "specs": "Material: 316 SS | Grabado: Láser | Caracteres: Hasta 32"
+          }
+        ]
+      }
+    ]
+  }
+}

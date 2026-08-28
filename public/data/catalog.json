@@ -1,0 +1,344 @@
+﻿[
+  {
+    "id": "apt3100",
+    "name": "Autrol APT 3100",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "apt3100.json",
+    "image": "img/catalog/apt3100.png",
+    "description": "Transmisor de presión inteligente con protocolo HART para medición de presión diferencial, manométrica y absoluta."
+  },
+  {
+    "id": "tek_cor 1100a",
+    "name": "Tek-Cor 1100A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_cor 1100a.json",
+    "image": "img/catalog/tek-cor-1100a.png",
+    "description": "Caudalímetro masivo tipo Coriolis para medición precisa de líquidos y gases en aplicaciones críticas."
+  },
+  {
+    "id": "tek_vor 1300c",
+    "name": "Tek-Vor 1300C",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_vor 1300c.json",
+    "image": "img/catalog/tek-vor-1300c.png",
+    "description": "Medidor de flujo Vortex para vapor, gases y líquidos de baja viscosidad."
+  },
+  {
+    "id": "tek_flo mass 1300d",
+    "name": "Tek-Flo Mass 1300D",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_flo mass 1300d.json",
+    "image": "img/catalog/tek-flo-mass-1300d.png",
+    "description": "Flujómetro masivo térmico para monitoreo preciso en tuberías industriales."
+  },
+  {
+    "id": "tek_flux 1400a",
+    "name": "Tek-Flux 1400A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_flux 1400a.json",
+    "image": "img/catalog/tek-flux-1400a.png",
+    "description": "Flujómetro electromagnético para líquidos conductores y fluidos abrasivos."
+  },
+  {
+    "id": "tek_flux 1400b",
+    "name": "Tek-Flux 1400B",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_flux 1400b.json",
+    "image": "img/catalog/tek-flux-1400b.png",
+    "description": "Flujómetro electromagnético de inserción para grandes tuberías de proceso."
+  },
+  {
+    "id": "tek_flux 1400c",
+    "name": "Tek-Flux 1400C",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_flux 1400c.json",
+    "image": "img/catalog/tek-flux-1400c.png",
+    "description": "Flujómetro electromagnético alimentado por batería para aplicaciones de agua potable y efluentes."
+  },
+  {
+    "id": "tek_dp 1610d",
+    "name": "Tek-DP 1610D",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_dp 1610d.json",
+    "image": "img/catalog/tek-dp-1610d.png",
+    "description": "Sensor de presión diferencial de alta exactitud para cálculo de caudal y nivel."
+  },
+  {
+    "id": "tek_dp 1620a",
+    "name": "Tek-DP 1620A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_dp 1620a.json",
+    "image": "img/catalog/tek-dp-1620a.png",
+    "description": "Elemento primario de presión diferencial para medición confiable en vapor y gases."
+  },
+  {
+    "id": "tek_dp 1640a",
+    "name": "Tek-DP 1640A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_dp 1640a.json",
+    "image": "img/catalog/tek-dp-1640a.png",
+    "description": "Tubo Venturi de baja pérdida de carga para fluidos de alta viscosidad."
+  },
+  {
+    "id": "tek_dp 1650a",
+    "name": "Tek-DP 1650A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_dp 1650a.json",
+    "image": "img/catalog/tek-dp-1650a.png",
+    "description": "Tobera de flujo para medición de fluidos a alta velocidad y alta temperatura."
+  },
+  {
+    "id": "tek_thermal 1700b",
+    "name": "Tek-Thermal 1700B",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_thermal 1700b.json",
+    "image": "img/catalog/tek-thermal-1700b.png",
+    "description": "Medidor de flujo masico térmico de gas para quemadores y sistemas de aire comprimido."
+  },
+  {
+    "id": "tek_temp 2100a",
+    "name": "Tek-Temp 2100A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_temp 2100a.json",
+    "image": "img/catalog/tek-temp-2100a.png",
+    "description": "Transmisor de temperatura universal para termocuplas y RTD Pt100."
+  },
+  {
+    "id": "tek_bar 3110a",
+    "name": "Tek-Bar 3110A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_bar 3110a.json",
+    "image": "img/catalog/tek-bar-3110a.png",
+    "description": "Transmisor de presión de precisión para procesos industriales demandantes."
+  },
+  {
+    "id": "tek_bar 3110b_d",
+    "name": "Tek-Bar 3110B-D",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_bar 3110b_d.json",
+    "image": "img/catalog/tek-bar-3110b-d.png",
+    "description": "Transmisor de presión diferencial con diafragma empotrado sanitario."
+  },
+  {
+    "id": "tek_bar 3120a",
+    "name": "Tek-Bar 3120A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_bar 3120a.json",
+    "image": "img/catalog/tek-bar-3120a.png",
+    "description": "Transmisor de presión relativa para monitoreo general de tuberías."
+  },
+  {
+    "id": "tek_bar 3120b",
+    "name": "Tek-Bar 3120B",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_bar 3120b.json",
+    "image": "img/catalog/tek-bar-3120b.png",
+    "description": "Transmisor de presión absoluta de alta estabilidad a largo plazo."
+  },
+  {
+    "id": "tek_bar 3120s",
+    "name": "Tek-Bar 3120S",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_bar 3120s.json",
+    "image": "img/catalog/tek-bar-3120s.png",
+    "description": "Transmisor de presión inteligente de alto desempeño con pantalla digital."
+  },
+  {
+    "id": "tek_bar 3800e",
+    "name": "Tek-Bar 3800E",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_bar 3800e.json",
+    "image": "img/catalog/tek-bar-3800e.png",
+    "description": "Transmisor compacto de presión económica para OEM y maquinaria."
+  },
+  {
+    "id": "tek_bar 3800xa",
+    "name": "Tek-Bar 3800XA",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_bar 3800xa.json",
+    "image": "img/catalog/tek-bar-3800xa.png",
+    "description": "Transmisor de presión a prueba de explosión para zonas clasificadas."
+  },
+  {
+    "id": "tek_flex 4100a",
+    "name": "Tek-Flex 4100A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_flex 4100a.json",
+    "image": "img/catalog/tek-flex-4100a.png",
+    "description": "Transmisor de nivel por onda guiada (TDR) para sólidos y líquidos."
+  },
+  {
+    "id": "tek_flex 4100b",
+    "name": "Tek-Flex 4100B",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_flex 4100b.json",
+    "image": "img/catalog/tek-flex-4100b.png",
+    "description": "Radar de onda guiada para medición de interfaz líquido/líquido."
+  },
+  {
+    "id": "tek_wave_4300b",
+    "name": "Tek-Wave-4300B",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_wave_4300b.json",
+    "image": "img/catalog/tek-wave-4300b.png",
+    "description": "Radar de nivel de 80 GHz para tanques de almacenamiento y silos."
+  },
+  {
+    "id": "tek_wave 4300c_g",
+    "name": "Tek-Wave 4300C-G",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_wave 4300c_g.json",
+    "image": "img/catalog/tek-wave-4300c-g.png",
+    "description": "Transmisor de nivel por ultrasónico de alta precisión sin contacto."
+  },
+  {
+    "id": "tek_hydro 4500a_g",
+    "name": "Tek-Hydro 4500A-G",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_hydro 4500a_g.json",
+    "image": "img/catalog/tek-hydro-4500a-g.png",
+    "description": "Transmisor hidrostatico sumergible para medición de nivel en pozos y tanques."
+  },
+  {
+    "id": "tek_flex 4500ad",
+    "name": "Tek-Flex 4500AD",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_flex 4500ad.json",
+    "image": "img/catalog/tek-flex-4500ad.png",
+    "description": "Medidor de nivel capacitivo para ambientes de alta presión y temperatura."
+  },
+  {
+    "id": "tek_sub 4800a",
+    "name": "Tek-Sub 4800A",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_sub 4800a.json",
+    "image": "img/catalog/tek-sub-4800a.png",
+    "description": "Sensor de nivel sumergible para aguas residuales y efluentes corrosivos."
+  },
+  {
+    "id": "tek_sub 4800b",
+    "name": "Tek-Sub 4800B",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_sub 4800b.json",
+    "image": "img/catalog/tek-sub-4800b.png",
+    "description": "Transmisor sumergible de titanio para agua de mar y soluciones ácidas."
+  },
+  {
+    "id": "tek_ tek_sub 4800c",
+    "name": "Tek-Sub 4800C",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_ tek_sub 4800c.json",
+    "image": "img/catalog/tek-sub-4800c.png",
+    "description": "Sonda de nivel sumergible de pequeño diámetro para pozos profundos."
+  },
+  {
+    "id": "tek_sub 4800d",
+    "name": "Tek-Sub 4800D",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "tek_sub 4800d.json",
+    "image": "img/catalog/tek-sub-4800d.png",
+    "description": "Sensor hidroeléctrico para monitoreo constante en presas y ríos."
+  },
+  {
+    "id": "belfone_bf_td511",
+    "name": "Radio Portátil Belfone BF-TD511",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/belfone-bf-td511.png",
+    "description": "Radio digital portátil DMR resistente con pantalla a color, teclado completo, GPS opcional y protección IP67 para campo severo."
+  },
+  {
+    "id": "belfone_bf_td510",
+    "name": "Radio Portátil Belfone BF-TD510",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/belfone-bf-td510.png",
+    "description": "Radio portátil digital DMR compacto sin pantalla, ideal para brigadas operativas de comunicación rápida."
+  },
+  {
+    "id": "belfone_bf_td930",
+    "name": "Radio Portátil Atex Belfone BF-TD930",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/belfone-bf-td930.png",
+    "description": "Radio DMR intrínsecamente seguro con certificación Ex / ATEX para áreas clasificadas con riesgo de explosión."
+  },
+  {
+    "id": "belfone_bf_tm8250",
+    "name": "Radio Móvil / Base Belfone BF-TM8250",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/belfone-bf-tm8250.png",
+    "description": "Transceptor móvil DMR para vehículos y estaciones base en salas de control con potencia de hasta 45W."
+  },
+  {
+    "id": "belfone_bf_tr900",
+    "name": "Repetidor Digital Belfone BF-TR900",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/belfone-bf-tr900.png",
+    "description": "Estación repetidora DMR de alta potencia para extender la cobertura en redes de radiocomunicación industrial y plantas."
+  },
+  {
+    "id": "switch_industrial_poe_8p",
+    "name": "Switch Industrial PoE+ 8 Puertos",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/switch-poe-8p.png",
+    "description": "Switch administrable para riel DIN con puertos Gigabit PoE+ e inmunidad a interferencia electromagnética."
+  },
+  {
+    "id": "switch_industrial_fibra_16p",
+    "name": "Switch Industrial Managed 16 Puertos + SFP",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/switch-managed-16p.png",
+    "description": "Switch de red industrial de alta velocidad con slots SFP para enlaces de fibra óptica de larga distancia."
+  },
+  {
+    "id": "antena_base_uhf",
+    "name": "Antena Omnidireccional UHF / VHF",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/antena-base-uhf.png",
+    "description": "Antena de estación base en fibra de vidrio resistente a vientos severos y ambientes marinos."
+  },
+  {
+    "id": "fuente_redundante_24v",
+    "name": "Fuente de Alimentación Redundante 24VDC",
+    "category": "Telecomunicaciones",
+    "configurable": false,
+    "image": "img/telecom/fuente-redundante-24v.png",
+    "description": "Fuente industrial para riel DIN con respaldo de batería y conmutación automática sin interrupción."
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "instrument": {
+    "id": "tek_flux 1400b",
+    "name": "Tek-Flux 1400B",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Flux 1400B",
+    "description": "Configurator for Tek-Flux 1400B",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Transmisor",
+        "shortLabel": "Transmisor",
+        "helpText": "Selecciona Transmisor",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Direct Mount $ -",
+            "description": "Direct Mount $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "Remote Mount",
+            "description": "Remote Mount",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "S",
+            "label": "4-20mA, Pulse, HART, RS485 $ -",
+            "description": "4-20mA, Pulse, HART, RS485 $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Electrodos",
+        "shortLabel": "Electrodos",
+        "helpText": "Selecciona Electrodos",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "HC",
+            "label": "Hatelloy C $ -",
+            "description": "Hatelloy C $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Insertion Length",
+        "shortLabel": "Insertion",
+        "helpText": "Selecciona Insertion Length",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "20\" Probe Length $ -",
+            "description": "20\" Probe Length $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Alimentación",
+        "shortLabel": "Alimentación",
+        "helpText": "Selecciona Alimentación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "18 - 28 VDC $ -",
+            "description": "18 - 28 VDC $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "80 - 300 VAC/VDC $ -",
+            "description": "80 - 300 VAC/VDC $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Electrode Cap",
+        "shortLabel": "Electrode",
+        "helpText": "Selecciona Electrode Cap",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "T",
+            "label": "PTFE $ -",
+            "description": "PTFE $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Opciones de Válvula",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones de Válvula",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Isolation Valve with Blowout Preventer, 1.5\" MNPT",
+            "description": "Isolation Valve with Blowout Preventer, 1.5\" MNPT $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "Isolation Valve with Bowout Preventer, 2\" Weldolet",
+            "description": "Isolation Valve with Bowout Preventer, 2\" Weldolet $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "IP68",
+            "label": "IP68 Submersible Sensor Rating",
+            "description": "IP68 Submersible Sensor Rating",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

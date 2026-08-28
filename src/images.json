@@ -1,0 +1,53 @@
+{
+  "logo": "/assets/ORIGINAL.png",
+  "hero": [
+    "/assets/carrusel/1.png",
+    "/assets/carrusel/2.png",
+    "/assets/carrusel/3.png"
+  ],
+  "about": "/assets/SOBRE_NOSOTROS.png",
+  "services": [
+    "/assets/ingenieria.png",
+    "/assets/integracion.png",
+    "/assets/operacion.jpg"
+  ],
+  "LineasProductosSlider": [
+    "/assets/industrial_3.jpg",
+    "/assets/industrial_4.jpg",
+    "/assets/industrial_6.jpg"
+  ],
+  "projects": [
+    "/assets/project_1.png",
+    "/assets/project_2.png",
+    "/assets/project_3.png"
+  ],
+  "allies": [
+    "/assets/allies_1.png",
+    "/assets/allies_2.png"
+  ],
+  "brochures": [
+    "/assets/brochure_dmr.png",
+    "/assets/brochure_dmr_1.png",
+    "/assets/brochure_dmr_2.png",
+    "/assets/brochure_instrumentacion.png",
+    "/assets/brochure_instrumentacion_1.png",
+    "/assets/brochure_lte.png"
+  ],
+  "blog": "/assets/hero_ingles_1.png",
+  "contact": "/assets/industrial_7.jpg",
+  "excellence": "/assets/industrial_8.jpg",
+  "favicon": "/favicon.svg",
+  "pdfPages": [
+    "/assets/hero_1.png",
+    "/assets/hero_2.png",
+    "/assets/pdf_15.png",
+    "/assets/pdf_29.png",
+    "/assets/hero_ingles.png",
+    "/assets/hero_ingles_1.png",
+    "/assets/hero_ingles_2.png"
+  ],
+  "ubicaAva":"/assets/contacto.png"
+
+}
+
+

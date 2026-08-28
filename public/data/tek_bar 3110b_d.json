@@ -1,0 +1,228 @@
+{
+  "instrument": {
+    "id": "tek_bar 3110b_d",
+    "name": "Tek-Bar 3110B-D",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Bar 3110B-D",
+    "description": "Configurator for Tek-Bar 3110B-D",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "0 to 25” w.c. (100:1 Turndown, Adj. Range: -25 to",
+            "description": "0 to 25” w.c. (100:1 Turndown, Adj. Range: -25 to 25 w.c.)",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "0 to 200”w.c. (100:1 Turndown, Adj. Range: -200 to",
+            "description": "0 to 200”w.c. (100:1 Turndown, Adj. Range: -200 to 200 w.c.) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "0 to 1000\" w.c. (100:1 Turndown, Adj. Range: -1000",
+            "description": "0 to 1000\" w.c. (100:1 Turndown, Adj. Range: -1000 to 1000w.c.) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "4",
+            "label": "0 to 150 psid (100:1 Turndown, Adj. Range: -72 to",
+            "description": "0 to 150 psid (100:1 Turndown, Adj. Range: -72 to 150 psid) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "5",
+            "label": "0 to 450 psid (100:1 Turndown, Adj. Range: -72 to",
+            "description": "0 to 450 psid (100:1 Turndown, Adj. Range: -72 to 450 psid) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "6",
+            "label": "0 to 1500 psid (100:1 Turndown, Adj. Range: -72 to",
+            "description": "0 to 1500 psid (100:1 Turndown, Adj. Range: -72 to 1500 psid) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Certificación",
+        "shortLabel": "Certificación",
+        "helpText": "Selecciona Certificación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "WP",
+            "label": "General Purpose NEMA 4X/IP66 $ -",
+            "description": "General Purpose NEMA 4X/IP66 $ -",
+            "constraints": {}
+          },
+          {
+            "code": "CSA",
+            "label": "CSA Class 1 Div 1 Explosion-Proof",
+            "description": "CSA Class 1 Div 1 Explosion-Proof",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Conexiones a Proceso",
+        "shortLabel": "Conexiones",
+        "helpText": "Selecciona Conexiones a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "1/4\" NPT Female $ -",
+            "description": "1/4\" NPT Female $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Diaphragm Seal",
+            "description": "Diaphragm Seal",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Material del Diafragma",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material del Diafragma",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "HC",
+            "label": "Hastelloy C $ -",
+            "description": "Hastelloy C $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión Eléctrica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "1/2\" NPT Female $ -",
+            "description": "1/2\" NPT Female $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "MOD",
+            "label": "Modbus RS485 Communication",
+            "description": "Modbus RS485 Communication",
+            "constraints": {}
+          },
+          {
+            "code": "CC",
+            "label": "Custom Calibration with 5 point Calibration Certif",
+            "description": "Custom Calibration with 5 point Calibration Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "FC",
+            "label": "Factory Configuration, No Certificate",
+            "description": "Factory Configuration, No Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "BA",
+            "label": "Stainless Steel Bracket (Angle type) with SST Bolt",
+            "description": "Stainless Steel Bracket (Angle type) with SST Bolts",
+            "constraints": {}
+          },
+          {
+            "code": "3WF",
+            "label": "3-Way Manifold Valve",
+            "description": "3-Way Manifold Valve",
+            "constraints": {}
+          },
+          {
+            "code": "5WF",
+            "label": "5-Way Manifold Valve",
+            "description": "5-Way Manifold Valve",
+            "constraints": {}
+          },
+          {
+            "code": "BF",
+            "label": "Stainless Steel Bracket (Flat type) with SST Bolts",
+            "description": "Stainless Steel Bracket (Flat type) with SST Bolts",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "Stainless Steel Hang Tag",
+            "description": "Stainless Steel Hang Tag",
+            "constraints": {}
+          },
+          {
+            "code": "O",
+            "label": "",
+            "description": "",
+            "constraints": {}
+          },
+          {
+            "code": "VDC",
+            "label": "1 to 5VDC Output",
+            "description": "1 to 5VDC Output",
+            "constraints": {}
+          },
+          {
+            "code": "IP68",
+            "label": "Submersible Rated",
+            "description": "Submersible Rated",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

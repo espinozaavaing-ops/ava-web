@@ -1,0 +1,341 @@
+{
+  "instrument": {
+    "id": "tek_flex 4100a",
+    "name": "Tek-Flex 4100A",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Flex 4100A",
+    "description": "Configurator for Tek-Flex 4100A",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Certificaciones",
+        "shortLabel": "Certificaciones",
+        "helpText": "Selecciona Certificaciones",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "00",
+            "label": "Without $ -",
+            "description": "Without $ -",
+            "constraints": {}
+          },
+          {
+            "code": "01",
+            "label": "ATEX 1 1 1 G Ex ia llC T6 Ga + 1 1 1 D Ex ia lllC",
+            "description": "ATEX 1 1 1 G Ex ia llC T6 Ga + 1 1 1 D Ex ia lllC Da",
+            "constraints": {}
+          },
+          {
+            "code": "FM",
+            "label": "IS CL 1/11/111 DIV 1 GPS A-G + CL I zone 0 Ex ia l",
+            "description": "IS CL 1/11/111 DIV 1 GPS A-G + CL I zone 0 Ex ia llC T6 FM X P-",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "AIS/DIP/NI CL 1/11/111 Div 1 GPS A-G + CL I zone 1",
+            "description": "AIS/DIP/NI CL 1/11/111 Div 1 GPS A-G + CL I zone 1 I zone 2 Ex",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Material Mojado/Presión",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material Mojado/Presión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "316L SS $ -",
+            "description": "316L SS $ -",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "HASTELLOY® C $ -",
+            "description": "HASTELLOY® C $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Tipo de Sonda",
+        "shortLabel": "Tipo",
+        "helpText": "Selecciona Tipo de Sonda",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "Single rod Ø1/4\" (Ø8mm) max. 4m (13.12ft) $ -",
+            "description": "Single rod Ø1/4\" (Ø8mm) max. 4m (13.12ft) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "Single rod Ø1/4\" (Ø8mm) segmented max.6m (19.69ft)",
+            "description": "Single rod Ø1/4\" (Ø8mm) segmented max.6m (19.69ft) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "03",
+            "label": "Single rod Ø3/8\" (Ø10mm) max. 4m (13.12ft)",
+            "description": "Single rod Ø3/8\" (Ø10mm) max. 4m (13.12ft)",
+            "constraints": {}
+          },
+          {
+            "code": "04",
+            "label": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft)",
+            "description": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft)",
+            "constraints": {}
+          },
+          {
+            "code": "05",
+            "label": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) turn",
+            "description": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) turnbuckle",
+            "constraints": {}
+          },
+          {
+            "code": "06",
+            "label": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) chuc",
+            "description": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) chuck",
+            "constraints": {}
+          },
+          {
+            "code": "07",
+            "label": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) thre",
+            "description": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) threaded end",
+            "constraints": {}
+          },
+          {
+            "code": "08",
+            "label": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) crim",
+            "description": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) crimped end",
+            "constraints": {}
+          },
+          {
+            "code": "09",
+            "label": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) open",
+            "description": "Single cable Ø1/8\" (Ø4mm) max. 60m (196.85ft) open end",
+            "constraints": {}
+          },
+          {
+            "code": "10",
+            "label": "Coaxial Ø3/4\"(Ø22mm) max.6m (19.69ft)",
+            "description": "Coaxial Ø3/4\"(Ø22mm) max.6m (19.69ft)",
+            "constraints": {}
+          },
+          {
+            "code": "11",
+            "label": "Coaxial Ø3/4\"(Ø22mm) segmented max.6m (19.69ft)",
+            "description": "Coaxial Ø3/4\"(Ø22mm) segmented max.6m (19.69ft)",
+            "constraints": {}
+          },
+          {
+            "code": "12",
+            "label": "Double rod 2× Ø1/4\" (Ø8mm) max. 4m (13.12ft)",
+            "description": "Double rod 2× Ø1/4\" (Ø8mm) max. 4m (13.12ft)",
+            "constraints": {}
+          },
+          {
+            "code": "13",
+            "label": "Double cable 2×Ø1/8\" (Ø4mm) max. 14m(45.93ft)",
+            "description": "Double cable 2×Ø1/8\" (Ø4mm) max. 14m(45.93ft)",
+            "constraints": {}
+          },
+          {
+            "code": "14",
+            "label": "Reversed interface Ø3/8\" (Ø10mm) max. 4m (13.12ft)",
+            "description": "Reversed interface Ø3/8\" (Ø10mm) max. 4m (13.12ft)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Temperatura",
+        "shortLabel": "Temperatura",
+        "helpText": "Selecciona Temperatura",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "(-40 to +392°F (-40 to +200°C)) $ -",
+            "description": "(-40 to +392°F (-40 to +200°C)) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "(-4 to +392°F (-20 to +200°C)) $ -",
+            "description": "(-4 to +392°F (-20 to +200°C)) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "Standard / -50 to +150°C (-58 to +302°F) $ -",
+            "description": "Standard / -50 to +150°C (-58 to +302°F) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "3/4\" NPT $ -",
+            "description": "3/4\" NPT $ -",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "1\" NPT $ -",
+            "description": "1\" NPT $ -",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "1 1/2\" NPT $ -",
+            "description": "1 1/2\" NPT $ -",
+            "constraints": {}
+          },
+          {
+            "code": "D",
+            "label": "2\" 150lb RF ASME B16.5",
+            "description": "2\" 150lb RF ASME B16.5",
+            "constraints": {}
+          },
+          {
+            "code": "E",
+            "label": "2\" 300lb RF ASME B16.5",
+            "description": "2\" 300lb RF ASME B16.5",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Longitud de Sonda",
+        "shortLabel": "Longitud",
+        "helpText": "Selecciona Longitud de Sonda",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "XXX",
+            "label": "Probe length in inches  per inch",
+            "description": "Probe length in inches  per inch",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "2-wire / 4 to 20mA passive HART® $ -",
+            "description": "2-wire / 4 to 20mA passive HART® $ -",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "2 × 2-wire / 4 to 20mA passive HART® + 4 to 20mA p",
+            "description": "2 × 2-wire / 4 to 20mA passive HART® + 4 to 20mA passive",
+            "constraints": {}
+          },
+          {
+            "code": "03",
+            "label": "",
+            "description": "",
+            "constraints": {}
+          },
+          {
+            "code": "relay",
+            "label": "(48VDC / 6 A; 24VDC / 6A)",
+            "description": "(48VDC / 6 A; 24VDC / 6A)",
+            "constraints": {}
+          },
+          {
+            "code": "h",
+            "label": "Orientation",
+            "description": "Orientation",
+            "constraints": {}
+          },
+          {
+            "code": "A",
+            "label": "Horizontal $ -",
+            "description": "Horizontal $ -",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "Vertical $ -",
+            "description": "Vertical $ -",
+            "constraints": {}
+          },
+          {
+            "code": "i",
+            "label": "Options",
+            "description": "Options",
+            "constraints": {}
+          },
+          {
+            "code": "DGC",
+            "label": "Dynamic Gas-phase Compensation (DGC)",
+            "description": "Dynamic Gas-phase Compensation (DGC)",
+            "constraints": {}
+          },
+          {
+            "code": "CC",
+            "label": "Calibration Certificate",
+            "description": "Calibration Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "WP",
+            "label": "Weather Protection $ -",
+            "description": "Weather Protection $ -",
+            "constraints": {}
+          },
+          {
+            "code": "Tag",
+            "label": "Stainless Steel Tag Plate",
+            "description": "Stainless Steel Tag Plate",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

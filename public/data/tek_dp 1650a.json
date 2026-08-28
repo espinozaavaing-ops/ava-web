@@ -1,0 +1,540 @@
+{
+  "instrument": {
+    "id": "tek_dp 1650a",
+    "name": "Tek-DP 1650A",
+    "brand": "Tektrol",
+    "baseModel": "Tek-DP 1650A",
+    "description": "Configurator for Tek-DP 1650A",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Tipo",
+        "shortLabel": "Tipo",
+        "helpText": "Selecciona Tipo",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "F",
+            "label": "Fixed",
+            "description": "Fixed",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Medio",
+        "shortLabel": "Medio",
+        "helpText": "Selecciona Medio",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "L",
+            "label": "Liquid",
+            "description": "Liquid",
+            "constraints": {}
+          },
+          {
+            "code": "G",
+            "label": "Gas",
+            "description": "Gas",
+            "constraints": {}
+          },
+          {
+            "code": "S",
+            "label": "Steam",
+            "description": "Steam",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Tamaño",
+        "shortLabel": "Tamaño",
+        "helpText": "Selecciona Tamaño",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "050",
+            "label": "2”",
+            "description": "2”",
+            "constraints": {}
+          },
+          {
+            "code": "065",
+            "label": "2 1/2\"",
+            "description": "2 1/2\"",
+            "constraints": {}
+          },
+          {
+            "code": "080",
+            "label": "3\"",
+            "description": "3\"",
+            "constraints": {}
+          },
+          {
+            "code": "085",
+            "label": "3 1/2\"",
+            "description": "3 1/2\"",
+            "constraints": {}
+          },
+          {
+            "code": "100",
+            "label": "4\"",
+            "description": "4\"",
+            "constraints": {}
+          },
+          {
+            "code": "125",
+            "label": "5\"",
+            "description": "5\"",
+            "constraints": {}
+          },
+          {
+            "code": "150",
+            "label": "6\"",
+            "description": "6\"",
+            "constraints": {}
+          },
+          {
+            "code": "175",
+            "label": "7\"",
+            "description": "7\"",
+            "constraints": {}
+          },
+          {
+            "code": "200",
+            "label": "8\"",
+            "description": "8\"",
+            "constraints": {}
+          },
+          {
+            "code": "250",
+            "label": "10\"",
+            "description": "10\"",
+            "constraints": {}
+          },
+          {
+            "code": "300",
+            "label": "12\"",
+            "description": "12\"",
+            "constraints": {}
+          },
+          {
+            "code": "350",
+            "label": "14\"",
+            "description": "14\"",
+            "constraints": {}
+          },
+          {
+            "code": "400",
+            "label": "16\"",
+            "description": "16\"",
+            "constraints": {}
+          },
+          {
+            "code": "450",
+            "label": "18\"",
+            "description": "18\"",
+            "constraints": {}
+          },
+          {
+            "code": "500",
+            "label": "20\"",
+            "description": "20\"",
+            "constraints": {}
+          },
+          {
+            "code": "600",
+            "label": "24\"",
+            "description": "24\"",
+            "constraints": {}
+          },
+          {
+            "code": "750",
+            "label": "30\"",
+            "description": "30\"",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Cuerpo del Medidor",
+        "shortLabel": "Cuerpo",
+        "helpText": "Selecciona Cuerpo del Medidor",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "S",
+            "label": "316 SS",
+            "description": "316 SS",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Cédula de Tubería",
+        "shortLabel": "Cédula",
+        "helpText": "Selecciona Cédula de Tubería",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "STD (Standard Pipe SCH)",
+            "description": "STD (Standard Pipe SCH)",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "10S",
+            "description": "10S",
+            "constraints": {}
+          },
+          {
+            "code": "03",
+            "label": "10",
+            "description": "10",
+            "constraints": {}
+          },
+          {
+            "code": "04",
+            "label": "20",
+            "description": "20",
+            "constraints": {}
+          },
+          {
+            "code": "05",
+            "label": "30",
+            "description": "30",
+            "constraints": {}
+          },
+          {
+            "code": "06",
+            "label": "40S",
+            "description": "40S",
+            "constraints": {}
+          },
+          {
+            "code": "07",
+            "label": "40",
+            "description": "40",
+            "constraints": {}
+          },
+          {
+            "code": "08",
+            "label": "80S",
+            "description": "80S",
+            "constraints": {}
+          },
+          {
+            "code": "09",
+            "label": "80",
+            "description": "80",
+            "constraints": {}
+          },
+          {
+            "code": "10",
+            "label": "120",
+            "description": "120",
+            "constraints": {}
+          },
+          {
+            "code": "11",
+            "label": "160",
+            "description": "160",
+            "constraints": {}
+          },
+          {
+            "code": "12",
+            "label": "XS",
+            "description": "XS",
+            "constraints": {}
+          },
+          {
+            "code": "13",
+            "label": "XXS",
+            "description": "XXS",
+            "constraints": {}
+          },
+          {
+            "code": "XX",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Transmitter Connection",
+        "shortLabel": "Transmitter",
+        "helpText": "Selecciona Transmitter Connection",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "Remote mount; NPT connection",
+            "description": "Remote mount; NPT connection",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Clasificación de Presión",
+        "shortLabel": "Clasificación",
+        "helpText": "Selecciona Clasificación de Presión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "Threaded Connection (300psi)",
+            "description": "Threaded Connection (300psi)",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "150# RF ANSI",
+            "description": "150# RF ANSI",
+            "constraints": {}
+          },
+          {
+            "code": "XX",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Pipe Fitting Material (Weld and Thread)",
+        "shortLabel": "Pipe",
+        "helpText": "Selecciona Pipe Fitting Material (Weld and Thread)",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "316SS",
+            "description": "316SS",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "i",
+        "label": "Conexiones a Proceso",
+        "shortLabel": "Conexiones",
+        "helpText": "Selecciona Conexiones a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "1-1/2” mNPT",
+            "description": "1-1/2” mNPT",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "1-1/2” 150# Flange",
+            "description": "1-1/2” 150# Flange",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "1-1/2” weldolet",
+            "description": "1-1/2” weldolet",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "j",
+        "label": "Temperature Measurement",
+        "shortLabel": "Temperature",
+        "helpText": "Selecciona Temperature Measurement",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "O",
+            "label": "No Temperature Sensor",
+            "description": "No Temperature Sensor",
+            "constraints": {}
+          },
+          {
+            "code": "T",
+            "label": "Integral RTD",
+            "description": "Integral RTD",
+            "constraints": {}
+          },
+          {
+            "code": "R",
+            "label": "Remote thermowell and RTD",
+            "description": "Remote thermowell and RTD",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "k",
+        "label": "Transmisores de Flujo",
+        "shortLabel": "Transmisores",
+        "helpText": "Selecciona Transmisores de Flujo",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "None (Customer Supplied)",
+            "description": "None (Customer Supplied)",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "Tek-Bar 3110 (Liquids) - Smart DP",
+            "description": "Tek-Bar 3110 (Liquids) - Smart DP",
+            "constraints": {}
+          },
+          {
+            "code": "03",
+            "label": "Tek-Bar 3800 (MVT Steam & Compressed Gases)",
+            "description": "Tek-Bar 3800 (MVT Steam & Compressed Gases)",
+            "constraints": {}
+          },
+          {
+            "code": "04",
+            "label": "Tek-FC 8000 (Natural Gas - Flow Computer)",
+            "description": "Tek-FC 8000 (Natural Gas - Flow Computer)",
+            "constraints": {}
+          },
+          {
+            "code": "05",
+            "label": "TekValsys DPRO (Flow Validation)",
+            "description": "TekValsys DPRO (Flow Validation)",
+            "constraints": {}
+          },
+          {
+            "code": "06",
+            "label": "TekValsys DPRO WFGM (Wet Gas)",
+            "description": "TekValsys DPRO WFGM (Wet Gas)",
+            "constraints": {}
+          },
+          {
+            "code": "XX",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "l",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "MTR",
+            "label": "Material Test Report EN3.1",
+            "description": "Material Test Report EN3.1",
+            "constraints": {}
+          },
+          {
+            "code": "MC",
+            "label": "Material Cert EN2.1",
+            "description": "Material Cert EN2.1",
+            "constraints": {}
+          },
+          {
+            "code": "COC",
+            "label": "Certificate of Conformity",
+            "description": "Certificate of Conformity",
+            "constraints": {}
+          },
+          {
+            "code": "O2C",
+            "label": "O2 Cleaned",
+            "description": "O2 Cleaned",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "SS Tag Plate",
+            "description": "SS Tag Plate",
+            "constraints": {}
+          },
+          {
+            "code": "CDE",
+            "label": "Certified Drawing Electronic (As Built)",
+            "description": "Certified Drawing Electronic (As Built)",
+            "constraints": {}
+          },
+          {
+            "code": "MRB",
+            "label": "Manufacturing Record Book",
+            "description": "Manufacturing Record Book",
+            "constraints": {}
+          },
+          {
+            "code": "DFT",
+            "label": "Dry Film Thickness - Custom Paint Spec",
+            "description": "Dry Film Thickness - Custom Paint Spec",
+            "constraints": {}
+          },
+          {
+            "code": "CPC",
+            "label": "Custom Product Code",
+            "description": "Custom Product Code",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

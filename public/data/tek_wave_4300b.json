@@ -1,0 +1,201 @@
+{
+  "instrument": {
+    "id": "tek_wave_4300b",
+    "name": "Tek-Wave-4300B",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Wave-4300B",
+    "description": "Configurator for Tek-Wave-4300B",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Alimentación",
+        "shortLabel": "Alimentación",
+        "helpText": "Selecciona Alimentación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "18 to 36 VDC $ -",
+            "description": "18 to 36 VDC $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "1-1/2\" Male NPT $ -",
+            "description": "1-1/2\" Male NPT $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special $ -",
+            "description": "Special $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión Eléctrica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "3/4\" Male NPT $ -",
+            "description": "3/4\" Male NPT $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "B",
+            "label": "45 Feet $ -",
+            "description": "45 Feet $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Longitud de Cable",
+        "shortLabel": "Longitud",
+        "helpText": "Selecciona Longitud de Cable",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "015",
+            "label": "15' Cable $ -",
+            "description": "15' Cable $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Salida Analógica",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida Analógica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "4 to 20mA $ -",
+            "description": "4 to 20mA $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Salida Digital",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida Digital",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "Bluetooth, HART, Modbus RS-485 $ -",
+            "description": "Bluetooth, HART, Modbus RS-485 $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Clasificación de Gabinete",
+        "shortLabel": "Clasificación",
+        "helpText": "Selecciona Clasificación de Gabinete",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "IP68 $ -",
+            "description": "IP68 $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "i",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "TAG",
+            "label": "Tag",
+            "description": "Tag",
+            "constraints": {}
+          },
+          {
+            "code": "BKT",
+            "label": "Mounting Bracket",
+            "description": "Mounting Bracket",
+            "constraints": {}
+          },
+          {
+            "code": "FC",
+            "label": "Factory Configuration",
+            "description": "Factory Configuration",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "26G",
+            "label": "Pulse Radar Tek-Wave 4300C",
+            "description": "Pulse Radar Tek-Wave 4300C",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

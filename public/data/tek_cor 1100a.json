@@ -1,0 +1,651 @@
+{
+  "instrument": {
+    "id": "tek_cor 1100a",
+    "name": "Tek-Cor 1100A",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Cor 1100A",
+    "description": "Configurator for Tek-Cor 1100A",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Tipo",
+        "shortLabel": "Tipo",
+        "helpText": "Selecciona Tipo",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "U-Tube ( Gas/Custody Transfer)",
+            "description": "U-Tube ( Gas/Custody Transfer)",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "Standard",
+            "description": "Standard",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "Nano",
+            "description": "Nano",
+            "constraints": {}
+          },
+          {
+            "code": "4",
+            "label": "Superbend",
+            "description": "Superbend",
+            "constraints": {}
+          },
+          {
+            "code": "5",
+            "label": "Straight ( Upto 1\" Max)",
+            "description": "Straight ( Upto 1\" Max)",
+            "constraints": {}
+          },
+          {
+            "code": "6",
+            "label": "Duo ( 12\" and Higher)",
+            "description": "Duo ( 12\" and Higher)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Temp. de Proceso",
+        "shortLabel": "Temp.",
+        "helpText": "Selecciona Temp. de Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Standard (-60 to 260 deg F) $ -",
+            "description": "Standard (-60 to 260 deg F) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "Low (-300 to 260 deg F) [MUST BE REMOTE MOUNT] $ -",
+            "description": "Low (-300 to 260 deg F) [MUST BE REMOTE MOUNT] $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "High (-60 to 400 deg F) [MUST BE REMOTE MOUNT] $ -",
+            "description": "High (-60 to 400 deg F) [MUST BE REMOTE MOUNT] $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Tamaño y Precisión",
+        "shortLabel": "Tamaño",
+        "helpText": "Selecciona Tamaño y Precisión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "008A",
+            "label": "3/8\", +/- 0.5% Accuracy (Type 2,3,5)",
+            "description": "3/8\", +/- 0.5% Accuracy (Type 2,3,5)",
+            "constraints": {}
+          },
+          {
+            "code": "015A",
+            "label": "1/2\", +/- 0.5% Accuracy (Type 2,3,5)",
+            "description": "1/2\", +/- 0.5% Accuracy (Type 2,3,5)",
+            "constraints": {}
+          },
+          {
+            "code": "025A",
+            "label": "1\", +/- 0.5% Accuracy (Type 1,2,3,5)",
+            "description": "1\", +/- 0.5% Accuracy (Type 1,2,3,5)",
+            "constraints": {}
+          },
+          {
+            "code": "040A",
+            "label": "1-1/2\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "description": "1-1/2\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "050A",
+            "label": "2\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "description": "2\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "080A",
+            "label": "3\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "description": "3\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "100A",
+            "label": "4\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "description": "4\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "150A",
+            "label": "6\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "description": "6\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "200A",
+            "label": "8\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "description": "8\", +/- 0.5% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "250A",
+            "label": "10\", +/- 0.5% Accuracy (Type 6)",
+            "description": "10\", +/- 0.5% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "300A",
+            "label": "12\", +/- 0.5% Accuracy (Type 6)",
+            "description": "12\", +/- 0.5% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "350A",
+            "label": "14\", +/- 0.5% Accuracy (Type 6)",
+            "description": "14\", +/- 0.5% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "400A",
+            "label": "16\", +/- 0.5% Accuracy (Type 6)",
+            "description": "16\", +/- 0.5% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "500A",
+            "label": "20\", +/- 0.5% Accuracy (Type 6)",
+            "description": "20\", +/- 0.5% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "600A",
+            "label": "24\", +/- 0.5% Accuracy (Type 6)",
+            "description": "24\", +/- 0.5% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "008B",
+            "label": "3/8\", +/- 0.2% Accuracy (Type 2,3,5)",
+            "description": "3/8\", +/- 0.2% Accuracy (Type 2,3,5)",
+            "constraints": {}
+          },
+          {
+            "code": "015B",
+            "label": "1/2\", +/- 0.2% Accuracy (Type 2,3,5)",
+            "description": "1/2\", +/- 0.2% Accuracy (Type 2,3,5)",
+            "constraints": {}
+          },
+          {
+            "code": "025B",
+            "label": "1\", +/- 0.2% Accuracy (Type 1,2,3,5)",
+            "description": "1\", +/- 0.2% Accuracy (Type 1,2,3,5)",
+            "constraints": {}
+          },
+          {
+            "code": "040B",
+            "label": "1-1/2\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "description": "1-1/2\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "050B",
+            "label": "2\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "description": "2\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "080B",
+            "label": "3\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "description": "3\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "100B",
+            "label": "4\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "description": "4\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "150B",
+            "label": "6\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "description": "6\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "200B",
+            "label": "8\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "description": "8\", +/- 0.2% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "250B",
+            "label": "10\", +/- 0.2% Accuracy (Type 6)",
+            "description": "10\", +/- 0.2% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "300B",
+            "label": "12\", +/- 0.2% Accuracy (Type 6)",
+            "description": "12\", +/- 0.2% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "350B",
+            "label": "14\", +/- 0.2% Accuracy (Type 6)",
+            "description": "14\", +/- 0.2% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "400B",
+            "label": "16\", +/- 0.2% Accuracy (Type 6)",
+            "description": "16\", +/- 0.2% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "500B",
+            "label": "20\", +/- 0.2% Accuracy (Type 6)",
+            "description": "20\", +/- 0.2% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "600B",
+            "label": "24\", +/- 0.2% Accuracy (Type 6)",
+            "description": "24\", +/- 0.2% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "008C",
+            "label": "3/8\", +/- 0.1% Accuracy (Type 2, 3)",
+            "description": "3/8\", +/- 0.1% Accuracy (Type 2, 3)",
+            "constraints": {}
+          },
+          {
+            "code": "015C",
+            "label": "1/2\", +/- 0.1% Accuracy (Type 2, 3)",
+            "description": "1/2\", +/- 0.1% Accuracy (Type 2, 3)",
+            "constraints": {}
+          },
+          {
+            "code": "025C",
+            "label": "1\", +/- 0.1% Accuracy (Type 2, 3)",
+            "description": "1\", +/- 0.1% Accuracy (Type 2, 3)",
+            "constraints": {}
+          },
+          {
+            "code": "040C",
+            "label": "1-1/2\", +/- 0.1% Accuracy (Type 2, 3)",
+            "description": "1-1/2\", +/- 0.1% Accuracy (Type 2, 3)",
+            "constraints": {}
+          },
+          {
+            "code": "050C",
+            "label": "2\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "description": "2\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "080C",
+            "label": "3\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "description": "3\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "100C",
+            "label": "4\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "description": "4\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "150C",
+            "label": "6\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "description": "6\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "200C",
+            "label": "8\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "description": "8\", +/- 0.1% Accuracy (Type 1,2,4)",
+            "constraints": {}
+          },
+          {
+            "code": "250C",
+            "label": "10\", +/- 0.1% Accuracy (Type 6)",
+            "description": "10\", +/- 0.1% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "300C",
+            "label": "12\", +/- 0.1% Accuracy (Type 6)",
+            "description": "12\", +/- 0.1% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "350C",
+            "label": "14\", +/- 0.1% Accuracy (Type 6)",
+            "description": "14\", +/- 0.1% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "400C",
+            "label": "16\", +/- 0.1% Accuracy (Type 6)",
+            "description": "16\", +/- 0.1% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "500C",
+            "label": "20\", +/- 0.1% Accuracy (Type 6)",
+            "description": "20\", +/- 0.1% Accuracy (Type 6)",
+            "constraints": {}
+          },
+          {
+            "code": "600C",
+            "label": "24\", +/- 0.1% Accuracy (Type 6)",
+            "description": "24\", +/- 0.1% Accuracy (Type 6)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Electrónica",
+        "shortLabel": "Electrónica",
+        "helpText": "Selecciona Electrónica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Direct Mount(-60 to 260 deg F)",
+            "description": "Direct Mount(-60 to 260 deg F)",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "Remote M(oCuonmt es with 15ft. of cable)",
+            "description": "Remote M(oCuonmt es with 15ft. of cable)",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "Remote Mount CT Flow Computer (API /AGA Compliant)",
+            "description": "Remote Mount CT Flow Computer (API /AGA Compliant)",
+            "constraints": {}
+          },
+          {
+            "code": "4",
+            "label": "F1001 NTEP Flow Computer",
+            "description": "F1001 NTEP Flow Computer",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "I",
+            "label": "4-20mA, HART, Pulse $ -",
+            "description": "4-20mA, HART, Pulse $ -",
+            "constraints": {}
+          },
+          {
+            "code": "S",
+            "label": "4-20mA, Modbus RS485, Pulse $ -",
+            "description": "4-20mA, Modbus RS485, Pulse $ -",
+            "constraints": {}
+          },
+          {
+            "code": "D",
+            "label": "Two 4-20mA, Pulse $ -",
+            "description": "Two 4-20mA, Pulse $ -",
+            "constraints": {}
+          },
+          {
+            "code": "E",
+            "label": "Ethernet, 4-20mA (External Remote Gateway, NEMA4X)",
+            "description": "Ethernet, 4-20mA (External Remote Gateway, NEMA4X)",
+            "constraints": {}
+          },
+          {
+            "code": "F",
+            "label": "Ethernet, 4-20mA, Pulse, Modbus TCP/IP)",
+            "description": "Ethernet, 4-20mA, Pulse, Modbus TCP/IP)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "025",
+            "label": "DIN 2.5 MPa Flange $ -",
+            "description": "DIN 2.5 MPa Flange $ -",
+            "constraints": {}
+          },
+          {
+            "code": "040",
+            "label": "DIN 4 MPa Flange $ -",
+            "description": "DIN 4 MPa Flange $ -",
+            "constraints": {}
+          },
+          {
+            "code": "100",
+            "label": "DIN 10 MPa Flange $ -",
+            "description": "DIN 10 MPa Flange $ -",
+            "constraints": {}
+          },
+          {
+            "code": "160",
+            "label": "DIN 16 MPa Flange",
+            "description": "DIN 16 MPa Flange",
+            "constraints": {}
+          },
+          {
+            "code": "260",
+            "label": "DIN 26 MPa Flange",
+            "description": "DIN 26 MPa Flange",
+            "constraints": {}
+          },
+          {
+            "code": "150",
+            "label": "150# ANSI Flange ( All Sizes) $ -",
+            "description": "150# ANSI Flange ( All Sizes) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "300",
+            "label": "300# ANSI Flange ( All Sizes)",
+            "description": "300# ANSI Flange ( All Sizes)",
+            "constraints": {}
+          },
+          {
+            "code": "600",
+            "label": "600# ANSI Flange (Upto 4\"Size Max)",
+            "description": "600# ANSI Flange (Upto 4\"Size Max)",
+            "constraints": {}
+          },
+          {
+            "code": "900",
+            "label": "900# ANSI Flange (Upto 2\" SizeMax)",
+            "description": "900# ANSI Flange (Upto 2\" SizeMax)",
+            "constraints": {}
+          },
+          {
+            "code": "001",
+            "label": "NPT ( Upto 250 Bar/3675psi ) $ -",
+            "description": "NPT ( Upto 250 Bar/3675psi ) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "002",
+            "label": "Flare Fitting (Upto 250 Bar/3675psi ) $ -",
+            "description": "Flare Fitting (Upto 250 Bar/3675psi ) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "003",
+            "label": "Tri-Clamp $ -",
+            "description": "Tri-Clamp $ -",
+            "constraints": {}
+          },
+          {
+            "code": "XXX",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Alimentación",
+        "shortLabel": "Alimentación",
+        "helpText": "Selecciona Alimentación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "18-28 VDC",
+            "description": "18-28 VDC",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "85-220 VAC",
+            "description": "85-220 VAC",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Certificaciones",
+        "shortLabel": "Certificaciones",
+        "helpText": "Selecciona Certificaciones",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "E",
+            "label": "UL Class I Div I",
+            "description": "UL Class I Div I",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "i",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "FC",
+            "label": "Factory Configuration",
+            "description": "Factory Configuration",
+            "constraints": {}
+          },
+          {
+            "code": "JK",
+            "label": "Jacket (Welded)",
+            "description": "Jacket (Welded)",
+            "constraints": {}
+          },
+          {
+            "code": "HC",
+            "label": "Hastelloy C Wetted Material",
+            "description": "Hastelloy C Wetted Material",
+            "constraints": {}
+          },
+          {
+            "code": "316",
+            "label": "316SS Wetted Material",
+            "description": "316SS Wetted Material",
+            "constraints": {}
+          },
+          {
+            "code": "CPC",
+            "label": "Special Calibration/ Special Handling/ Custom ITP",
+            "description": "Special Calibration/ Special Handling/ Custom ITP",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description",
+            "description": "Number Description",
+            "constraints": {}
+          },
+          {
+            "code": "All",
+            "label": "other",
+            "description": "other",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "1200A",
+            "label": "-BTU BTU Measurement ( Add matched RTD/TW Options.",
+            "description": "-BTU BTU Measurement ( Add matched RTD/TW Options.Refer 2600 Series)",
+            "constraints": {}
+          },
+          {
+            "code": "CC",
+            "label": "Flow Testing for Water with Calibration Certificat",
+            "description": "Flow Testing for Water with Calibration Certificate Standard (3Points)",
+            "constraints": {}
+          },
+          {
+            "code": "FAT",
+            "label": "Factory Acceptance Testing (Fuctional Testing of I",
+            "description": "Factory Acceptance Testing (Fuctional Testing of I/O, Comm etc per SOP)",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

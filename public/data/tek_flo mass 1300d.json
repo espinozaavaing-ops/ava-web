@@ -1,0 +1,438 @@
+{
+  "instrument": {
+    "id": "tek_flo mass 1300d",
+    "name": "Tek-Flo Mass 1300D",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Flo Mass 1300D",
+    "description": "Configurator for Tek-Flo Mass 1300D",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Opción Multivariable",
+        "shortLabel": "Opción",
+        "helpText": "Selecciona Opción Multivariable",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "V",
+            "label": "Mass, Density (No P & T)",
+            "description": "Mass, Density (No P & T)",
+            "constraints": {}
+          },
+          {
+            "code": "VT",
+            "label": "Steam Qv act, W/Temperature",
+            "description": "Steam Qv act, W/Temperature",
+            "constraints": {}
+          },
+          {
+            "code": "VTP",
+            "label": "Steam Qv act, W/Pressure",
+            "description": "Steam Qv act, W/Pressure",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Tamaños",
+        "shortLabel": "Tamaños",
+        "helpText": "Selecciona Tamaños",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "16",
+            "label": "2-inch Nominal Bore (50mm)",
+            "description": "2-inch Nominal Bore (50mm)",
+            "constraints": {}
+          },
+          {
+            "code": "24",
+            "label": "3-inch Nominal Bore (80mm)",
+            "description": "3-inch Nominal Bore (80mm)",
+            "constraints": {}
+          },
+          {
+            "code": "32",
+            "label": "4-inch Nominal Bore (100mm)",
+            "description": "4-inch Nominal Bore (100mm)",
+            "constraints": {}
+          },
+          {
+            "code": "48",
+            "label": "6-inch Nominal Bore (150mm)",
+            "description": "6-inch Nominal Bore (150mm)",
+            "constraints": {}
+          },
+          {
+            "code": "64",
+            "label": "8-inch Nominal Bore (200mm)",
+            "description": "8-inch Nominal Bore (200mm)",
+            "constraints": {}
+          },
+          {
+            "code": "80",
+            "label": "10-inch Nominal Bore (250mm)",
+            "description": "10-inch Nominal Bore (250mm)",
+            "constraints": {}
+          },
+          {
+            "code": "96",
+            "label": "12-inch Nominal Bore (300mm)",
+            "description": "12-inch Nominal Bore (300mm)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Material del Cuerpo",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material del Cuerpo",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "C",
+            "label": "Carbon Steel (Standard) $ -",
+            "description": "Carbon Steel (Standard) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "S",
+            "label": "316 Stainless Steel",
+            "description": "316 Stainless Steel",
+            "constraints": {}
+          },
+          {
+            "code": "H",
+            "label": "Hastelloy",
+            "description": "Hastelloy",
+            "constraints": {}
+          },
+          {
+            "code": "150",
+            "label": "ANSI 150# Flange $ -",
+            "description": "ANSI 150# Flange $ -",
+            "constraints": {}
+          },
+          {
+            "code": "300",
+            "label": "ANSI 300# Flange $ -",
+            "description": "ANSI 300# Flange $ -",
+            "constraints": {}
+          },
+          {
+            "code": "600",
+            "label": "ANSI 600# Flange $ -",
+            "description": "ANSI 600# Flange $ -",
+            "constraints": {}
+          },
+          {
+            "code": "900",
+            "label": "ANSI 900# Flange $ -",
+            "description": "ANSI 900# Flange $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Gabinete Electrónico",
+        "shortLabel": "Gabinete",
+        "helpText": "Selecciona Gabinete Electrónico",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "L",
+            "label": "NEMA 4X IP66 Enclosure $ -",
+            "description": "NEMA 4X IP66 Enclosure $ -",
+            "constraints": {}
+          },
+          {
+            "code": "XP",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Opciones de Pantalla",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones de Pantalla",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "DD",
+            "label": "Digital Display and Programming Buttons $ -",
+            "description": "Digital Display and Programming Buttons $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Alimentación",
+        "shortLabel": "Alimentación",
+        "helpText": "Selecciona Alimentación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "with",
+            "label": "an adequate power supply) - use with",
+            "description": "an adequate power supply) - use with",
+            "constraints": {}
+          },
+          {
+            "code": "DCH",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          },
+          {
+            "code": "Bore",
+            "label": "(100mm), 4-inch by 3-inch Nominal Bore",
+            "description": "(100mm), 4-inch by 3-inch Nominal Bore",
+            "constraints": {}
+          },
+          {
+            "code": "to",
+            "label": "power differential",
+            "description": "power differential",
+            "constraints": {}
+          },
+          {
+            "code": "AC",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "i",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "3AM",
+            "label": "3 Analog Signals, 3 Alarms, 1 Totalizer Pulse, 1M",
+            "description": "3 Analog Signals, 3 Alarms, 1 Totalizer Pulse, 1M odbus $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "j",
+        "label": "Rango de Temperatura",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango de Temperatura",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "ST",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          },
+          {
+            "code": "to",
+            "label": "500°F (-200° to 260°C)",
+            "description": "500°F (-200° to 260°C)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "k",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "P0",
+            "label": "No Pressure Sensor $ -",
+            "description": "No Pressure Sensor $ -",
+            "constraints": {}
+          },
+          {
+            "code": "P1",
+            "label": "Maximum 30 psia (2 bara), Proof 60 psia (4 bara) $",
+            "description": "Maximum 30 psia (2 bara), Proof 60 psia (4 bara) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "P2",
+            "label": "Maximum 100 psia (7 bara), Proof 200 psia (14b ara",
+            "description": "Maximum 100 psia (7 bara), Proof 200 psia (14b ara) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "P3",
+            "label": "Maximum 300 psia (20 bara), Proof 600 psia (41b ar",
+            "description": "Maximum 300 psia (20 bara), Proof 600 psia (41b ara) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "P4",
+            "label": "Maximum 500 psia (34 bara), Proof 1000 psia (64b a",
+            "description": "Maximum 500 psia (34 bara), Proof 1000 psia (64b ara) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "P5",
+            "label": "Maximum 1500 psia (100 bara), Proof 2500 psia( 175",
+            "description": "Maximum 1500 psia (100 bara), Proof 2500 psia( 175 bara) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "Steam",
+            "label": "Quality Meter Tek-Flo Mass 1300D",
+            "description": "Quality Meter Tek-Flo Mass 1300D",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "l",
+        "label": "Transmisor Presión Dif.",
+        "shortLabel": "Transmisor",
+        "helpText": "Selecciona Transmisor Presión Dif.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "TK",
+            "label": "Factory supplied differential pressure transmitter",
+            "description": "Factory supplied differential pressure transmitter $ -",
+            "constraints": {}
+          },
+          {
+            "code": "CX",
+            "label": "Customer supplied differential pressure transmitte",
+            "description": "Customer supplied differential pressure transmitter* $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "m",
+        "label": "Manifold del Transmisor",
+        "shortLabel": "Manifold",
+        "helpText": "Selecciona Manifold del Transmisor",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "3M",
+            "label": "low side pressures to set the differential pressur",
+            "description": "low side pressures to set the differential pressure $ -",
+            "constraints": {}
+          },
+          {
+            "code": "side",
+            "label": "pressures to set the differential pressure transmi",
+            "description": "pressures to set the differential pressure transmitter",
+            "constraints": {}
+          },
+          {
+            "code": "5W",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          },
+          {
+            "code": "zero",
+            "label": "and the ability to check for equalizing",
+            "description": "and the ability to check for equalizing",
+            "constraints": {}
+          },
+          {
+            "code": "valve",
+            "label": "leaks",
+            "description": "leaks",
+            "constraints": {}
+          },
+          {
+            "code": "NM",
+            "label": "No manifold $ -",
+            "description": "No manifold $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "n",
+        "label": "Diagnósticos",
+        "shortLabel": "Diagnósticos",
+        "helpText": "Selecciona Diagnósticos",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "Two",
+            "label": "additional factory supplied differential pressure",
+            "description": "additional factory supplied differential pressure",
+            "constraints": {}
+          },
+          {
+            "code": "2AZ",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          },
+          {
+            "code": "2CX",
+            "label": "With TekValSys DP $ -",
+            "description": "With TekValSys DP $ -",
+            "constraints": {}
+          },
+          {
+            "code": "ND",
+            "label": "No Advanced Diagnostics $ -",
+            "description": "No Advanced Diagnostics $ -",
+            "constraints": {}
+          },
+          {
+            "code": "Page",
+            "label": "8",
+            "description": "8",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

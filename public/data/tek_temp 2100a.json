@@ -1,0 +1,116 @@
+{
+  "instrument": {
+    "id": "tek_temp 2100a",
+    "name": "Tek-Temp 2100A",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Temp 2100A",
+    "description": "Configurator for Tek-Temp 2100A",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Elementos del Sensor",
+        "shortLabel": "Elementos",
+        "helpText": "Selecciona Elementos del Sensor",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "S",
+            "label": "Single Element $ -",
+            "description": "Single Element $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Carcasa y Conexión",
+        "shortLabel": "Carcasa",
+        "helpText": "Selecciona Carcasa y Conexión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "1/2\"-14 NPT, Epoxy Coated Aluminum $ -",
+            "description": "1/2\"-14 NPT, Epoxy Coated Aluminum $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Certificados",
+        "shortLabel": "Certificados",
+        "helpText": "Selecciona Certificados",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "FM",
+            "label": "FM/FMc Explosion Proof (Class I/II/II, Div. 1/2, G",
+            "description": "FM/FMc Explosion Proof (Class I/II/II, Div. 1/2, Group A-D/E-G)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "M0",
+            "label": "Blind Unit",
+            "description": "Blind Unit",
+            "constraints": {}
+          },
+          {
+            "code": "LCD",
+            "label": "LCD Display $ -",
+            "description": "LCD Display $ -",
+            "constraints": {}
+          },
+          {
+            "code": "FC",
+            "label": "Factory Calibration, No Certificate",
+            "description": "Factory Calibration, No Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "Stainless Steel Hang Tag",
+            "description": "Stainless Steel Hang Tag",
+            "constraints": {}
+          },
+          {
+            "code": "CC3",
+            "label": "Custom Range, 3 point Cal Cert",
+            "description": "Custom Range, 3 point Cal Cert",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

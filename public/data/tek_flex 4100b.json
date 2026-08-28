@@ -1,0 +1,144 @@
+{
+  "instrument": {
+    "id": "tek_flex 4100b",
+    "name": "Tek-Flex 4100B",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Flex 4100B",
+    "description": "Configurator for Tek-Flex 4100B",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Series",
+        "shortLabel": "Series",
+        "helpText": "Selecciona Series",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Two-Wire Loop-Powered TDR Level Meter",
+            "description": "Two-Wire Loop-Powered TDR Level Meter",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "¾\" NPT",
+            "description": "¾\" NPT",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "1-1/2\" NPT",
+            "description": "1-1/2\" NPT",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "1\" NPT $ -",
+            "description": "1\" NPT $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Tipo de Sonda",
+        "shortLabel": "Tipo",
+        "helpText": "Selecciona Tipo de Sonda",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Coaxial Probe (10' Max.) $ -",
+            "description": "Coaxial Probe (10' Max.) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "2mm Wire Probe (60' Max. length) $ -",
+            "description": "2mm Wire Probe (60' Max. length) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Electrical",
+        "shortLabel": "Electrical",
+        "helpText": "Selecciona Electrical",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Two 1/2\" NPT $ -",
+            "description": "Two 1/2\" NPT $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Longitud de Sonda",
+        "shortLabel": "Longitud",
+        "helpText": "Selecciona Longitud de Sonda",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "XXXX",
+            "label": "Probe Length in Inches $ -",
+            "description": "Probe Length in Inches $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Pantalla",
+        "shortLabel": "Pantalla",
+        "helpText": "Selecciona Pantalla",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "N",
+            "label": "No Display $ -",
+            "description": "No Display $ -",
+            "constraints": {}
+          },
+          {
+            "code": "LCD",
+            "label": "Programming Display",
+            "description": "Programming Display",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

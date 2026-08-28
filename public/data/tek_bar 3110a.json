@@ -1,0 +1,239 @@
+{
+  "instrument": {
+    "id": "tek_bar 3110a",
+    "name": "Tek-Bar 3110A",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Bar 3110A",
+    "description": "Configurator for Tek-Bar 3110A",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Tipo de Sensor",
+        "shortLabel": "Tipo",
+        "helpText": "Selecciona Tipo de Sensor",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "D",
+            "label": "Differential Pressure $ -",
+            "description": "Differential Pressure $ -",
+            "constraints": {}
+          },
+          {
+            "code": "A",
+            "label": "Absolute Pressure",
+            "description": "Absolute Pressure",
+            "constraints": {}
+          },
+          {
+            "code": "G",
+            "label": "Gauge Pressure $ -",
+            "description": "Gauge Pressure $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "3",
+            "label": "0 - 30\" w.c. $ -",
+            "description": "0 - 30\" w.c. $ -",
+            "constraints": {}
+          },
+          {
+            "code": "4",
+            "label": "0 - 150\" w.c. $ -",
+            "description": "0 - 150\" w.c. $ -",
+            "constraints": {}
+          },
+          {
+            "code": "5",
+            "label": "0 - 750\" w.c. $ -",
+            "description": "0 - 750\" w.c. $ -",
+            "constraints": {}
+          },
+          {
+            "code": "6",
+            "label": "0 - 100 psid $ -",
+            "description": "0 - 100 psid $ -",
+            "constraints": {}
+          },
+          {
+            "code": "7",
+            "label": "0 - 300 psid $ -",
+            "description": "0 - 300 psid $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Certificación",
+        "shortLabel": "Certificación",
+        "helpText": "Selecciona Certificación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "FM",
+            "label": "FM Approval (Class I Div I)",
+            "description": "FM Approval (Class I Div I)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Conexiones a Proceso",
+        "shortLabel": "Conexiones",
+        "helpText": "Selecciona Conexiones a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "1/4\" NPT Female $ -",
+            "description": "1/4\" NPT Female $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Diaphragm Seal",
+            "description": "Diaphragm Seal",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Material del Diafragma",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material del Diafragma",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "SS",
+            "label": "316 Stainless Steel Housing $ -",
+            "description": "316 Stainless Steel Housing $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión Eléctrica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "1/2\" NPT Female $ -",
+            "description": "1/2\" NPT Female $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "LCD",
+            "label": "5 Digit LCD (Local Indication Only)",
+            "description": "5 Digit LCD (Local Indication Only)",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "Blind Unit",
+            "description": "Blind Unit",
+            "constraints": {}
+          },
+          {
+            "code": "SSH",
+            "label": "316 Stainless Steel Housing",
+            "description": "316 Stainless Steel Housing",
+            "constraints": {}
+          },
+          {
+            "code": "CC",
+            "label": "Custom Calibration with 5 point Calibration Certif",
+            "description": "Custom Calibration with 5 point Calibration Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "FC",
+            "label": "Factory Configuration, No Certificate",
+            "description": "Factory Configuration, No Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "BA",
+            "label": "Stainless Steel Bracket (Angle type) with SST Bolt",
+            "description": "Stainless Steel Bracket (Angle type) with SST Bolts",
+            "constraints": {}
+          },
+          {
+            "code": "BF",
+            "label": "Stainless Steel Bracket (Flat type) with SST Bolts",
+            "description": "Stainless Steel Bracket (Flat type) with SST Bolts",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "Stainless Steel Hang Tag",
+            "description": "Stainless Steel Hang Tag",
+            "constraints": {}
+          },
+          {
+            "code": "LV",
+            "label": "Low Volt, 4-wire, 1-5 VDC output, No HART",
+            "description": "Low Volt, 4-wire, 1-5 VDC output, No HART",
+            "constraints": {}
+          },
+          {
+            "code": "EA",
+            "label": "0.04%",
+            "description": "0.04%",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

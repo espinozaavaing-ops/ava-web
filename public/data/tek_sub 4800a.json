@@ -1,0 +1,186 @@
+{
+  "instrument": {
+    "id": "tek_sub 4800a",
+    "name": "Tek-Sub 4800A",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Sub 4800A",
+    "description": "Configurator for Tek-Sub 4800A",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Wetted Materials",
+        "shortLabel": "Wetted",
+        "helpText": "Selecciona Wetted Materials",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "T",
+            "label": "PTFE, FKM and Ceramic Wetted Materials $ -",
+            "description": "PTFE, FKM and Ceramic Wetted Materials $ -",
+            "constraints": {}
+          },
+          {
+            "code": "TF",
+            "label": "PTFE,FFMK,and Ceramic Wetted Materials",
+            "description": "PTFE,FFMK,and Ceramic Wetted Materials",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "2.8 psig (2 meters H2O) $ -",
+            "description": "2.8 psig (2 meters H2O) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "5.7 psig (4 meters H2O) $ -",
+            "description": "5.7 psig (4 meters H2O) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "10 psig (7 meters H2O) $ -",
+            "description": "10 psig (7 meters H2O) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "4",
+            "label": "15 psig (10.5 meters H2O) $ -",
+            "description": "15 psig (10.5 meters H2O) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "42",
+            "label": "4-20mA $ -",
+            "description": "4-20mA $ -",
+            "constraints": {}
+          },
+          {
+            "code": "43",
+            "label": "4-20mA, HART",
+            "description": "4-20mA, HART",
+            "constraints": {}
+          },
+          {
+            "code": "45",
+            "label": "0.5 - 4.5VDC",
+            "description": "0.5 - 4.5VDC",
+            "constraints": {}
+          },
+          {
+            "code": "48",
+            "label": "Low-Voltage Modbus (5 VDC)",
+            "description": "Low-Voltage Modbus (5 VDC)",
+            "constraints": {}
+          },
+          {
+            "code": "49",
+            "label": "Modbus RS-485",
+            "description": "Modbus RS-485",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Precisión",
+        "shortLabel": "Precisión",
+        "helpText": "Selecciona Precisión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "05",
+            "label": "0.5% FS $ -",
+            "description": "0.5% FS $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Longitud y Tipo Cable",
+        "shortLabel": "Longitud",
+        "helpText": "Selecciona Longitud y Tipo Cable",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "T7",
+            "label": "20 Feet of PTFE Cable",
+            "description": "20 Feet of PTFE Cable",
+            "constraints": {}
+          },
+          {
+            "code": "T14",
+            "label": "40 Feet of PTFE Cable",
+            "description": "40 Feet of PTFE Cable",
+            "constraints": {}
+          },
+          {
+            "code": "T34",
+            "label": "100 Feet of PTFE Cable",
+            "description": "100 Feet of PTFE Cable",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Opción",
+        "shortLabel": "Opción",
+        "helpText": "Selecciona Opción",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "LP",
+            "label": "Lighting Surge Protection box $ -",
+            "description": "Lighting Surge Protection box $ -",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Price",
+            "description": "No. Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

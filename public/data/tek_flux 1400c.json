@@ -1,0 +1,292 @@
+{
+  "instrument": {
+    "id": "tek_flux 1400c",
+    "name": "Tek-Flux 1400C",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Flux 1400C",
+    "description": "Configurator for Tek-Flux 1400C",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Tamaño",
+        "shortLabel": "Tamaño",
+        "helpText": "Selecciona Tamaño",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "15",
+            "label": "1/2\"",
+            "description": "1/2\"",
+            "constraints": {}
+          },
+          {
+            "code": "25",
+            "label": "1\"",
+            "description": "1\"",
+            "constraints": {}
+          },
+          {
+            "code": "40",
+            "label": "1.5\"",
+            "description": "1.5\"",
+            "constraints": {}
+          },
+          {
+            "code": "50",
+            "label": "2\"",
+            "description": "2\"",
+            "constraints": {}
+          },
+          {
+            "code": "65",
+            "label": "2.5\"",
+            "description": "2.5\"",
+            "constraints": {}
+          },
+          {
+            "code": "80",
+            "label": "3\"",
+            "description": "3\"",
+            "constraints": {}
+          },
+          {
+            "code": "100",
+            "label": "4\"",
+            "description": "4\"",
+            "constraints": {}
+          },
+          {
+            "code": "150",
+            "label": "6\"",
+            "description": "6\"",
+            "constraints": {}
+          },
+          {
+            "code": "200",
+            "label": "8\"",
+            "description": "8\"",
+            "constraints": {}
+          },
+          {
+            "code": "250",
+            "label": "10\"",
+            "description": "10\"",
+            "constraints": {}
+          },
+          {
+            "code": "300",
+            "label": "12\"",
+            "description": "12\"",
+            "constraints": {}
+          },
+          {
+            "code": "450",
+            "label": "18\"",
+            "description": "18\"",
+            "constraints": {}
+          },
+          {
+            "code": "500",
+            "label": "20\"",
+            "description": "20\"",
+            "constraints": {}
+          },
+          {
+            "code": "600",
+            "label": "24\"",
+            "description": "24\"",
+            "constraints": {}
+          },
+          {
+            "code": "700",
+            "label": "28\"",
+            "description": "28\"",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Transmisor",
+        "shortLabel": "Transmisor",
+        "helpText": "Selecciona Transmisor",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Direct Mount $ -",
+            "description": "Direct Mount $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "Remote Mount (comes with 30 ft. of cable)",
+            "description": "Remote Mount (comes with 30 ft. of cable)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "B",
+            "label": "Pulse and Modbus RS-485 (Battery Powered) $ -",
+            "description": "Pulse and Modbus RS-485 (Battery Powered) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "S",
+            "label": "4-20mA HART, Pulse, Modbus RS-485",
+            "description": "4-20mA HART, Pulse, Modbus RS-485",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Electrodos",
+        "shortLabel": "Electrodos",
+        "helpText": "Selecciona Electrodos",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "SS",
+            "label": "316L SS $ -",
+            "description": "316L SS $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Consult Factory",
+            "description": "Consult Factory",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "150# ANSI Flange $ -",
+            "description": "150# ANSI Flange $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "300# ANSI Flange",
+            "description": "300# ANSI Flange",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Alimentación",
+        "shortLabel": "Alimentación",
+        "helpText": "Selecciona Alimentación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "Battery",
+            "description": "Battery",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "16 to 60 VDC $ -",
+            "description": "16 to 60 VDC $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "80 to 300 VAC/VDC",
+            "description": "80 to 300 VAC/VDC",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Recubrimiento",
+        "shortLabel": "Recubrimiento",
+        "helpText": "Selecciona Recubrimiento",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "PY",
+            "label": "Polypropylene $ -",
+            "description": "Polypropylene $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "IP68",
+            "label": "IP68 Submersible Sensor Rating (Remote Only)",
+            "description": "IP68 Submersible Sensor Rating (Remote Only)",
+            "constraints": {}
+          },
+          {
+            "code": "NSF",
+            "label": "NSF Approved $ -",
+            "description": "NSF Approved $ -",
+            "constraints": {}
+          },
+          {
+            "code": "EA",
+            "label": "Extended Accuacy (0.3%)",
+            "description": "Extended Accuacy (0.3%)",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description: Integral Orifice Assemblies Price",
+            "description": "No. Description: Integral Orifice Assemblies Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

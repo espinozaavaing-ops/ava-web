@@ -1,0 +1,402 @@
+{
+  "instrument": {
+    "id": "tek_hydro 4500a_g",
+    "name": "Tek-Hydro 4500A-G",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Hydro 4500A-G",
+    "description": "Configurator for Tek-Hydro 4500A-G",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "0-5.8 psig (20:1 Turndown, Adj. Range: -14.5 to 5.",
+            "description": "0-5.8 psig (20:1 Turndown, Adj. Range: -14.5 to 5.8 psig)",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "0-36 psig (20:1 Turndown, Adj. Range: -14.5 to 36",
+            "description": "0-36 psig (20:1 Turndown, Adj. Range: -14.5 to 36 psig) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "0-145 psig (20:1 Turndown, Adj. Range: -14.5 to 14",
+            "description": "0-145 psig (20:1 Turndown, Adj. Range: -14.5 to 145 psig) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "4",
+            "label": "0-435 psig (20:1 Turndown, Adj. Range: -14.5 to 43",
+            "description": "0-435 psig (20:1 Turndown, Adj. Range: -14.5 to 435 psig) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "5",
+            "label": "0-1450 psig (20:1 Turndown, Adj. Range: -14.5 to 1",
+            "description": "0-1450 psig (20:1 Turndown, Adj. Range: -14.5 to 1450 psig) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "8",
+            "label": "0-3000 psig (4:1 Turndown, Adj. Range: 0 to 3000ps",
+            "description": "0-3000 psig (4:1 Turndown, Adj. Range: 0 to 3000psi) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "6",
+            "label": "0-6000 psig ( 8:1 Turndown,Adj. Range: -14.5 to 60",
+            "description": "0-6000 psig ( 8:1 Turndown,Adj. Range: -14.5 to 6000 psig) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "7",
+            "label": "0-10000 psig (2:1 Turndown, Adj. Range: 0 to 10000",
+            "description": "0-10000 psig (2:1 Turndown, Adj. Range: 0 to 10000psi)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Approved Rating",
+        "shortLabel": "Approved",
+        "helpText": "Selecciona Approved Rating",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "FM",
+            "label": "FM Approval",
+            "description": "FM Approval",
+            "constraints": {}
+          },
+          {
+            "code": "ATEX",
+            "label": "ATEX Approved",
+            "description": "ATEX Approved",
+            "constraints": {}
+          },
+          {
+            "code": "CSA",
+            "label": "CSA Class 1 Div 1 Explosion-Proof",
+            "description": "CSA Class 1 Div 1 Explosion-Proof",
+            "constraints": {}
+          },
+          {
+            "code": "WP",
+            "label": "General Purpose NEMA 4X/IP66 $ -",
+            "description": "General Purpose NEMA 4X/IP66 $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "X",
+            "label": "Diaphragm Seal $ -",
+            "description": "Diaphragm Seal $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Conexiones Eléctricas",
+        "shortLabel": "Conexiones",
+        "helpText": "Selecciona Conexiones Eléctricas",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "1/2\" NPT Female $ -",
+            "description": "1/2\" NPT Female $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Tipo de Sello",
+        "shortLabel": "Tipo",
+        "helpText": "Selecciona Tipo de Sello",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "LED",
+            "label": "Extended Diaphragm Seal direct mount",
+            "description": "Extended Diaphragm Seal direct mount",
+            "constraints": {}
+          },
+          {
+            "code": "LES",
+            "label": "Extended Diaphragm Seal capillary type (up to 5ft)",
+            "description": "Extended Diaphragm Seal capillary type (up to 5ft)",
+            "constraints": {}
+          },
+          {
+            "code": "LFD",
+            "label": "Flush Diaphragm Seal direct mount",
+            "description": "Flush Diaphragm Seal direct mount",
+            "constraints": {}
+          },
+          {
+            "code": "LFS",
+            "label": "Flush Diaphragm Seal capillary type (up to 5ft)",
+            "description": "Flush Diaphragm Seal capillary type (up to 5ft)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Brida de Montaje",
+        "shortLabel": "Brida",
+        "helpText": "Selecciona Brida de Montaje",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "S2",
+            "label": "2\" (50mm) 316L Stainless Steel (No Extended Diaphr",
+            "description": "2\" (50mm) 316L Stainless Steel (No Extended Diaphragms)",
+            "constraints": {}
+          },
+          {
+            "code": "S3",
+            "label": "3\" (80mm) 316L Stainless Steel",
+            "description": "3\" (80mm) 316L Stainless Steel",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Clasificación de Brida",
+        "shortLabel": "Clasificación",
+        "helpText": "Selecciona Clasificación de Brida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A1",
+            "label": "ANSI Class 150 $ -",
+            "description": "ANSI Class 150 $ -",
+            "constraints": {}
+          },
+          {
+            "code": "A2",
+            "label": "ANSI Class 300",
+            "description": "ANSI Class 300",
+            "constraints": {}
+          },
+          {
+            "code": "A3",
+            "label": "ANSI Class 600",
+            "description": "ANSI Class 600",
+            "constraints": {}
+          },
+          {
+            "code": "D1",
+            "label": "DIN pn 10/16",
+            "description": "DIN pn 10/16",
+            "constraints": {}
+          },
+          {
+            "code": "D2",
+            "label": "DIN pn 25/40",
+            "description": "DIN pn 25/40",
+            "constraints": {}
+          },
+          {
+            "code": "J1",
+            "label": "JIS 10k",
+            "description": "JIS 10k",
+            "constraints": {}
+          },
+          {
+            "code": "J2",
+            "label": "JIS 20k",
+            "description": "JIS 20k",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Longitud de Extensión",
+        "shortLabel": "Longitud",
+        "helpText": "Selecciona Longitud de Extensión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "0",
+            "label": "no extension standard option for flush mount $ -",
+            "description": "no extension standard option for flush mount $ -",
+            "constraints": {}
+          },
+          {
+            "code": "5",
+            "label": "2\" (50mm)",
+            "description": "2\" (50mm)",
+            "constraints": {}
+          },
+          {
+            "code": "10",
+            "label": "4\" (100mm)",
+            "description": "4\" (100mm)",
+            "constraints": {}
+          },
+          {
+            "code": "15",
+            "label": "6\" (150 mm)",
+            "description": "6\" (150 mm)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "i",
+        "label": "Partes Mojadas",
+        "shortLabel": "Partes",
+        "helpText": "Selecciona Partes Mojadas",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "H",
+            "label": "Hastelloy C-276 Diaphragm",
+            "description": "Hastelloy C-276 Diaphragm",
+            "constraints": {}
+          },
+          {
+            "code": "P",
+            "label": "PTFE and 316L Stainless Steel Diaphragm",
+            "description": "PTFE and 316L Stainless Steel Diaphragm",
+            "constraints": {}
+          },
+          {
+            "code": "S",
+            "label": "316L Stainless Steel Diaphragm",
+            "description": "316L Stainless Steel Diaphragm",
+            "constraints": {}
+          },
+          {
+            "code": "T",
+            "label": "Tantallum Diaphragm",
+            "description": "Tantallum Diaphragm",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "j",
+        "label": "Fluido de Llenado",
+        "shortLabel": "Fluido",
+        "helpText": "Selecciona Fluido de Llenado",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "2",
+            "label": "D.C. Silicon 200 (-40-400° F) $ -",
+            "description": "D.C. Silicon 200 (-40-400° F) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "k",
+        "label": "Longitud de Capilar",
+        "shortLabel": "Longitud",
+        "helpText": "Selecciona Longitud de Capilar",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "X",
+            "label": "Capillary length 0-30' (whole numbers only) (over",
+            "description": "Capillary length 0-30' (whole numbers only) (over 5ft)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "l",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "CC",
+            "label": "Custom Calibration with 5 point Calibration Certif",
+            "description": "Custom Calibration with 5 point Calibration Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "FC",
+            "label": "Factory Cong uration, No Certi cate",
+            "description": "Factory Cong uration, No Certi cate",
+            "constraints": {}
+          },
+          {
+            "code": "BA",
+            "label": "Stainless Steel Bracket (Angel Type) with SS Bolts",
+            "description": "Stainless Steel Bracket (Angel Type) with SS Bolts",
+            "constraints": {}
+          },
+          {
+            "code": "BF",
+            "label": "Stanless Steel Bracket",
+            "description": "Stanless Steel Bracket",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "Stainless Steel Hang Tag",
+            "description": "Stainless Steel Hang Tag",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Price",
+            "description": "No. Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

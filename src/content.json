@@ -1,0 +1,1169 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Empezar", "path": "/" },
+      { "label": "Nosotros", "path": "/about" },
+      { "label": "Productos", "path": "/services" },
+      { "label": "Cotiza con nosotros", "path": "/builder" },
+      { "label": "Blog y Noticias", "path": "/blog" },
+      { "label": "Contacto", "path": "/contact" }
+    ]
+  },
+  "home": {
+    "carousel": [
+      { "image": "/assets/hero_ingles.png", "caption": "Soluciones Industriales Integrales" },
+      { "image": "/assets/hero_1.png", "caption": "Automatización Avanzada y Monitoreo Remoto" },
+      { "image": "/assets/hero_2.png", "caption": "Ingeniería Confiable y de Alta Eficiencia" }
+    ],
+    "hero": {
+    },
+    "servicesOverview": "Impulsando la productividad y seguridad de tus procesos"
+  },
+  "about": {
+    "title": "SOBRE NOSOTROS",
+    "content": "AVA INGENIERIA, C.A, es una empresa venezolana de SUMINISTROS Y SERVICIOS, líder en integración y desarrollo de soluciones electrónicas aplicadas a la industria petrolera, petroquímica y gasífera, con más de 20 años de experiencia en el oriente, centro y occidente del país, en las áreas de turbo generacion, potencia, automatización, instrumentación, control, telecomunicaciones, fuego y gas, levantamiento artificial, seguridad y video vigilancia, con personal altamente calificado, representación y garantía de fábrica."
+  }, 
+ 
+  "services": {
+    "title": "LINEAS DE PRODUCTOS",
+    "items": [
+      { "title": "INSTRUMENTACION", "description": "Suministramos e integramos equipos de alto desempeño: transmisores inteligentes Autrol (presión, nivel, temperatura) y soluciones Tek-Trol para flujo, nivel y control." },
+      { "title": "AUTOMATIZACION", "description": "Como aliados estratégicos con relaciones comerciales consolidadas con Rockwell Automation, ofrecemos soluciones de baja y media tensión basadas en el portafolio Allen-Bradley, diseñadas para máxima disponibilidad, integración nativa con arquitecturas Logix y soporte técnico especializado." },
+      { "title": "TELECOMUNICACIONES", "description": "Distribuimos la gama completa BELFONE en comunicaciones críticas DMR Tier III Trunking: sistemas centrales ETX con estación base , radios portátiles profesionales, radios móviles, infraestructura de red y software de despacho todo diseñado para operación confiable en refinerías, plantas." }
+    ],
+
+    "LineasProductosSlider": [
+      {
+      "title": "INSTRUMENTACION", 
+      "desc": "Suministramos e integramos equipos de alto desempeño: transmisores inteligentes Autrol (presión, nivel, temperatura) y soluciones Tek-Trol para flujo, nivel y control.", 
+      "img": "/assets/productos/instrumentacion.png", 
+      "targetUrl": "/services/instrumentacion"
+    },
+    {
+      "title": "AUTOMATIZACION", 
+      "desc": "Como aliados estratégicos con relaciones comerciales consolidadas con Rockwell Automation, ofrecemos soluciones de baja y media tensión basadas en el portafolio Allen-Bradley, diseñadas para máxima disponibilidad, integración nativa con arquitecturas Logix y soporte técnico especializado.", 
+      "img": "/assets/productos/automatizacion.png",
+      "targetUrl": "/services/automatizacion"
+    },
+    {
+      "title": "TELECOMUNICACION DMR", 
+      "desc": "Distribuimos la gama completa BELFONE en comunicaciones críticas DMR Tier III Trunking: sistemas centrales ETX con estación base , radios portátiles profesionales, radios móviles, infraestructura de red y software de despacho todo diseñado para operación confiable en refinerías, plantas.", 
+      "img": "/assets/productos/dmr.png",
+      "targetUrl": "/services/telecomunicaciones"
+    },
+    {
+      "title": "TELECOMUNICACION LTE", 
+      "desc": "Representantes del estándar de red inalámbrica de alta capacidad industrial LTE 4G de TELRAD, soporta voz, data y videos.TD-LTE de próxima generación en el mercado de frecuencias sub-6 GHz. AVALTE es la solución todo en uno de AVA Ingeniería tecnología Release 15.", 
+      "img": "/assets/productos/lte.png",
+      "targetUrl": "/services/telecomunicaciones/lte"
+    }
+    ]
+  },
+
+ "blog": {
+  "title": "Blogs y Noticias",
+  "intro": "Manténgase al día con las últimas novedades, eventos de la industria y soluciones tecnológicas de AVA Ingeniería.",
+  "articles": [
+    {
+      "slug": "capacitacion-dmr-belfone",
+      "title": "AVA CAPACITA AL PERSONAL DE CRP EN TECNOLOGÍA DMR TIER III DE BELFONE",
+      "date": "Mayo 2025",
+      "excerpt": "Cada avance tecnológico requiere personas preparadas para aprovecharlo al máximo...",
+      "image": "/assets/blog/curso-portada.jpeg" 
+    },
+    {
+      "slug": "rockwell-automation-fair",
+      "title": "AVA Ingeniería presente en Rockwell Automation Fair 2024",
+      "date": "Noviembre 2024",
+      "excerpt": "Participamos en una de las ferias de automatización más importantes del mundo...",
+      "image": "/assets/blog/hero_24.jpg" 
+    }
+  ],
+  "articlesDetails": {
+    "capacitacion-dmr-belfone": {
+      "sidebar": {
+        "title": "AVA CAPACITA AL PERSONAL DE CRP EN TECNOLOGÍA DMR TIER III DE BELFONE",
+        "paragraphs": [
+          "Cada avance tecnológico requiere personas preparadas para aprovecharlo al máximo. Recientemente el equipo de AVA Ingeniería realizó una capacitación al personal de CRP en la tecnología DMR TIER III de BELFONE, un sistema que marcará un antes y un después en las comunicaciones operativas.",
+          "El sistema DMR Tier III de BELFONE no es solo un radio convencional: es una plataforma integral de comunicaciones diseñada para operaciones de alta criticidad."
+        ]
+      },
+      "content": {
+        "mainTitle": "Vanguardia en Comunicaciones: El Inicio de una Nueva Era Segura para la Industria",
+        "paragraphs": [
+          "AVA Ingeniería está instalando el primer sistema DMR Tier III de la mano de BELFONE en Venezuela, un logro que representa un verdadero hito histórico en el ámbito de las telecomunicaciones industriales. Este proyecto no es solo una instalación más: es el comienzo de una nueva era en comunicaciones críticas para operaciones industriales en el país.",
+          "Esta tecnología de punta posiciona a CRP y a AVA Ingeniería a la vanguardia tecnológica nacional, estableciendo un estándar de excelencia que pronto se replicará en otros proyectos. Es el primero de varios sistemas revolucionarios que están por venir, y nuestro equipo está siendo formado para liderar esta transformación.",
+          "La capacitación va más allá del simple manejo de equipos: se trata de salvar vidas y prevenir accidentes. Los radios son intrínsecamente seguros, diseñados específicamente para operar en zonas con presencia de gases inflamables, sin riesgo de generar chispas ni calor que puedan provocar explosiones."
+        ],
+        "footerQuote": "\"INNOVAR, CAPACITAR, PROTEGER: NUESTRO COMPROMISO CON LA EXCELENCIA OPERATIVA\"",
+        "imageFootnote": "UN HITO HISTÓRICO: EL PRIMER SISTEMA DMR TIER III A NIVEL NACIONAL."
+      }
+    }
+  }
+},
+"contact": {
+    "address": [
+      {
+        "place": "Caracas, Distrito Capital",
+        "mapLink": "https://maps.app.goo.gl/njUuXsGDYbSMGjd26"
+      },
+      {
+        "place": "El Tigre, Anzoátegui",
+        "mapLink": "https://maps.app.goo.gl/RagnFkJYZeQNJV6L9"
+      },
+      {
+        "place": "Punto Fijo, Falcon",
+        "mapLink": "https://maps.app.goo.gl/h56babFebuEacUqG9"
+      },
+      {
+        "place": "Maracaibo, Zulia",
+        "mapLink": "https://maps.app.goo.gl/CyeetceGCRktxRhBA"
+      }
+    ]
+},
+
+"partners": [
+  { "name": "Belfone", "url": "https://es.belfone.com/", "img": "/assets/belfone.png" },
+  { "name": "Rockwell Automation", "url": "https://www.rockwellautomation.com/en-us.html", "img": "/assets/rockwell-automation-logo.png" },
+  { "name": "Tek-Trol", "url": "https://tek-trol.com/", "img": "/assets/tektrol-logo.png" },
+  { "name": "Autrol America", "url": "https://www.autroltransmitters.com/", "img": "/assets/autrol-america-logo.png" },
+  { "name": "Axis", "url": "https://www.axis.com/", "img": "/assets/axis-logo.png" },
+  { "name": "Dahua", "url": "https://www.dahuatech.com/", "img": "/assets/dahua-logo.webp" }
+],
+
+  "footer": {
+    "text": "© 2026 AVA Ingeniería. Todos los derechos reservados."
+  },
+
+  "history": [
+  {
+    "year": "2001",
+    "title": "Fundación y primeros proyectos",
+    "desc": "En 2001 se funda AVA Ingeniería. Los primeros años se centraron en instrumentación y control para la industria local, con proyectos de pequeña y mediana escala que sentaron las bases técnicas y operativas de la compañía."
+  },
+  {
+    "year": "2006",
+    "title": "Expansión regional",
+    "desc": "Se amplía la cobertura comercial hacia otras regiones del país, incorporando servicios de mantenimiento y soporte en campo. Se fortalecen procesos de gestión de proyectos y logística."
+  },
+  {
+    "year": "2010",
+    "title": "Ingreso a Telecomunicaciones",
+    "desc": "Se integran soluciones de transmisión remota y redes industriales (LTE/4G), permitiendo ofrecer enlaces críticos y estaciones base para operación remota de activos."
+  },
+  {
+    "year": "2014",
+    "title": "Certificaciones y calidad",
+    "desc": "Se implementan sistemas de gestión de calidad y seguridad, obteniendo certificaciones y adoptando mejores prácticas en HSE (Seguridad, Higiene y Ambiente)."
+  },
+  {
+    "year": "2018",
+    "title": "Alianzas estratégicas",
+    "desc": "Se consolidan alianzas con fabricantes y partners clave (instrumentación, automatización y seguridad), lo que permite ofrecer soluciones integradas sin intermediarios."
+  },
+  {
+    "year": "2020",
+    "title": "Digitalización y telemetría",
+    "desc": "Se incorporan plataformas de telemetría, dataloggers y monitoreo remoto propio (AVA-DAT-LIFT, AVA-MOVIB), mejorando la capacidad de supervisión y análisis de activos."
+  },
+  {
+    "year": "2022",
+    "title": "Proyectos de seguridad y fuego",
+    "desc": "Se ejecutan proyectos integrales de detección y protección contra incendios y gas, con integración a SCADA y protocolos industriales, ampliando la oferta en seguridad industrial."
+  },
+  {
+    "year": "2024",
+    "title": "Consolidación y crecimiento",
+    "desc": "Con más de 200 servicios realizados y 16 aliados comerciales, AVA Ingeniería consolida su posición en el mercado, ampliando su cartera en potencia, levantamiento artificial y servicios integrales."
+  },
+  {
+    "year": "2025",
+    "title": "Mirando al futuro",
+    "desc": "Plan de expansión de servicios digitales, mayor adopción de analítica de datos y proyectos de eficiencia energética para clientes del sector energético e industrial."
+  }
+],
+
+"automation": {
+  "banner": {
+    "subtitle": "Soluciones y productos",
+    "title": "AUTOMATIZACIÓN Y CONTROL",
+    "desc": "Somos Aliados estratégicos en soluciones Rockwell Automation en Venezuela...",
+    "bgImage": "/assets/automatizacion/banner.png"
+  },
+  "subCategories": [
+    { "key": "hardware", "label": "Hardware" },
+    { "key": "hmi", "label": "HMI" }
+  ],
+  "categoriesData": {
+    "hardware": {
+      "title": "Hardware de Control Industrial",
+      "desc": "Controladores lógicos programables (PLC), módulos de E/S y sistemas de automatización robustos para entornos exigentes.",
+      "products": [
+        {
+          "title": "Controladores ControlLogix 5580",
+          "desc": "Proporcionan un mayor rendimiento, capacidad y seguridad industrial.",
+          "img": "/assets/automatizacion/12.png"
+        },
+        {
+          "title": "Controladores ControlLogix 5580",
+          "desc": "Proporcionan un mayor rendimiento, capacidad y seguridad industrial.",
+          "img": "/assets/automatizacion/13.png"
+        },
+        {
+          "title": "Controladores ControlLogix 5580",
+          "desc": "Proporcionan un mayor rendimiento, capacidad y seguridad industrial.",
+          "img": "/assets/automatizacion/14.png"
+        },
+        {
+          "title": "Controladores ControlLogix 5580",
+          "desc": "Proporcionan un mayor rendimiento, capacidad y seguridad industrial.",
+          "img": "/assets/automatizacion/15.png"
+        },
+        {
+          "title": "Controladores ControlLogix 5580",
+          "desc": "Proporcionan un mayor rendimiento, capacidad y seguridad industrial.",
+          "img": "/assets/automatizacion/16.png"
+        },
+        {
+          "title": "Controladores ControlLogix 5580",
+          "desc": "Proporcionan un mayor rendimiento, capacidad y seguridad industrial.",
+          "img": "/assets/automatizacion/17.png"
+        }
+      ]
+    },
+    "software": {
+      "title": "ITEM 1",
+      "desc": "...",
+      "products": []
+    },
+    "diseno": {
+      "title": "TITULO",
+      "desc": "...",
+      "products": []
+    },
+    "analisis": {
+      "title": "ITEM 1",
+      "desc": "...",
+      "products": []
+    },
+    "hmi": {
+      "title": "Interfaz hombre-máquina (HMI)",
+      "desc": "Las soluciones de visualización e interfaz hombre-máquina (HMI) le ayudan a satisfacer sus necesidades de productividad...",
+      "products": [
+        {
+          "title": "Terminales gráficas PanelView Plus 7 (modelo 2711P)",
+          "desc": "Mejore la productividad con nuestros terminales gráficos...",
+          "img": "/assets/automatizacion/1.png"
+        },
+        {
+          "title": "Terminales gráficas PanelView Plus 7 (modelo 2711P)",
+          "desc": "Mejore la productividad con nuestros terminales gráficos...",
+          "img": "/assets/automatizacion/2.png"
+        },
+        {
+          "title": "Terminales gráficas PanelView Plus 7 (modelo 2711P)",
+          "desc": "Mejore la productividad con nuestros terminales gráficos...",
+          "img": "/assets/automatizacion/3.png"
+        },
+        {
+          "title": "Terminales gráficas PanelView Plus 7 (modelo 2711P)",
+          "desc": "Mejore la productividad con nuestros terminales gráficos...",
+          "img": "/assets/automatizacion/4.png"
+        },
+        {
+          "title": "Terminales gráficas PanelView Plus 7 (modelo 2711P)",
+          "desc": "Mejore la productividad con nuestros terminales gráficos...",
+          "img": "/assets/automatizacion/5.png"
+        },
+        {
+          "title": "Terminales gráficas PanelView Plus 7 (modelo 2711P)",
+          "desc": "Mejore la productividad con nuestros terminales gráficos...",
+          "img": "/assets/automatizacion/6.png"
+        }
+      ]
+    },
+    "proceso": {
+      "title": "ITEM",
+      "desc": "...",
+      "products": []
+    }
+  }
+},
+
+  "telecom": {
+  "banner": {
+    "subtitle": "Soluciones y productos",
+    "title": "TELECOMUNICACIONES",
+    "desc": "Distribuimos la gama completa BELFONE en comunicaciones críticas DMR Tier III Trunking. Somos representantes del estándar de red inalámbrica de alta capacidad industrial LTE 4G de TELRAD...",
+    "bgImage": "/assets/telecom/banner.png"
+  },
+  "subCategories": [
+    { "key": "dmr", "label": "DMR" },
+    { "key": "lte", "label": "LTE" }
+  ],
+  "categoriesData": {
+    "dmr": {
+      "title": "Comunicaciones Críticas DMR (Belfone)",
+      "desc": "Gama completa en radiocomunicación digital bajo el estándar DMR ETSI. Equipos robustos que garantizan una claridad de audio superior y un uso eficiente del espectro para misiones críticas.",
+      "brandLogo": "/assets/belfone.png", 
+      "products": [
+        {
+          "title": "Radios portátiles",
+          "desc": "Construidos con tecnología digital avanzada, estos radios garantizan una comunicación clara, funciones mejoradas y una fiabilidad excepcional en cualquier entorno.",
+          "img": "/assets/telecom/7.png"
+        },
+        {
+          "title": "Radios móviles",
+          "desc": "Con características robustas, excelente calidad de audio y amplia cobertura, los radios móviles BelFone son una opción ideal para sectores como el transporte y la logística.",
+          "img": "/assets/telecom/8.png"
+        },
+        {
+          "title": "Repetidores",
+          "desc": "Diseñados para mejorar la cobertura y fiabilidad de las redes de comunicación digitales, proporcionando una conectividad fluida.",
+          "img": "/assets/telecom/9.png"
+        },
+        {
+          "title": "Manpack Radios",
+          "desc": "Especialmente diseñados para operaciones críticas y en campo. Combinando portabilidad con alto rendimiento.",
+          "img": "/assets/telecom/10.png"
+        },
+        {
+          "title": "Estación base",
+          "desc": "Permiten una comunicación fluida entre radios y proporcionando funciones de gestión de red.",
+          "img": "/assets/telecom/11.png"
+        }
+      ]
+    },
+    "lte": {
+      "title": "Telecomunicación / LTE-TDI",
+      "desc": "Aliados de Telrad Networks un proveedor global de soluciones innovadoras de telecomunicaciones LTE, con más de 300 implementaciones 4G en 100 países. Telrad se sitúa a la vanguardia de la evolución tecnológica de las soluciones TDLTE de próxima generación en el mercado de frecuencias sub- 6 GHz",
+      "brandLogo": "/assets/logos/8.png",
+      "products": [
+        {
+          "title": "BreezeCompact3000",
+          "desc": "Estación base totalmente exterior está optimizada para acceso inalámbrico fijo, móvil y móvil. Ya sea en una torre de agua rural o instalada en un edificio urbano alto. LTE hoy y una evolución hacia LTE Advanced",
+          "img": "/assets/telecom/18.png"
+        },
+        {
+          "title": "CPE9000",
+          "desc": "Dispositivo de acceso inalámbrico fijo (FWA) LTE para exteriores, diseñado para Proveedores de Servicios de Internet (ISP). Los CPE se combinan con el tamaño compacto de la torre y la alta capacidad de nuestras estaciones base insignia BreezeCOMPACT",
+          "img": "/assets/telecom/19.png"
+        },
+        {
+          "title": "BreezeWay2020",
+          "desc": "Plataforma EPC de clase operadora, compacta pero potente, diseñada con aceleradores de hardware para el procesamiento de paquetes de núcleo inalámbrico. da servicio a 10 000 suscriptores conectados y puede escalar fácilmente",
+          "img": "/assets/telecom/20.png"
+        },
+        {
+          "title": "BreezeAir AXE",
+          "desc": "Ofrece un rendimiento de red dinámico superior de 2,1 Gbps, combinado con una latencia ultrabaja y seguridad de primer nivel a 4,9-5,9 GHz y 5,9-7,1 GHz. Diseñada para un rechazo de interferencias.",
+          "img": "/assets/telecom/21.png"
+        },
+        {
+          "title": "BreezeView",
+          "desc": "Herramienta integral para construir, gestionar y dar soporte a todo el ciclo de vida de los dispositivos LTE. Desde la instalación inicial hasta la prestación completa del servicio y las actividades de mantenimiento y soporte",
+          "img": "/assets/telecom/22.png"
+        }
+      ]
+    },
+    "avalte": {
+      "title": "AVALTE Solución Todo-en-Uno",
+      "desc": "Tecnología Release 15 desarrollada por AVA Ingeniería. La solución definitiva para infraestructuras SCADA, IoT industrial, videovigilancia y comunicaciones de misión crítica de última generación.",
+      "brandLogo": "/assets/telecom/ava-logo.png",
+      "products": []
+    }
+  }
+},
+
+"instrumentacion": {
+  "banner": {
+    "subtitle": "Soluciones y productos",
+    "title": "INSTRUMENTACION",
+    "desc": "Suministramos e integramos equipos de alto desempeño: transmisores inteligentes Autrol (presión, nivel, temperatura) y soluciones Tek-Trol para flujo, nivel y control.",
+    "bgImage": "/assets/instrumentacion/banner.png"
+  },
+    "subCategories": [
+    { "key": "presion", "label": "Presion" },
+    { "key": "nivel", "label": "Nivel" },
+    { "key": "temperatura", "label": "Temperatura" },
+    { "key": "flujo", "label": "Flujo" }
+  ],
+  "categoriesData": {
+    "presion": {
+      "title": "AUTROL / PRESIÓN",
+      "brandLogo": "/assets/autrol-america-logo.png",
+      "desc": "Los productos de AUTROL son fabricados por la empresa Duon System en Corea del Sur, y se han enfocado en el desarrollo de transmisores de tipo inteligente, que son parte fundamental de los instrumentos de campo: Transmisores de presión diferencial, manométricos, absolutos, de temperatura y radares de onda guiada (GWR) que utilizan la tecnología propietaria Autrol.",
+      "products": [
+        {
+          "id": "apt-3100",
+          "title": "Transmisor de presión inteligente APT 3100",
+          "desc": "El transmisor de presión inteligente APT 3100 es un transmisor de alto rendimiento basado en microprocesador, que cuenta con calibración de presión flexible. El transmisor de presión APT 3100 es un transmisor de alto rendimiento basado en microprocesador de 1 metro con capacidades de salida y calibración de presión flexibles, compensación automática de la temperatura ambiente y la variable del proceso, la configuración de varios parámetros y la comunicación con comunicación HART puede alcanzar hasta 1,5 km en modo multidrop, las áreas de aplicación máximas incluyen: medición de presión, flujo y nivel.",
+          "img": "/assets/instrumentacion/23.png",
+          "tag": "APT 3100",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Presión Diferencial, Manométrica / Absoluta, Nivel." },
+            { "etiqueta": "Certificados", "detalle": "SIL2 (TUV, FMEDA), Ex d, Ex ia, FM, ATEX, CE, RoHS." },
+            { "etiqueta": "Características", "detalle": "4 a 20mA, HART, alimentación por lazo." },
+            { "etiqueta": "Presicion", "detalle": "± 0,075 % (opción ± 0,04 %) de CS* Pantalla LCD de 3 líneas, función de autodiagnóstico, botones externos, DAC, ajuste de cero, modo de motor" },
+            { "etiqueta": "Aplicacion", "detalle": "Medición de presión, flujo y nivel para petróleo y gas, líquidos, agua, Maine y alta mar, embarcaciones, energía, plantas químicas y refinerías." }
+          ],
+          "pestanas": {
+              "caracteristicas": {
+                "columnaIzquierda": [
+                  "Entrada flexible para sensor de presión absoluta.",
+                  "Límites de presión de trabajo (aceite de silicona):",
+                  "0 a 400 kPa para el rango 4",
+                  "0 a 1500 kPa para el rango 5",
+                  "0 a 3000 kPa para el rango 6",
+                  "Presión de prueba hidrostática:",
+                  "Rango 4: 58 psi (400 kPa)",
+                  "Rango 5: 218 psi (1500 kPa)",
+                  "Rango 6: 435 psi (3000 kPa)"
+                ],
+                "columnaDerecha": [
+                  "Presión de rotura: 2000 psig (13,8 MPa)",
+                  "Salida: 4 ~20 mA (analógica), señales digitales",
+                  "Alta precisión: ±0,075 % del rango (a 20 °C)",
+                  "Amplia capacidad de ajuste (100:1)",
+                  "Compensación automática de la temperatura ambiente",
+                  "Parámetros programables: Cero/Rango, modo de fallo, unidad, ajuste fino, etc.",
+                  "Comunicación digital mediante protocolo HART y comandos.",
+                  "Pantalla LCD de 5 dígitos"
+                ]
+              },
+              "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "APT3100" },
+                { "etiqueta": "Protocolo", "detalle": "4 a 20 mA + Comunicación digital, HART 5" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, Alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Botones de Cero y Rango 2 para configuración del dispositivo" },
+                { "etiqueta": "Límite de temperatura de funcionamiento", "detalle": "-40 a 120 °C (-104 a 248 °F)" },
+                { "etiqueta": "Rango", "detalle": "100:1" },
+                { "etiqueta": "Estabilidad", "detalle": "±0,125 % URL durante 36 meses"}
+              ],
+              "documentos": [
+                { "nombre": "Catalogo (Inglés)", "url": "/docs/AUTROL/APT3100-Catalog.pdf" },
+                { "nombre": "Manual (Inglés)", "url": "/docs/AUTROL/APT3100-Manual.pdf" },
+                { "nombre": "Guía Rápida de Inicio (Inglés)", "url": "/docs/AUTROL/APT3100-QSG.pdf" }
+              ],
+              "certificaciones":{
+                "columnaIzquierda": [
+                  { "nombre": "NEP", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_pressure-transmitter-manufacturers_APT3100-NEP_Eng.pdf" },
+                  { "nombre": "FM Ex d", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_pressure-transmitter-types_APT3100-3200-ATT2100-FM-Ex-d.pdf" },
+                  { "nombre": "FMc Ex d", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_types-of-pressure-transmitter_APT3100-3200-ATT2100-FMc-Ex-d-1.pdf" },
+                  { "nombre": "ATEX Ex ia", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_sensor-pressure_APT3100-3200-ATEX-Ex-ia.pdf" },
+                  { "nombre": "ABS", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_sensor-transmitter_APT3100-3200-ATT2100-ABS.pdf" },
+                  { "nombre": "DNV-GL", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_digital-pressure-sensor_APT3100-3200-DNV-GL.pdf" },
+                  { "nombre": "KR", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_liquid-pressure-sensor_APT3100-3200-ATT2100-KR-1.pdf" },
+                  { "nombre": "SIL2", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_high-pressure-sensor_APT3100-SIL2.pdf" }
+                ],
+                "columnaDerecha": [
+                  { "nombre": "EU Declaration of Conformity", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_gauge-pressure-transmitter_APT3100-3200-EU-Declaration-of-Conformity.pdf" },
+                  { "nombre": "KCs Ex d", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_pressure-transmitter-working_APT3100-3700N-KCs-Ex-d_Eng.pdf" },
+                  { "nombre": "EAC (TR CU) Ex d & Ex ia", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_pressure-sensor-price_APT3100-3200-3500-EAC-TR-CU-Ex-d-Ex-ia.pdf" },
+                  { "nombre": "ATEX Ex d", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_transmitter-pressure_APT3100-3200-ATEX-Ex-d.pdf" },
+                  { "nombre": "IEC Ex d", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_pressure-sensing_APT3100-3200-IEC-Ex-d.pdf" },
+                  { "nombre": "BV", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_measuring-pressure_APT3100-3200-BV.pdf" },
+                  { "nombre": "LR", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_electronic-pressure-sensor_APT3100-3200-ATT2100-LR.pdf" },
+                  { "nombre": "INMETRO", "url": "/docs/AUTROL/CERTIFICACIONES/certificate_pressure-differential-transmitter_APT3100-3200-INMETRO.pdf" }
+                ]
+              }
+            }      
+          },      
+        {
+          "id": "apt-3200",
+          "title": "Transmisor de presión inteligente APT 3200",
+          "desc": "El transmisor de presión inteligente APT 3200 es un transmisor de presión inteligente basado en microprocesador. Utiliza un sensor piezoeléctrico optimizado y caracterizado con precisión para compensar los efectos de la temperatura ambiente mediante un algoritmo de compensación de temperatura patentado que garantiza alta precisión y estabilidad a largo plazo en las mediciones de presión manométrica y absoluta en un amplio rango de condiciones de funcionamiento. El APT 3200 es un transmisor de potencia de bucle de dos hilos y cuenta con una salida estándar de 4/20 mA escalada para el rango de presión de salida deseado.",
+          "img": "/assets/instrumentacion/24.png",
+          "tag": "APT 3200",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Manómetro/Absoluto (PIT), Nivel (LIT), Alta presión estática." },
+            { "etiqueta": "Certificados", "detalle": "SIL2 (TUV, FMEDA), Ex d, Ex ia, FM, ATEX, TR CU (EAC), INMETRO, CE, Rohs, BV, LR, KR, DNV, ABS, KCs, IP66/67, NEMA 4X." },
+            { "etiqueta": "Características", "detalle": "4 a 20 mA, HART, Alimentación por bucle." },
+            { "etiqueta": "Presicion", "detalle": "± 0,075 % (opción ± 0,04 %) de CS* Pantalla LCD de 3 líneas, Función de autodiagnóstico, Botones externos, DAC, Ajuste de cero, Modo de ingeniería." },
+            { "etiqueta": "Aplicacion", "detalle": "Medición de presión y nivel para petróleo y gas (aguas arriba y aguas abajo), líquidos, agua, aguas profundas y plataformas marinas, buques, centrales eléctricas, plantas químicas y refinerías." }
+          ],
+          "pestanas":{
+            "caracteristicas":{
+              "columnaIzquierda":[
+                "Alta precisión: ±0,075 % del rango calibrado (opción: ±0,04 % del rango calibrado)",
+                "Estabilidad a largo plazo",
+                "Amplia capacidad de medición (100:1)",
+                "Medición de GP y AP",
+                "Configuración de datos con configurador HART",
+                "Función de autodiagnóstico continuo",
+                "Compensación automática de la temperatura ambiente",
+                "Función de proceso en caso de fallo",
+                "Protección contra escritura de la EEPROM"
+              ],
+              "columnaDerecha":[
+
+              ]
+            },
+            "especificaciones":[
+                { "etiqueta": "Modelo", "detalle": "APT3200" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART 5" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Botones de Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Límite de temperatura de funcionamiento", "detalle": "-40 a 120 °C (-104 a 248 °F)" },
+                { "etiqueta": "Versión de firmware", "detalle": "6.X, 7.X" },
+                { "etiqueta": "Rango", "detalle": "100:1" },
+                { "etiqueta": "Estabilidad", "detalle": "±0,125 % (URL durante 36 meses)"}
+            ],
+                      "documentos": [
+              { "nombre": "Ficha Técnica APT 3200 (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+
+        },
+        {
+          "id": "apt-3500",
+          "title": "Transmisor de presión inteligente APT 3500",
+          "desc": "El transmisor de presión inteligente APT 3500 es un transmisor de alto rendimiento basado en microprocesador, que ofrece calibración y salida de presión flexibles, compensación automática de la temperatura ambiente y las variables del proceso, configuración de diversos parámetros y comunicación mediante protocolo HART. Sus aplicaciones son muy variadas, como la medición de caudal de líquidos, gases o vapor, así como la presión y el nivel de líquidos mediante diferentes métodos. Todos los datos del sensor se introducen, modifican y almacenan en la memoria EEPROM.",
+          "img": "/assets/instrumentacion/25.png",
+          "tag": "APT 3500",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Presión: Diferencial (DPIT), Manométrica/Absoluta (PIT), Nivel (LIT), Alta Presión Estática, Presión de Caudal (FIT)" },
+            { "etiqueta": "Certificados", "detalle": "SIL2 (TUV, FMEDA), Ex d, Ex ia, FM, ATEX, TR CU (EAC), INMETRO, CE, Rohs, BV, LR, KR, DNV, ABS, KCs, IP66/67, NEMA 4X." },
+            { "etiqueta": "Características", "detalle": "4 a 20 mA, HART, Alimentación por bucle." },
+            { "etiqueta": "Presicion", "detalle": "± 0,04 % de CS* Pantalla LCD de 3 líneas, Función de autodiagnóstico, Botones externos, DAC, Ajuste de cero, Modo Eng, Chapado en oro." },
+            { "etiqueta": "Aplicacion", "detalle": "Alto rendimiento. Medición de presión, caudal y nivel para petróleo y gas, líquidos, agua, sector marítimo y offshore, buques, centrales eléctricas, plantas químicas y refinerías." }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Alta precisión de referencia: ±0,04 % del rango calibrado.",
+                "Para el rango 1 (DP y GP) ±0,10 % del rango. Para rangos inferiores a 4:1, precisión = ± [0,025 x (URL/rango)] % del rango",
+                "Para el rango 2 (DP y GP) ±0,10 % del rango. Para rangos inferiores a 10:1, precisión = ± [0,05 + 0,005 x (URL/rango)] %"
+              ],
+              "columnaDerecha": [
+                "Configuración de datos con el configurador HART.",
+                "Ajuste del punto cero.",
+                "Función de autodiagnóstico continuo.",
+                "Compensación automática de la temperatura ambiente",
+                "Función de procesamiento en caso de fallo",
+                "Protección contra escritura de la EEPROM",
+                "Normas de conformidad CE EMC."
+              ]
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "APT3500" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART 7, Fieldbus Foundation" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Botones de Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Límite de temperatura de funcionamiento", "detalle": "-40 a 120 °C (-104 a 248 °F)" },
+                { "etiqueta": "Rango", "detalle": "100:1" },
+                { "etiqueta": "Estabilidad", "detalle": "0,125 % URL durante 60 meses"}
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3500 (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "id": "apt-3700N",
+          "title": "Transmisor de presión inteligente APT 3700N",
+          "desc": "El transmisor de presión inteligente APT 3700N es un transmisor de alto rendimiento basado en microprocesador que ofrece calibración y salida de presión flexibles, compensación automática de la temperatura ambiente y las variables del proceso, configuración de diversos parámetros y comunicación mediante protocolo HART. Sus aplicaciones son muy variadas, permitiendo medir presión, caudal y nivel según el método de aplicación. Todos los datos del sensor se introducen, modifican y almacenan en la memoria EEPROM.",
+          "img": "/assets/instrumentacion/26.png",
+          "tag": "APT 3500",
+          "funcionesClave": [
+            { "etiqueta": "Entrada de sensor flexible", "detalle": "DP, GP, AP, Vacío" },
+            { "etiqueta": "Varias salidas", "detalle": "4 ~ 20 mA, señales digitales" },
+            { "etiqueta": "Configuración de diversos parámetros", "detalle": "Cero/Rango, Ajuste, Unidad, Modo de fallo, etc." },
+            { "etiqueta": "Función de autodiagnóstico", "detalle": "Sensor, convertidor A/D de memoria, alimentación, etc." },
+            { "etiqueta": "", "detalle": "Comunicación digital con protocolo HART." },
+            { "etiqueta": "", "detalle": "Aprobación a prueba de explosiones KOSHA." },
+            { "etiqueta": "", "detalle": "Calificado según las normas IEEE Std 344-1987/2004 e IEEE Std 323-1983/2003, Guía reglamentaria NRC 1.180 (Rev.1)" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Alta precisión de referencia: ±0,075 % del rango calibrado",
+                "Estabilidad a largo plazo: ±0,25 % de la URL cada 24 meses",
+                "Alta capacidad de rango (100:1)",
+                "Configuración de datos con el configurador HART",
+                "Ajuste del punto cero"
+              ],
+              "columnaDerecha": [
+                "Función de autodiagnóstico continuo",
+                "Compensación automática de la temperatura ambiente",
+                "Función de gestión de fallos",
+                "Protección contra escritura en la EEPROM",
+                "Certificaciones del equipo",
+                "Certificación ambiental",
+                "Certificación sísmica y prueba de interferencia electromagnética",
+                "(EMI)/radiofrecuencia (RFI)"
+              ]
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "APT3700N" },
+                { "etiqueta": "Protocolo", "detalle": "4 a 20 mA + Comunicación digital, HART 5" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, Alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Botones de Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Límite de temperatura de funcionamiento", "detalle": "-40 a 120 °C (-104 a 248 °F)" },
+                { "etiqueta": "Rango", "detalle": "100:1" },
+                { "etiqueta": "Estabilidad", "detalle": "±0,125 % (URL) durante 36 meses"}
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        }
+      ]
+    },
+
+    "nivel": {
+      "title": "AUTROL / NIVEL",
+      "brandLogo": "/assets/autrol-america-logo.png",
+      "desc": "Los productos de AUTROL son fabricados por la empresa Duon System en Corea del Sur, y se han enfocado en el desarrollo de transmisores de tipo inteligente, que son parte fundamental de los instrumentos de campo: Transmisores de presión diferencial, manométricos, absolutos, de temperatura y radares de onda guiada (GWR) que utilizan la tecnología propietaria Autrol.",
+      "products": [
+        {
+          "id": "alt-6100",
+          "title": "Transmisor de nivel inteligente ALT 6100",
+          "desc": "El ALT-6100 es un reflectómetro de dominio temporal (TDR) configurado para la detección de nivel. Mide el tiempo de ida y vuelta que tarda un pulso en propagarse a lo largo de una transmisión.",
+          "img": "/assets/instrumentacion/27.png",
+          "tag": "ALT 6100",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de nivel de contacto" },
+            { "etiqueta": "Características", "detalle": "Varilla, coaxial, cable" },
+            { "etiqueta": "Rango", "detalle": "0,15 a 20 m" },
+            { "etiqueta": "Tecnología", "detalle": "Reflectometría en el dominio del tiempo (TDR) mediante radar de onda guiada" },
+            { "etiqueta": "Condiciones de aplicación", "detalle": "Baja viscosidad, poca emulsión o espuma" },
+            { "etiqueta": "Características puntuales", "detalle": "Aplicación en líquidos" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Alta precisión de +/- 3 mm.",
+                "Permite medir materiales con una constante dieléctrica muy baja de 1,4, como el butano y el GNL.",
+                "Utilizable tanto en líquidos como en sólidos.",
+                "Minimiza los efectos del polvo, el vapor y la turbulencia.",
+                "Gracias a su guiado, no se ve afectado por perturbaciones ni por la estructura del tanque.",
+                "Fácil calibración y mantenimiento.",
+                "Este método de medición directa, de arriba hacia abajo, no se ve afectado por los cambios de estado del proceso (densidad, conductividad, temperatura, presión, humedad, etc.)."
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ALT6100" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART 7" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 360 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Temperatura de funcionamiento", "detalle": "-40 a 80 °C (-104 a 176 °F)" },
+                { "etiqueta": "Presicion", "detalle": "± 3 mm o ± 0,03 % de SC, lo que sea mayor" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "id": "alt-6200",
+          "title": "Transmisor de nivel de radar inteligente ALT 6200",
+          "desc": "El ALT6200 es un transmisor de nivel por radar de 2 hilos fiable para líquidos y lodos, diseñado para un rendimiento excepcional en una amplia gama de aplicaciones y condiciones de proceso. Mide el nivel directamente y no se ve afectado por la mayoría de los cambios en las propiedades del fluido, como la temperatura, la presión, la mezcla vapor-gas, la densidad, la turbulencia, el burbujeo/ebullición, la constante dieléctrica, el pH, la viscosidad, la cristalización, etc.",
+          "img": "/assets/instrumentacion/28.png",
+          "tag": "ALT 6200",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de nivel sin contacto" },
+            { "etiqueta": "Características", "detalle": "Antena de bocina de 3 a 8 pulgadas, antena de varilla" },
+            { "etiqueta": "Rango", "detalle": "0,5 a 30 metros" },
+            { "etiqueta": "Tecnología", "detalle": "Radar de pulsos de 6,3 GHz" },
+            { "etiqueta": "Condiciones de aplicación", "detalle": "Oleaje, olas, ruido, alta viscosidad, espuma" },
+            { "etiqueta": "Características puntuales", "detalle": "Ángulo de haz amplio (24°)" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Sin contacto, lo que la hace prácticamente inmune a las condiciones del proceso.",
+                "Sin piezas móviles, requiere poco o ningún mantenimiento. Menos afectada por el recubrimiento con antena resistente a la condensación.",
+                "Reducción de ecos provenientes de obstáculos o paredes del tanque gracias a la polarización circular.",
+                "Medición continua de nivel o distancia a la superficie."
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ALT6200" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 360 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Temperatura de funcionamiento", "detalle": "-40 a 80 °C (-104 a 176 °F)" },
+                { "etiqueta": "Presicion", "detalle": "± 10 mm" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "id": "alt-6210",
+          "title": "Transmisor de nivel de radar inteligente ALT 6210",
+          "desc": "El ALT6210 es un transmisor de nivel por radar de 2 hilos fiable para líquidos y lodos, diseñado para un rendimiento excepcional en una amplia gama de aplicaciones y condiciones de proceso. Mide el nivel directamente y no se ve afectado por la mayoría de los cambios en las propiedades del fluido, como la temperatura, la presión, la mezcla de vapor y gas, la densidad, la turbulencia, el burbujeo/ebullición, la constante dieléctrica, el pH, la viscosidad, la cristalización, etc.",
+          "img": "/assets/instrumentacion/29.png",
+          "tag": "ALT 6210",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de nivel sin contacto" },
+            { "etiqueta": "Certificaciones", "detalle": "CE, RoHS, IP66/67" },
+            { "etiqueta": "Características", "detalle": "Antena de bocina de 2 a 4 pulgadas, antena sellada de 3 y 4 pulgadas, antena encapsulada, antena parabólica" },
+            { "etiqueta": "Alcance", "detalle": "0,5 a 30 metros (opcional: 70 metros)" },
+            { "etiqueta": "Tecnología", "detalle": "Radar de pulsos de 26 GHz" },
+            { "etiqueta": "Condiciones de aplicación", "detalle": "Baja densidad de ondas, ruido, alta viscosidad, espuma" },
+            { "etiqueta": "Características puntuales", "detalle": "Ángulo de haz estrecho y recto (10°)" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Sin contacto, lo que la hace prácticamente inmune a las condiciones del proceso.",
+                "Sin piezas móviles, requiere poco o ningún mantenimiento. Menos afectada por el recubrimiento con antena resistente a la condensación.",
+                "Reducción de ecos provenientes de obstáculos o paredes del tanque gracias a la polarización circular.",
+                "Medición continua de nivel o distancia a la superficie."
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ALT6210" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 360 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Temperatura de funcionamiento", "detalle": "-40 a 80 °C (-104 a 176 °F)" },
+                { "etiqueta": "Presicion", "detalle": "± 3 mm" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "id": "alt-6300",
+          "title": "Transmisor de nivel inteligente ALT 6300",
+          "desc": "El transmisor de nivel ALT 6300, un dispositivo de medición, determina de forma fiable el nivel en aplicaciones con sólidos.",
+          "img": "/assets/instrumentacion/30.png",
+          "tag": "ALT 6300",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de nivel sin contacto" },
+            { "etiqueta": "Certificaciones", "detalle": "CE, RoHS, IP66/67" },
+            { "etiqueta": "Características", "detalle": "Extensión de hasta 600 mm" },
+            { "etiqueta": "Alcance", "detalle": "5 metros (opcional: 10 metros)" },
+            { "etiqueta": "Tecnología", "detalle": "Ultrasónica" },
+            { "etiqueta": "Condiciones de aplicación", "detalle": "Sin ruido, depósito simple, alta viscosidad, sin presión" },
+            { "etiqueta": "Características", "detalle": "Precio competitivo" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Medición precisa del nivel en superficies irregulares.",
+                "Alta fiabilidad con instalación reducida."
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ALT6300" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 340 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Temperatura de funcionamiento", "detalle": "-20 a 80 °C (-4 a 176 °F)" },
+                { "etiqueta": "Presicion", "detalle": "± 10 mm" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "id": "alt-6400",
+          "title": "Transmisor de nivel de flotador ALT 6400",
+          "desc": "El transmisor de nivel de flotador ALT 6400 se utiliza para la detección de nivel de líquidos de todo tipo.",
+          "img": "/assets/instrumentacion/31.png",
+          "tag": "ALT 6400",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de nivel de contacto" },
+            { "etiqueta": "Certificaciones", "detalle": "KCs, IP66 (Ex d)" },
+            { "etiqueta": "Características", "detalle": "ETamaño de la esfera de flotación: 25 mm, 50 mm" },
+            { "etiqueta": "Rango", "detalle": "0,1 a 4 metros" },
+            { "etiqueta": "Tecnología", "detalle": "Esfera de flotación" },
+            { "etiqueta": "Condiciones de aplicación", "detalle": "Sin espuma, sin adherencia, sin lodo, sin vacío" },
+            { "etiqueta": "Características destacadas", "detalle": "Precio competitivo" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Rendimiento superior",
+                "Flexibilidad",
+                "Fiabilidad"
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ALT6400" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Temperatura de funcionamiento", "detalle": "-40 a 80 °C (-104 a 176 °F)" },
+                { "etiqueta": "Presicion", "detalle": "± 15 mm" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "id": "alt-6500",
+          "title": "Transmisor de nivel magnetostrictivo ALT 6500",
+          "desc": "Transmisor de nivel magnetostrictivo ALT 6500 de Autrol para flotador de nivel de tanque y pulso eléctrico de alta resolución.",
+          "img": "/assets/instrumentacion/30.png",
+          "tag": "ALT 6500",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de nivel de contacto" },
+            { "etiqueta": "Certificaciones", "detalle": "KCs, IP66 (Ex d)" },
+            { "etiqueta": "Características", "detalle": "Interfaz" },
+            { "etiqueta": "Alcance", "detalle": "4 metros" },
+            { "etiqueta": "Tecnología", "detalle": "Magnetostrictiva" },
+            { "etiqueta": "Condiciones de aplicación", "detalle": "Sin espuma, sin residuos pegajosos, sin lodos, sin vacío. Presión máxima: 20 bar en tanque hasta 100 °C" },
+            { "etiqueta": "Características puntual", "detalle": "Alta resolución" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Rendimiento superior",
+                "Flexibilidad",
+                "Fiabilidad"
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ALT6500" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Temperatura de funcionamiento", "detalle": "-40 a 80 °C (-104 a 176 °F)" },
+                { "etiqueta": "Presicion", "detalle": "± 1 mm o ± 0,01 % de CS, lo que sea mayor" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        }
+      ]
+    },
+
+    "temperatura": {
+      "title": "AUTROL / TEMPERATURA",
+      "brandLogo": "/assets/autrol-america-logo.png",
+      "desc": "Los productos de AUTROL son fabricados por la empresa Duon System en Corea del Sur, y se han enfocado en el desarrollo de transmisores de tipo inteligente, que son parte fundamental de los instrumentos de campo: Transmisores de presión diferencial, manométricos, absolutos, de temperatura y radares de onda guiada (GWR) que utilizan la tecnología propietaria Autrol.",
+      "products": [
+        {
+          "id": "att-2100",
+          "title": "Transmisor de temperatura inteligente ATT 2100",
+          "desc": "El transmisor de temperatura inteligente ATT 2100 es un transmisor de alto rendimiento basado en microprocesador, que cuenta con entrada y salida de sensor flexibles, compensación automática de la temperatura ambiente y los parámetros del proceso, configuración de varios parámetros y comunicación mediante el protocolo HART.",
+          "img": "/assets/instrumentacion/33.png",
+          "tag": "ATT 2100",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de temperatura (TIT), montaje en campo." },
+            { "etiqueta": "Certificaciones", "detalle": "Ex d, FM, ATEX, TR CU(EAC), CE, KCs, IP66/67." },
+            { "etiqueta": "Características", "detalle": "4 a 20 mA, HART, alimentación por bucle." },
+            { "etiqueta": "Precisión digital", "detalle": "RTD ±0,17 °C, T/C ±0,77 °C. Pantalla LCD de 3 líneas, función de autodiagnóstico, botones externos, DAC, ajuste de cero, modo de motor." },
+            { "etiqueta": "Entrada", "detalle": "Entrada RTD: a=0,00385 (KS, JIS, DIN, IEC), a=0,00391 (EE. UU.)" },
+            { "etiqueta": "Entrada de termopar", "detalle": "KSC 1602-1982, JISC 1602-1981, ANSI MC96.1-1982 (milivoltios, ohmios)." },
+            { "etiqueta": "Aplicaciones", "detalle": "Medición de presión, caudal y nivel para petróleo y gas, líquidos, agua, plataformas marinas y plataformas petrolíferas, buques, centrales eléctricas, plantas químicas y refinerías." }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Excelente precisión y estabilidad a largo plazo.",
+                "Selección de diversas unidades de temperatura (termo/calor), temperatura de referencia (RTD), voltaje (mV) y resistencia (ohm).",
+                "Configuración de datos con configurador HART.",
+                "Compensación automática: linealización de la entrada del sensor, compensación de la temperatura ambiente, autodiagnóstico continuo, función de proceso en caso de fallo, protección contra escritura de la EEPROM."
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ATT2100" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART 5, 7" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Temperatura de funcionamiento", "detalle": "-40 a 85 °C (-104 a 185 °F)" },
+                { "etiqueta": "Estabilidad", "detalle": "RTD: 2 años (±0,12 % de la lectura o 0,15 °C, lo que sea mayor), T/C: 1 año (±0,12 % de la lectura o 0,15 °C, lo que sea mayor)" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "id": "att-2200",
+          "title": "Transmisor de temperatura inteligente ATT 2200",
+          "desc": "Los transmisores de temperatura inteligentes ATT 2200 son transmisores de alto rendimiento basados ​​en microprocesador con capacidades flexibles de calibración y salida de presión, compensación automática de la temperatura ambiente y las variables del proceso, configuración de diversos parámetros y comunicación mediante el protocolo HART. La comunicación HART puede alcanzar un máximo de 1,5 km en modo multipunto, y se pueden conectar y comunicar hasta 15 transmisores con el host.",
+          "img": "/assets/instrumentacion/34.png",
+          "tag": "ATT 2200",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de temperatura para riel DIN" },
+            { "etiqueta": "Características", "detalle": "4 a 20 mA, HART, alimentación por bucle" },
+            { "etiqueta": "Entrada", "detalle": "RTD: a=0,00385 : KS, JIS, DIN, IEC; a=0,00391 : US." },
+            { "etiqueta": "Certificaciones de temperatura", "detalle": "KSC 1602-1982, JISC 1602-1981, ANSI MC96.1-1982 (milivoltios)" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Excelente precisión",
+                "Estabilidad a largo plazo",
+                "Selección de diversos termopares, RTD, mV y ohmios.",
+                "Configuración de datos con el configurador HART.",
+                "Compresión automática: linealización de la entrada del sensor, compensación de la temperatura ambiente.",
+                "Autodiagnóstico continuo.",
+                "Protección contra escritura en la EEPROM en caso de fallos. Aislamiento de E/S: termopar con conexión a tierra.",
+                "Conformidad con las normas CE EMC (EN50081-2, EN50082-2)."
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ATT2200" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART 7" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "DAC" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Temperatura ambiente", "detalle": "-40 a 85 °C (-104 a 185 °F)" },
+                { "etiqueta": "Versión de firmware", "detalle": "7.X" },
+                { "etiqueta": "Estabilidad", "detalle": "RTD: 2 años (±0,12 % de la lectura o 0,15 °C, lo que sea mayor), T/C: 1 año (±0,12 % de la lectura o 0,15 °C, lo que sea mayor)" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "id": "att-2250",
+          "title": "Transmisor de nivel de radar inteligente ALT 6210",
+          "desc": "El transmisor de cabeza de la serie ATT 2250 utiliza el protocolo de comunicación HART. Implementa los comandos estándar universales y de uso común de HART, además de otros comandos específicos del dispositivo que permiten acceder a los parámetros de rendimiento mejorados de la serie ATT 2250.",
+          "img": "/assets/instrumentacion/35.png",
+          "tag": "ATT 2250",
+          "funcionesClave": [
+            { "etiqueta": "Tipo", "detalle": "Transmisor de temperatura montado en la cabeza" },
+            { "etiqueta": "Certificado", "detalle": "ATEX Ex ia (Seguridad intrínseca)" },
+            { "etiqueta": "Características", "detalle": "4 a 20 mA, HART, alimentación por bucle" },
+            { "etiqueta": "Entrada", "detalle": "Entrada RTD: a=0,00385 : KS, JIS, DIN, IEC; a=0,00391 : US." },
+            { "etiqueta": "Entrada de termopar", "detalle": "KSC 1602-1982, JISC 1602-1981, ANSI MC96.1-1982 (milivoltios)" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Referenciación de sensores",
+                "Linealización personalizada",
+                "Detección de fallos en el sensor",
+                "Calibración por el usuario",
+                "Preajuste de corriente de salida"
+              ],
+              "columnaDerecha": []
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "ATT2250" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART5, 7" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "DAC" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 500 ohmios a 30 Vcc, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,8 (3,5) mA, Alto ≥ 20,5 (23) mA" },
+                { "etiqueta": "Límite de temperatura ambiente", "detalle": "-40 a 85 °C (-104 a 185 °F)" },
+                { "etiqueta": "Doble canal", "detalle": "Promedio RTD, A+B, A-B, Máximo, Mínimo" },
+                { "etiqueta": "Conexiones de 2 hilos", "detalle": "Promedio T/C, Redundancia, A+B, A-B, Máximo, Mínimo; Promedio mA, A+B, A-B, Máximo, Mínimo" }
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3700N (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        }
+      ]
+    },
+
+    "flujo": {
+      "title": "TEKTROL / FLUJO",
+      "desc": "Tek-Trol es una empresa que brinda soluciones de control, automatización y medición avanzadas y consistentes, ofreciendo productos de control y medición de caudal, nivel, temperatura y presión. Ofrecemos una amplia gama de productos y soluciones para mercados que abarcan desde los sectores de lácteos, tratamiento de agua y alimentos hasta los de Energía, Petróleo y Gas.",
+      "brandLogo": "/assets/tektrol-logo.png",
+      "products": [
+        {
+          "id": "tek-cor-1100A",
+          "title": "Medidor de Flujo Coriolis 1100A",
+          "desc": "Nuestra gama de caudalímetros másicos Coriolis está diseñada para satisfacer sus necesidades de medición de prácticamente cualquier fluido, en cualquier aplicación. Basados ​​en el principio de Coriolis, estos caudalímetros miden directamente la masa de los fluidos, en lugar del volumen. Esto significa que no requieren compensaciones por factores como la temperatura y la presión, que afectan al volumen y, por consiguiente, a la precisión de la medición.",
+          "img": "/assets/instrumentacion/36.png",
+          "tag": "APT 3200",
+          "funcionesClave": [
+            { "etiqueta": "Entrada de sensor flexible", "detalle": "DP, GP, AP, Vacío" },
+            { "etiqueta": "Varias salidas", "detalle": "4 ~ 20 mA, señales digitales" },
+            { "etiqueta": "Configuración de diversos parámetros", "detalle": "Cero/Rango, Ajuste, Unidad, Modo de fallo, etc." },
+            { "etiqueta": "Función de autodiagnóstico", "detalle": "Sensor, convertidor A/D de memoria, alimentación, etc." },
+            { "etiqueta": "", "detalle": "Comunicación digital con protocolo HART." },
+            { "etiqueta": "", "detalle": "Aprobación a prueba de explosiones KOSHA." },
+            { "etiqueta": "", "detalle": "Calificado según las normas IEEE Std 344-1987/2004 e IEEE Std 323-1983/2003, Guía reglamentaria NRC 1.180 (Rev.1)" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Alta precisión de referencia: ±0,04 % del rango calibrado.",
+                "Para el rango 1 (DP y GP) ±0,10 % del rango. Para rangos inferiores a 4:1, precisión = ± [0,025 x (URL/rango)] % del rango",
+                "Para el rango 2 (DP y GP) ±0,10 % del rango. Para rangos inferiores a 10:1, precisión = ± [0,05 + 0,005 x (URL/rango)] %"
+              ],
+              "columnaDerecha": [
+                "Configuración de datos con el configurador HART.",
+                "Ajuste del punto cero.",
+                "Función de autodiagnóstico continuo.",
+                "Compensación automática de la temperatura ambiente",
+                "Función de procesamiento en caso de fallo",
+                "Protección contra escritura de la EEPROM",
+                "Normas de conformidad CE EMC."
+              ]
+            },
+            "especificaciones": [
+                { "etiqueta": "Modelo", "detalle": "APT3500" },
+                { "etiqueta": "Protocolo", "detalle": "Comunicación digital, HART 7, Fieldbus Foundation" },
+                { "etiqueta": "Capacidad de ajuste", "detalle": "Cero, DAC, Completo" },
+                { "etiqueta": "Alimentación y requisitos de carga", "detalle": "250 a 550 ohmios a 24 V CC, alimentación por bucle" },
+                { "etiqueta": "Modo de fallo", "detalle": "Bajo ≤ 3,78 mA, Alto ≥ 21,1 mA" },
+                { "etiqueta": "Botones externos", "detalle": "Botones de Cero y Span 2 para configuración del dispositivo" },
+                { "etiqueta": "Límite de temperatura de funcionamiento", "detalle": "-40 a 120 °C (-104 a 248 °F)" },
+                { "etiqueta": "Rango", "detalle": "100:1" },
+                { "etiqueta": "Estabilidad", "detalle": "0,125 % URL durante 60 meses"}
+              ],
+            "documentos": [
+              { "nombre": "Ficha Técnica APT 3500 (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones de calidad internacionales: SIL2 (TUV, FMEDA)."
+          }
+        },
+        {
+          "title": "Medidor de flujo ultrasónico de pinza",
+          "desc": "Está diseñado para medir la velocidad del fluido en tuberías, tanto llenas como cerradas. Es un sistema de medición fácil de instalar y usar. funciona según la diferencia en el tiempo de tránsito medido",
+          "img": "/assets/instrumentacion/37.png"
+        },
+        {
+          "title": "Medidores de flujo de vórtice",
+          "desc": "Es un instrumento versátil que calcula el caudal másico, el caudal volumétrico, la temperatura, la presión y la densidad de cualquier líquido, gas o vapor a través de una tubería.",
+          "img": "/assets/instrumentacion/38.png"
+        },
+        {
+          "title": "Caudalímetros electromagnéticos",
+          "desc": "Es un instrumento de contacto que se utiliza para medir el caudal volumétrico de cualquier fluido conductor de electricidad en tuberías cerradas",
+          "img": "/assets/instrumentacion/39.png"
+        },
+        {
+          "title": "Medidor de flujo másico térmico",
+          "desc": "Son instrumentos de precisión que se utilizan para medir el caudal másico de fluidos en canales cerrados como tuberías o conductos.",
+          "img": "/assets/instrumentacion/40.png"
+        },
+        {
+          "title": "Medidores de flujo de presión diferencial",
+          "desc": "Caudalímetro primario para la medición de gases, líquidos y vapores en tuberías y conductos, basado en los principios de medición de presión diferencial (DP).",
+          "img": "/assets/instrumentacion/41.png"
+        }
+      ]
+    }
+  }
+},
+
+"documentacion": {
+  "title": "DOCUMENTACIÓN",
+  "intro": "Descarga nuestros catálogos, presentaciones y documentación técnica en formato PDF.",
+  "files": [
+    {
+      "title": "PERFIL AVA",
+      "path": "/docs/PERFIL_AVAING.pdf"
+    },
+    {
+      "title": "PORTAFOLIO AVA",
+      "path": "/docs/PORTAFOLIO_AVAING.pdf"
+    },
+    {
+      "title": "SOLUCIONES Y SERVICIOS AVA",
+      "path": "/docs/SOLUCIONES_SERVICIOS_AVAING.pdf"
+    }
+  ]
+},
+
+"brandsData": {
+  "title": "ALIANZAS COMERCIALES",
+  "subtitle": "Respaldamos cada uno de nuestros servicios y suministros con el sello de calidad de los líderes globales en automatización, telecomunicaciones y seguridad industrial. Como aliados comerciales estratégicos, garantizamos el acceso directo a tecnología de punta, soporte de ingeniería certificado y el inventario genuino que su empresa necesita para operar sin interrupciones.",
+  "items": [
+    {
+      "name": "Rockwell Automation",
+      "logo": "/assets/rockwell-automation-logo.png",
+      "status": "Aliados Estratégicos e Integradores",
+      "desc": "Líder mundial en automatización industrial y transformación digital, ofreciendo arquitecturas de control Allen-Bradley.",
+      "targetUrl": "/services/automatizacion/hardware"
+    },
+    {
+      "name": "BelFone Communications",
+      "logo": "/assets/belfone.png",
+      "status": "Distribuidores Oficiales de Redes Críticas",
+      "desc": "Sistemas de radiocomunicación digital DMR Tier III Trunking e infraestructura de comunicación para misiones de alta criticidad.",
+      "targetUrl": "/services/telecomunicaciones/dmr"
+    },
+    {
+      "name": "Telrad Networks",
+      "logo": "/assets/telrad.png",
+      "status": "Representantes de Tecnología LTE",
+      "desc": "Estándar de red inalámbrica de alta capacidad industrial LTE 4G para transmisión masiva de voz, data y video en tiempo real.",
+      "targetUrl": "/services/telecomunicaciones/lte"
+    },
+    {
+      "name": "Axis Communications",
+      "logo": "/assets/axis-logo.png",
+      "status": "Partner de Videovigilancia IP",
+      "desc": "Soluciones de seguridad electrónica avanzada, cámaras inteligentes y análisis de video industrial automatizado.",
+      "targetUrl": "/services/telecomunicaciones/avalte"
+    },
+    {
+      "name": "Autrol America",
+      "logo": "/assets/autrol-america-logo.png",
+      "status": "Distribuidores de Instrumentación",
+      "desc": "Transmisores inteligentes de presión, temperatura y nivel con certificación internacional para procesos de control exigentes.",
+      "targetUrl": "/services/instrumentacion"
+    },
+    {
+      "name": "Tektrol Technology Solutions",
+      "logo": "/assets/tektrol-logo.png",
+      "status": "Aliados en Control de Procesos",
+      "desc": "Soluciones avanzadas en medición de flujo, nivel y análisis de líquidos optimizadas para la industria petrolera y petroquímica.",
+      "targetUrl": "/services/instrumentacion/flujo"
+    },
+    {
+      "name": "Dahua Technology",
+      "logo": "/assets/dahua-logo.webp",
+      "status": "Partner de Seguridad Electrónica",
+      "desc": "Sistemas de videovigilancia AI, cámaras térmicas para áreas clasificadas y soluciones de monitoreo perimetral de alta definición.",
+      "targetUrl": "/services/telecomunicaciones/avalte"
+    }
+  ]
+}
+}
+  
+
+
+

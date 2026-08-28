@@ -1,0 +1,187 @@
+{
+  "instrument": {
+    "id": "tek_ tek_sub 4800c",
+    "name": "Tek- Tek-Sub 4800C",
+    "brand": "Tektrol",
+    "baseModel": "Tek- Tek-Sub 4800C",
+    "description": "Configurator for Tek- Tek-Sub 4800C",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "10",
+            "label": "10 psig ( 7 meters H2O) $ -",
+            "description": "10 psig ( 7 meters H2O) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "15",
+            "label": "15 psig (10.5 meters H2O) $ -",
+            "description": "15 psig (10.5 meters H2O) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "25",
+            "label": "25 psig (17.5 meters H20) $ -",
+            "description": "25 psig (17.5 meters H20) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "50",
+            "label": "50 psig (35 meters H20) $ -",
+            "description": "50 psig (35 meters H20) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "42",
+            "label": "4-20mA $ -",
+            "description": "4-20mA $ -",
+            "constraints": {}
+          },
+          {
+            "code": "43",
+            "label": "4-20mA, HART",
+            "description": "4-20mA, HART",
+            "constraints": {}
+          },
+          {
+            "code": "45",
+            "label": "0.5 - 4.5VDC",
+            "description": "0.5 - 4.5VDC",
+            "constraints": {}
+          },
+          {
+            "code": "48",
+            "label": "Low-Voltage Modbus (5 vdc)",
+            "description": "Low-Voltage Modbus (5 vdc)",
+            "constraints": {}
+          },
+          {
+            "code": "49",
+            "label": "Modbus RS-485",
+            "description": "Modbus RS-485",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Precisión",
+        "shortLabel": "Precisión",
+        "helpText": "Selecciona Precisión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "25",
+            "label": "0.25% FS $ -",
+            "description": "0.25% FS $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Longitud y Tipo Cable",
+        "shortLabel": "Longitud",
+        "helpText": "Selecciona Longitud y Tipo Cable",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "P25",
+            "label": "75 Feet of Polyurethane Cable",
+            "description": "75 Feet of Polyurethane Cable",
+            "constraints": {}
+          },
+          {
+            "code": "P34",
+            "label": "100 Feet of Polyurethane Cable",
+            "description": "100 Feet of Polyurethane Cable",
+            "constraints": {}
+          },
+          {
+            "code": "P50",
+            "label": "150 Feet of Polyurethane Cable",
+            "description": "150 Feet of Polyurethane Cable",
+            "constraints": {}
+          },
+          {
+            "code": "T25",
+            "label": "70 Feet of PTFE Cable",
+            "description": "70 Feet of PTFE Cable",
+            "constraints": {}
+          },
+          {
+            "code": "T34",
+            "label": "100 Feet of PTFE Cable",
+            "description": "100 Feet of PTFE Cable",
+            "constraints": {}
+          },
+          {
+            "code": "T50",
+            "label": "150 Feet of PTFE Cable",
+            "description": "150 Feet of PTFE Cable",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Opción",
+        "shortLabel": "Opción",
+        "helpText": "Selecciona Opción",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "LP",
+            "label": "Lighting Surge Protection box $ -",
+            "description": "Lighting Surge Protection box $ -",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Waste",
+            "label": "Water Submersible Level Transmitter Tek-Sub 4800D",
+            "description": "Water Submersible Level Transmitter Tek-Sub 4800D",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Price",
+            "description": "No. Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "instrument": {
+    "id": "tek_bar 3120s",
+    "name": "Tek-Bar 3120S",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Bar 3120S",
+    "description": "Configurator for Tek-Bar 3120S",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Pressure Ranges",
+        "shortLabel": "Pressure",
+        "helpText": "Selecciona Pressure Ranges",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "B015",
+            "label": "-14.7 to 0psi",
+            "description": "-14.7 to 0psi",
+            "constraints": {}
+          },
+          {
+            "code": "B160",
+            "label": "0 to 3psi",
+            "description": "0 to 3psi",
+            "constraints": {}
+          },
+          {
+            "code": "0005",
+            "label": "0 to 5psi $ -",
+            "description": "0 to 5psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0015",
+            "label": "0 to 15psi $ -",
+            "description": "0 to 15psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0030",
+            "label": "0 to 30psi $ -",
+            "description": "0 to 30psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0050",
+            "label": "0 to 50psi $ -",
+            "description": "0 to 50psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0100",
+            "label": "0 to 100psi $ -",
+            "description": "0 to 100psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0150",
+            "label": "0 to 150psi $ -",
+            "description": "0 to 150psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0200",
+            "label": "0 to 200psi $ -",
+            "description": "0 to 200psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0300",
+            "label": "0 to 300psi $ -",
+            "description": "0 to 300psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0500",
+            "label": "0 to 500psi $ -",
+            "description": "0 to 500psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "1000",
+            "label": "0 to 1000psi $ -",
+            "description": "0 to 1000psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3000",
+            "label": "0 to 3000psi $ -",
+            "description": "0 to 3000psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "5000",
+            "label": "0 to 5000psi $ -",
+            "description": "0 to 5000psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "8000",
+            "label": "0 to 8000psi $ -",
+            "description": "0 to 8000psi $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Pressure Type",
+        "shortLabel": "Pressure",
+        "helpText": "Selecciona Pressure Type",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "G",
+            "label": "Gauge Pressure $ -",
+            "description": "Gauge Pressure $ -",
+            "constraints": {}
+          },
+          {
+            "code": "A",
+            "label": "Absolute Pressure",
+            "description": "Absolute Pressure",
+            "constraints": {}
+          },
+          {
+            "code": "S",
+            "label": "Sealed Pressure $ -",
+            "description": "Sealed Pressure $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Output Signal",
+        "shortLabel": "Output",
+        "helpText": "Selecciona Output Signal",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "42",
+            "label": "4 to 20mA $ -",
+            "description": "4 to 20mA $ -",
+            "constraints": {}
+          },
+          {
+            "code": "05",
+            "label": "0 to 5VDC",
+            "description": "0 to 5VDC",
+            "constraints": {}
+          },
+          {
+            "code": "15",
+            "label": "1 to 5VDC",
+            "description": "1 to 5VDC",
+            "constraints": {}
+          },
+          {
+            "code": "10",
+            "label": "0 to 10VDC",
+            "description": "0 to 10VDC",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Precisión",
+        "shortLabel": "Precisión",
+        "helpText": "Selecciona Precisión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "10",
+            "label": "1.0% Full Scale",
+            "description": "1.0% Full Scale",
+            "constraints": {}
+          },
+          {
+            "code": "05",
+            "label": "0.5% Full Scale",
+            "description": "0.5% Full Scale",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión Eléctrica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "D",
+            "label": "Connector DIN43650 $ -",
+            "description": "Connector DIN43650 $ -",
+            "constraints": {}
+          },
+          {
+            "code": "H",
+            "label": "Hirschman Cable Outlet $ -",
+            "description": "Hirschman Cable Outlet $ -",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "Cable Outlet with PUR - Cable $ -",
+            "description": "Cable Outlet with PUR - Cable $ -",
+            "constraints": {}
+          },
+          {
+            "code": "M",
+            "label": "M-12 4pin $ -",
+            "description": "M-12 4pin $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "M2",
+            "label": "M20 X 1.5 (Male)",
+            "description": "M20 X 1.5 (Male)",
+            "constraints": {}
+          },
+          {
+            "code": "N1",
+            "label": "¼” NPT (Male) $ -",
+            "description": "¼” NPT (Male) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2BB",
+            "label": "Manifold, ½” FNPT X ½” MNPT, 316SS body,: 6000psig",
+            "description": "Manifold, ½” FNPT X ½” MNPT, 316SS body,: 6000psig, DBB",
+            "constraints": {}
+          },
+          {
+            "code": "G4",
+            "label": "G1/4 (Male)",
+            "description": "G1/4 (Male)",
+            "constraints": {}
+          },
+          {
+            "code": "F4",
+            "label": "G1/4 (Female)",
+            "description": "G1/4 (Female)",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

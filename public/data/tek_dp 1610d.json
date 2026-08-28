@@ -1,0 +1,511 @@
+{
+  "instrument": {
+    "id": "tek_dp 1610d",
+    "name": "Tek-DP 1610D",
+    "brand": "Tektrol",
+    "baseModel": "Tek-DP 1610D",
+    "description": "Configurator for Tek-DP 1610D",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Pipe Size",
+        "shortLabel": "Pipe",
+        "helpText": "Selecciona Pipe Size",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "015",
+            "label": "1/2\"",
+            "description": "1/2\"",
+            "constraints": {}
+          },
+          {
+            "code": "025",
+            "label": "1\"",
+            "description": "1\"",
+            "constraints": {}
+          },
+          {
+            "code": "040",
+            "label": "1 1/2\"",
+            "description": "1 1/2\"",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Cuerpo del Medidor",
+        "shortLabel": "Cuerpo",
+        "helpText": "Selecciona Cuerpo del Medidor",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "316L SS $ -",
+            "description": "316L SS $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Cédula de Tubería",
+        "shortLabel": "Cédula",
+        "helpText": "Selecciona Cédula de Tubería",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "STD (Standard Pipe SCH) $ -",
+            "description": "STD (Standard Pipe SCH) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "XX",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "Slip On RF",
+            "description": "Slip On RF",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "Weld Neck RF",
+            "description": "Weld Neck RF",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "Slip On RTJ",
+            "description": "Slip On RTJ",
+            "constraints": {}
+          },
+          {
+            "code": "D",
+            "label": "Weld Neck RTJ",
+            "description": "Weld Neck RTJ",
+            "constraints": {}
+          },
+          {
+            "code": "E",
+            "label": "Beveled End",
+            "description": "Beveled End",
+            "constraints": {}
+          },
+          {
+            "code": "F",
+            "label": "Socket",
+            "description": "Socket",
+            "constraints": {}
+          },
+          {
+            "code": "G",
+            "label": "NPTF $ -",
+            "description": "NPTF $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Clasificación de Presión",
+        "shortLabel": "Clasificación",
+        "helpText": "Selecciona Clasificación de Presión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "150#",
+            "description": "150#",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "300#",
+            "description": "300#",
+            "constraints": {}
+          },
+          {
+            "code": "03",
+            "label": "600#",
+            "description": "600#",
+            "constraints": {}
+          },
+          {
+            "code": "04",
+            "label": "900#",
+            "description": "900#",
+            "constraints": {}
+          },
+          {
+            "code": "05",
+            "label": "Threaded $ -",
+            "description": "Threaded $ -",
+            "constraints": {}
+          },
+          {
+            "code": "xx",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Material Placa Orificio",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material Placa Orificio",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "316 SST $ -",
+            "description": "316 SST $ -",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "Alloy C-276",
+            "description": "Alloy C-276",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Beta",
+        "shortLabel": "Beta",
+        "helpText": "Selecciona Beta",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "XX",
+            "label": "Orifice Beta $ -",
+            "description": "Orifice Beta $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Montaje",
+        "shortLabel": "Montaje",
+        "helpText": "Selecciona Montaje",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "D",
+            "label": "Direct Mount $ -",
+            "description": "Direct Mount $ -",
+            "constraints": {}
+          },
+          {
+            "code": "R",
+            "label": "Remote Mount",
+            "description": "Remote Mount",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "i",
+        "label": "Tomas Adicionales",
+        "shortLabel": "Tomas",
+        "helpText": "Selecciona Tomas Adicionales",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "None $ -",
+            "description": "None $ -",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "Temperature Tap (3D)",
+            "description": "Temperature Tap (3D)",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "Validation/Diagnostic Tap (6D)",
+            "description": "Validation/Diagnostic Tap (6D)",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "j",
+        "label": "Transmisores de Flujo",
+        "shortLabel": "Transmisores",
+        "helpText": "Selecciona Transmisores de Flujo",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "None (Customer Supplied) $ -",
+            "description": "None (Customer Supplied) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "Tek-Bar 3110 (Liquids) - Smart DP",
+            "description": "Tek-Bar 3110 (Liquids) - Smart DP",
+            "constraints": {}
+          },
+          {
+            "code": "03",
+            "label": "Tek-Bar 3800 (MVT Steam & Compressed Gases)",
+            "description": "Tek-Bar 3800 (MVT Steam & Compressed Gases)",
+            "constraints": {}
+          },
+          {
+            "code": "04",
+            "label": "Tek-FC 8000 (Natural Gas - Flow Computer)",
+            "description": "Tek-FC 8000 (Natural Gas - Flow Computer)",
+            "constraints": {}
+          },
+          {
+            "code": "05",
+            "label": "TekValsys DPRO (Flow Validation)",
+            "description": "TekValsys DPRO (Flow Validation)",
+            "constraints": {}
+          },
+          {
+            "code": "06",
+            "label": "TekValsys DPRO WFGM (Wet Gas)",
+            "description": "TekValsys DPRO WFGM (Wet Gas)",
+            "constraints": {}
+          },
+          {
+            "code": "XX",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "k",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "MTR",
+            "label": "Material Test Report EN3.1",
+            "description": "Material Test Report EN3.1",
+            "constraints": {}
+          },
+          {
+            "code": "MC",
+            "label": "Material Cert EN2.1",
+            "description": "Material Cert EN2.1",
+            "constraints": {}
+          },
+          {
+            "code": "PMI",
+            "label": "Positive Material Indetification (NDE)",
+            "description": "Positive Material Indetification (NDE)",
+            "constraints": {}
+          },
+          {
+            "code": "COC",
+            "label": "Certificate of Conformity",
+            "description": "Certificate of Conformity",
+            "constraints": {}
+          },
+          {
+            "code": "HYD",
+            "label": "Hydro Test",
+            "description": "Hydro Test",
+            "constraints": {}
+          },
+          {
+            "code": "XRT",
+            "label": "X-Ray",
+            "description": "X-Ray",
+            "constraints": {}
+          },
+          {
+            "code": "DPT",
+            "label": "Dye Penetrant",
+            "description": "Dye Penetrant",
+            "constraints": {}
+          },
+          {
+            "code": "MPT",
+            "label": "Magnetic Particle Testing",
+            "description": "Magnetic Particle Testing",
+            "constraints": {}
+          },
+          {
+            "code": "O2C",
+            "label": "O2 Clean",
+            "description": "O2 Clean",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "SS Tag Plate",
+            "description": "SS Tag Plate",
+            "constraints": {}
+          },
+          {
+            "code": "UMR",
+            "label": "Upstream Meter Run - 1PC",
+            "description": "Upstream Meter Run - 1PC",
+            "constraints": {}
+          },
+          {
+            "code": "DMR",
+            "label": "Downstream Meter Run - 1PC",
+            "description": "Downstream Meter Run - 1PC",
+            "constraints": {}
+          },
+          {
+            "code": "CDE",
+            "label": "Certified Drawing Electronic (As Built)",
+            "description": "Certified Drawing Electronic (As Built)",
+            "constraints": {}
+          },
+          {
+            "code": "MRB",
+            "label": "Manufacturing Record Book",
+            "description": "Manufacturing Record Book",
+            "constraints": {}
+          },
+          {
+            "code": "DFT",
+            "label": "Dry Film Thickness - Custom Paint Spec",
+            "description": "Dry Film Thickness - Custom Paint Spec",
+            "constraints": {}
+          },
+          {
+            "code": "CPC",
+            "label": "Custom Product Code",
+            "description": "Custom Product Code",
+            "constraints": {}
+          },
+          {
+            "code": "3WH",
+            "label": "3 Way Manifolds (Type H)",
+            "description": "3 Way Manifolds (Type H)",
+            "constraints": {}
+          },
+          {
+            "code": "5WH",
+            "label": "5 Way Manifolds (Type H)",
+            "description": "5 Way Manifolds (Type H)",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "PTFE",
+            "label": "Orifice Plate Flow Meter 1610H-T",
+            "description": "Orifice Plate Flow Meter 1610H-T",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "304SS",
+            "label": "Orifice Plate Flow Meter 1610H-S",
+            "description": "Orifice Plate Flow Meter 1610H-S",
+            "constraints": {}
+          },
+          {
+            "code": "PVC",
+            "label": "Orifice Plate Flow Meter 1610H-P",
+            "description": "Orifice Plate Flow Meter 1610H-P",
+            "constraints": {}
+          },
+          {
+            "code": "Cone",
+            "label": "Meter Tek-DP 1620A",
+            "description": "Meter Tek-DP 1620A",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

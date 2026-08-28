@@ -1,0 +1,201 @@
+{
+  "instrument": {
+    "id": "tek_thermal 1700b",
+    "name": "Tek-Thermal 1700B",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Thermal 1700B",
+    "description": "Configurator for Tek-Thermal 1700B",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "C",
+            "label": "Insertion (NPT) $ -",
+            "description": "Insertion (NPT) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Sonda de Inserción",
+        "shortLabel": "Sonda",
+        "helpText": "Selecciona Sonda de Inserción",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "4",
+            "label": "10\" Probe Length, 0.5\" Diameter, 1\" to 20\" Pipe Di",
+            "description": "10\" Probe Length, 0.5\" Diameter, 1\" to 20\" Pipe Diameter",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "2 to 200 ft/sec $ -",
+            "description": "2 to 200 ft/sec $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "1 to 100 ft/sec",
+            "description": "1 to 100 ft/sec",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "3 to 300 ft/sec",
+            "description": "3 to 300 ft/sec",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Transmisor",
+        "shortLabel": "Transmisor",
+        "helpText": "Selecciona Transmisor",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "T",
+            "label": "Direct Mount $ -",
+            "description": "Direct Mount $ -",
+            "constraints": {}
+          },
+          {
+            "code": "R",
+            "label": "Remote Mount (comes with 15 ft. of cable)",
+            "description": "Remote Mount (comes with 15 ft. of cable)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Material",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "2",
+            "label": "316 SS $ -",
+            "description": "316 SS $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Pressure",
+        "shortLabel": "Pressure",
+        "helpText": "Selecciona Pressure",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "230 PSI Max Pressure $ -",
+            "description": "230 PSI Max Pressure $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "7",
+            "label": "Pulse, 4-20mA, HART (only available for direct mou",
+            "description": "Pulse, 4-20mA, HART (only available for direct mount)",
+            "constraints": {}
+          },
+          {
+            "code": "8",
+            "label": "Pulse, 4-20mA, Modbus RS485 $ -",
+            "description": "Pulse, 4-20mA, Modbus RS485 $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Alimentación",
+        "shortLabel": "Alimentación",
+        "helpText": "Selecciona Alimentación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "13.5 to 42 VDC $ -",
+            "description": "13.5 to 42 VDC $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "i",
+        "label": "Diagnósticos",
+        "shortLabel": "Diagnósticos",
+        "helpText": "Selecciona Diagnósticos",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "B",
+            "label": "Bluetooth $ -",
+            "description": "Bluetooth $ -",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

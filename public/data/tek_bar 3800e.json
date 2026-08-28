@@ -1,0 +1,251 @@
+{
+  "instrument": {
+    "id": "tek_bar 3800e",
+    "name": "Tek-Bar 3800E",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Bar 3800E",
+    "description": "Configurator for Tek-Bar 3800E",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Precisión",
+        "shortLabel": "Precisión",
+        "helpText": "Selecciona Precisión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "B",
+            "label": "+/- 0.075% FS Accuracy $ -",
+            "description": "+/- 0.075% FS Accuracy $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Differential Pressure Range",
+        "shortLabel": "Differential",
+        "helpText": "Selecciona Differential Pressure Range",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "B",
+            "label": "0 to 24″ w.c. ( 0 to 6 kPa) $ -",
+            "description": "0 to 24″ w.c. ( 0 to 6 kPa) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "0 to 160″ w.c. ( 0 to 40 kPa) $ -",
+            "description": "0 to 160″ w.c. ( 0 to 40 kPa) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "D",
+            "label": "0 to 1000″ w.c. ( 0 to 250 kPa) $ -",
+            "description": "0 to 1000″ w.c. ( 0 to 250 kPa) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "E",
+            "label": "0 to 290 psid (0 to 2 MPa) $ -",
+            "description": "0 to 290 psid (0 to 2 MPa) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Static Pressure Range",
+        "shortLabel": "Static",
+        "helpText": "Selecciona Static Pressure Range",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "0 to 36psi ( 0 to 0.25 MPa) $ -",
+            "description": "0 to 36psi ( 0 to 0.25 MPa) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "0 to 290 psi (0 to 2 MPa) $ -",
+            "description": "0 to 290 psi (0 to 2 MPa) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "0 to 1450psi (0 to 10 MPa) $ -",
+            "description": "0 to 1450psi (0 to 10 MPa) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "4",
+            "label": "0 to 5800 psi (0 to 40 MPa) $ -",
+            "description": "0 to 5800 psi (0 to 40 MPa) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "A",
+            "label": "316L Stainless Steel, Silicone Oil $ -",
+            "description": "316L Stainless Steel, Silicone Oil $ -",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "316L Stainless Steel, Fluorinated Oil $ -",
+            "description": "316L Stainless Steel, Fluorinated Oil $ -",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "Hastelloy C, Silicone Oil $ -",
+            "description": "Hastelloy C, Silicone Oil $ -",
+            "constraints": {}
+          },
+          {
+            "code": "D",
+            "label": "Hastelloy C, Fluorinated Oil $ -",
+            "description": "Hastelloy C, Fluorinated Oil $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "B",
+            "label": "1/4\" Female NPT, Relief Valve $ -",
+            "description": "1/4\" Female NPT, Relief Valve $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Empaque de Proceso",
+        "shortLabel": "Empaque",
+        "helpText": "Selecciona Empaque de Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "F",
+            "label": "Fluoroeleastomer (FKM) $ -",
+            "description": "Fluoroeleastomer (FKM) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "P",
+            "label": "PTFE $ -",
+            "description": "PTFE $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Pantalla LCD",
+        "shortLabel": "Pantalla",
+        "helpText": "Selecciona Pantalla LCD",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "LCD Display $ -",
+            "description": "LCD Display $ -",
+            "constraints": {}
+          },
+          {
+            "code": "N",
+            "label": "No LCD Display",
+            "description": "No LCD Display",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "BF",
+            "label": "304SS Mounting Bracket",
+            "description": "304SS Mounting Bracket",
+            "constraints": {}
+          },
+          {
+            "code": "O",
+            "label": "1/2\" NPT Oval Flange Process Connection Adaptors",
+            "description": "1/2\" NPT Oval Flange Process Connection Adaptors",
+            "constraints": {}
+          },
+          {
+            "code": "3WF",
+            "label": "3-Way Manifold Valve",
+            "description": "3-Way Manifold Valve",
+            "constraints": {}
+          },
+          {
+            "code": "5WF",
+            "label": "5-Way Manifold",
+            "description": "5-Way Manifold",
+            "constraints": {}
+          },
+          {
+            "code": "FC",
+            "label": "Factory Configuration",
+            "description": "Factory Configuration",
+            "constraints": {}
+          },
+          {
+            "code": "Tag",
+            "label": "Custom Nameplate",
+            "description": "Custom Nameplate",
+            "constraints": {}
+          },
+          {
+            "code": "CC",
+            "label": "NIST Calibration, 5 Points",
+            "description": "NIST Calibration, 5 Points",
+            "constraints": {}
+          },
+          {
+            "code": "Page",
+            "label": "41",
+            "description": "41",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

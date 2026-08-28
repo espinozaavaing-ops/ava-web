@@ -1,0 +1,319 @@
+{
+  "instrument": {
+    "id": "tek_bar 3800xa",
+    "name": "Tek-Bar 3800XA",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Bar 3800XA",
+    "description": "Configurator for Tek-Bar 3800XA",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "span",
+            "label": "0.8\" H2O (0.2 Kpa)",
+            "description": "0.8\" H2O (0.2 Kpa)",
+            "constraints": {}
+          },
+          {
+            "code": "Min",
+            "label": "span 1.6\" H2O (0.4 Kpa)",
+            "description": "span 1.6\" H2O (0.4 Kpa)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Entrada de Sensor Temp.",
+        "shortLabel": "Entrada",
+        "helpText": "Selecciona Entrada de Sensor Temp.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": []
+      },
+      {
+        "stepId": "c",
+        "label": "Material Mojado / Fluido",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material Mojado / Fluido",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "K1",
+            "label": "Hastelloy C-276 / Silicone Oil ** Standard Option",
+            "description": "Hastelloy C-276 / Silicone Oil ** Standard Option $ -",
+            "constraints": {}
+          },
+          {
+            "code": "S1",
+            "label": "316L SS / Silicone Oil",
+            "description": "316L SS / Silicone Oil",
+            "constraints": {}
+          },
+          {
+            "code": "M2",
+            "label": "Monel. 400 / Inert Fluid - Galden",
+            "description": "Monel. 400 / Inert Fluid - Galden",
+            "constraints": {}
+          },
+          {
+            "code": "T2",
+            "label": "Tantalum / Inert Fluid - Galden",
+            "description": "Tantalum / Inert Fluid - Galden",
+            "constraints": {}
+          },
+          {
+            "code": "Y1",
+            "label": "Gold Plated Monel 400 / Silicone Oil",
+            "description": "Gold Plated Monel 400 / Silicone Oil",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Custom",
+            "description": "Custom",
+            "constraints": {}
+          },
+          {
+            "code": "d",
+            "label": "Process Connection",
+            "description": "Process Connection",
+            "constraints": {}
+          },
+          {
+            "code": "G",
+            "label": "1/4\" NPT female Monel 400 / NACE / horizontal conn",
+            "description": "1/4\" NPT female Monel 400 / NACE / horizontal connection",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Material de Pernos/Empaques",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material de Pernos/Empaques",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "3",
+            "label": "AISI 316 L SST / Viton",
+            "description": "AISI 316 L SST / Viton",
+            "constraints": {}
+          },
+          {
+            "code": "AISI",
+            "label": "316 L SST / PTFE Max 250 Bar / 3625 psi ** Standar",
+            "description": "316 L SST / PTFE Max 250 Bar / 3625 psi ** Standard",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Custom $",
+            "description": "Custom $",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión Eléctrica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "1/2\" NPT / Aluminium Alloy Epoxy Coated ** Standar",
+            "description": "1/2\" NPT / Aluminium Alloy Epoxy Coated ** Standard Option",
+            "constraints": {}
+          },
+          {
+            "code": "T",
+            "label": "M20 / AISI 316L SST",
+            "description": "M20 / AISI 316L SST",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "4-20 mA + Hart Digital Communication ** Standrd Op",
+            "description": "4-20 mA + Hart Digital Communication ** Standrd Option",
+            "constraints": {}
+          },
+          {
+            "code": "06",
+            "label": "RS485 Modbus RTU",
+            "description": "RS485 Modbus RTU",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Certificaciones",
+        "shortLabel": "Certificaciones",
+        "helpText": "Selecciona Certificaciones",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "X",
+            "label": "Custom",
+            "description": "Custom",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "i",
+        "label": "Pantalla",
+        "shortLabel": "Pantalla",
+        "helpText": "Selecciona Pantalla",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "L1",
+            "label": "With Integral LCD ** Standard Option $ -",
+            "description": "With Integral LCD ** Standard Option $ -",
+            "constraints": {}
+          },
+          {
+            "code": "L5",
+            "label": "Integral Display with Through the glass push butto",
+            "description": "Integral Display with Through the glass push button",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Tipo/Ubicación de Venteo",
+        "shortLabel": "Tipo/Ubicación",
+        "helpText": "Selecciona Tipo/Ubicación de Venteo",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "V1",
+            "label": "Side Vent $ -",
+            "description": "Side Vent $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "j",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "FC",
+            "label": "Factory Configuration, No Certificate",
+            "description": "Factory Configuration, No Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "BA",
+            "label": "Pipe Mounting Bracket (Remote Mount)",
+            "description": "Pipe Mounting Bracket (Remote Mount)",
+            "constraints": {}
+          },
+          {
+            "code": "ST",
+            "label": "Stabilization Tap for Direct Mount",
+            "description": "Stabilization Tap for Direct Mount",
+            "constraints": {}
+          },
+          {
+            "code": "3WR",
+            "label": "3-Way Manifold Valve (Remote Mount)",
+            "description": "3-Way Manifold Valve (Remote Mount)",
+            "constraints": {}
+          },
+          {
+            "code": "5WF",
+            "label": "5-Way Manifold Valve (Remote Mount)",
+            "description": "5-Way Manifold Valve (Remote Mount)",
+            "constraints": {}
+          },
+          {
+            "code": "5WC",
+            "label": "5-Way Manifold Valve (Compact Mount)",
+            "description": "5-Way Manifold Valve (Compact Mount)",
+            "constraints": {}
+          },
+          {
+            "code": "CC",
+            "label": "Custom Calibration with 5 point Calibration Certif",
+            "description": "Custom Calibration with 5 point Calibration Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "SS Hang Tag wired",
+            "description": "SS Hang Tag wired",
+            "constraints": {}
+          },
+          {
+            "code": "CPC",
+            "label": "Custom Product Code",
+            "description": "Custom Product Code",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Price",
+            "description": "No. Price",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Multivariable Transmitter / Flow Computer",
+            "description": "Number Multivariable Transmitter / Flow Computer",
+            "constraints": {}
+          },
+          {
+            "code": "Page",
+            "label": "44",
+            "description": "44",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

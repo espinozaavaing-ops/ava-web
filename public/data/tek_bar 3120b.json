@@ -1,0 +1,269 @@
+{
+  "instrument": {
+    "id": "tek_bar 3120b",
+    "name": "Tek-Bar 3120B",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Bar 3120B",
+    "description": "Configurator for Tek-Bar 3120B",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Tipos",
+        "shortLabel": "Tipos",
+        "helpText": "Selecciona Tipos",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "G",
+            "label": "Gauge Pressure $ -",
+            "description": "Gauge Pressure $ -",
+            "constraints": {}
+          },
+          {
+            "code": "A",
+            "label": "Absolute Pressure $ -",
+            "description": "Absolute Pressure $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "0 to 5 psig (G or A) (20:1 Turndown, Adj. Range: -",
+            "description": "0 to 5 psig (G or A) (20:1 Turndown, Adj. Range: -5 to 5psi) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "0",
+            "label": "to 30 psig (G or A) (20:1 Turndown, Adj. Range: -1",
+            "description": "to 30 psig (G or A) (20:1 Turndown, Adj. Range: -14.5 to",
+            "constraints": {}
+          },
+          {
+            "code": "2",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          },
+          {
+            "code": "3",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          },
+          {
+            "code": "4",
+            "label": "0 to 450 psig (G or A) (20:1 Turndown, Adj. Range:",
+            "description": "0 to 450 psig (G or A) (20:1 Turndown, Adj. Range: -14.5 to 450psi $ -",
+            "constraints": {}
+          },
+          {
+            "code": "5",
+            "label": "$ -",
+            "description": "$ -",
+            "constraints": {}
+          },
+          {
+            "code": "8",
+            "label": "0 to 3000psi (G) (4:1 Turndown, Adj. Range: 0 to 3",
+            "description": "0 to 3000psi (G) (4:1 Turndown, Adj. Range: 0 to 3000psi) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "6",
+            "label": "0 to 6000psi (G) (8:1 Turndown, Adj. Range: 0 to 6",
+            "description": "0 to 6000psi (G) (8:1 Turndown, Adj. Range: 0 to 6000psi) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "7",
+            "label": "0 to 10000psi (G) (2:1 Turndown, Adj. Range: 0 to",
+            "description": "0 to 10000psi (G) (2:1 Turndown, Adj. Range: 0 to 10000psi)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Certificación",
+        "shortLabel": "Certificación",
+        "helpText": "Selecciona Certificación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "WP",
+            "label": "General Purpose NEMA 4X/IP66 $ -",
+            "description": "General Purpose NEMA 4X/IP66 $ -",
+            "constraints": {}
+          },
+          {
+            "code": "CSA",
+            "label": "CSA Class 1 Div 1 Explosion-Proof",
+            "description": "CSA Class 1 Div 1 Explosion-Proof",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Conexiones a Proceso",
+        "shortLabel": "Conexiones",
+        "helpText": "Selecciona Conexiones a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "1/2\" NPT Male $ -",
+            "description": "1/2\" NPT Male $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Diaphragm Seal",
+            "description": "Diaphragm Seal",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Material del Diafragma",
+        "shortLabel": "Material",
+        "helpText": "Selecciona Material del Diafragma",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "HC",
+            "label": "Hastelloy C $ -",
+            "description": "Hastelloy C $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión Eléctrica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "1",
+            "label": "1/2\" NPT Female $ -",
+            "description": "1/2\" NPT Female $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "MOD",
+            "label": "Modbus RS485 Communication (4-Wire)",
+            "description": "Modbus RS485 Communication (4-Wire)",
+            "constraints": {}
+          },
+          {
+            "code": "MOD2",
+            "label": "Modbus RS485 +4 to 20mA (5-Wire)",
+            "description": "Modbus RS485 +4 to 20mA (5-Wire)",
+            "constraints": {}
+          },
+          {
+            "code": "CC",
+            "label": "Custom Calibration with 5 point Calibration Certif",
+            "description": "Custom Calibration with 5 point Calibration Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "2BB",
+            "label": "Manifold, ½” FNPT X ½” MNPT, 316SS body,: 6000psig",
+            "description": "Manifold, ½” FNPT X ½” MNPT, 316SS body,: 6000psig, DBB",
+            "constraints": {}
+          },
+          {
+            "code": "FC",
+            "label": "Factory Configuration, No Certificate",
+            "description": "Factory Configuration, No Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "BA",
+            "label": "Stainless Steel Bracket (Angle type) with SST Bolt",
+            "description": "Stainless Steel Bracket (Angle type) with SST Bolts",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "Custom Etching of the Name Plate (Must specify on",
+            "description": "Custom Etching of the Name Plate (Must specify on P.O.)",
+            "constraints": {}
+          },
+          {
+            "code": "IP68",
+            "label": "Submersible Rated",
+            "description": "Submersible Rated",
+            "constraints": {}
+          },
+          {
+            "code": "EA",
+            "label": "Extended Accuracy ± 0.04%",
+            "description": "Extended Accuracy ± 0.04%",
+            "constraints": {}
+          },
+          {
+            "code": "VDC",
+            "label": "1-5VDC Output",
+            "description": "1-5VDC Output",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "EXP",
+            "label": "Pressure Transmitter, 0 to 30 psig, LCD",
+            "description": "Pressure Transmitter, 0 to 30 psig, LCD",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Description Price",
+            "description": "No. Description Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}

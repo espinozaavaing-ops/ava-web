@@ -1,0 +1,220 @@
+{
+  "instrument": {
+    "id": "tek_wave 4300c_g",
+    "name": "Tek-Wave 4300C-G",
+    "brand": "Tektrol",
+    "baseModel": "Tek-Wave 4300C-G",
+    "description": "Configurator for Tek-Wave 4300C-G",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "a",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Selecciona Salida",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "4-20mA HART (2-wire) $ -",
+            "description": "4-20mA HART (2-wire) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "Modbus RS-485 (4-wire) $ -",
+            "description": "Modbus RS-485 (4-wire) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "b",
+        "label": "Límites de Presión",
+        "shortLabel": "Límites",
+        "helpText": "Selecciona Límites de Presión",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "-14.5 to 580psi (0.1 to 4Mpa) $ -",
+            "description": "-14.5 to 580psi (0.1 to 4Mpa) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "c",
+        "label": "Temp. de Proceso",
+        "shortLabel": "Temp.",
+        "helpText": "Selecciona Temp. de Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "Standard: - 40 to 300º F (- 40 to 150º C) $ -",
+            "description": "Standard: - 40 to 300º F (- 40 to 150º C) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "02",
+            "label": "High: - 40 to 482º F (- 40 to 250º C)",
+            "description": "High: - 40 to 482º F (- 40 to 250º C)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "d",
+        "label": "Conexión a Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión a Proceso",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "2\" NPT $ -",
+            "description": "2\" NPT $ -",
+            "constraints": {}
+          },
+          {
+            "code": "B",
+            "label": "3\" 150# ANSI Flange",
+            "description": "3\" 150# ANSI Flange",
+            "constraints": {}
+          },
+          {
+            "code": "C",
+            "label": "4\" 150# ANSI Flange",
+            "description": "4\" 150# ANSI Flange",
+            "constraints": {}
+          },
+          {
+            "code": "D",
+            "label": "3\" 300# ANSI Flange",
+            "description": "3\" 300# ANSI Flange",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special",
+            "description": "Special",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "e",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Conexión",
+        "helpText": "Selecciona Conexión Eléctrica",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "1/2\" NPT Female (two) $ -",
+            "description": "1/2\" NPT Female (two) $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special $ -",
+            "description": "Special $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "f",
+        "label": "Alimentación",
+        "shortLabel": "Alimentación",
+        "helpText": "Selecciona Alimentación",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "A",
+            "label": "16 to 26 VDC $ -",
+            "description": "16 to 26 VDC $ -",
+            "constraints": {}
+          },
+          {
+            "code": "X",
+            "label": "Special $ -",
+            "description": "Special $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "g",
+        "label": "Rango",
+        "shortLabel": "Rango",
+        "helpText": "Selecciona Rango",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "01",
+            "label": "90 feet (30 Meters) $ -",
+            "description": "90 feet (30 Meters) $ -",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "h",
+        "label": "Opciones",
+        "shortLabel": "Opciones",
+        "helpText": "Selecciona Opciones",
+        "required": false,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "FC",
+            "label": "Factory Configuration, No Certificate",
+            "description": "Factory Configuration, No Certificate",
+            "constraints": {}
+          },
+          {
+            "code": "TAG",
+            "label": "Stainless Steel Hang Tag",
+            "description": "Stainless Steel Hang Tag",
+            "constraints": {}
+          },
+          {
+            "code": "Model",
+            "label": "Number Description Price",
+            "description": "Number Description Price",
+            "constraints": {}
+          },
+          {
+            "code": "Part",
+            "label": "No. Price",
+            "description": "No. Price",
+            "constraints": {}
+          }
+        ]
+      }
+    ]
+  }
+}
