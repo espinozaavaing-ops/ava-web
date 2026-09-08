@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import QuoteForm from './QuoteForm';
+import { useQuoteCart } from '../../context/QuoteContext';
 
 export default function CatalogGrid({ onSelectInstrument }) {
   const [catalog, setCatalog] = useState([]);
   const [error, setError] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('Todos');
   const [quoteProduct, setQuoteProduct] = useState(null);
+
+  const { addToCart } = useQuoteCart();
 
   useEffect(() => {
     fetch('/data/catalog.json')
@@ -16,6 +19,22 @@ export default function CatalogGrid({ onSelectInstrument }) {
       .then(data => setCatalog(data))
       .catch(err => setError(err.message));
   }, []);
+
+  const handleAddToCartDirect = (item) => {
+    const itemCategory = item.category || 'Telecomunicaciones';
+    
+    const cartItem = {
+      id: item.id || `item-${item.name.toLowerCase().replace(/\s+/g, '-')}`,
+      name: item.name,
+      image: item.image ? `/${item.image}` : '/img/catalog/pressure.png',
+      description: item.description || 'Equipo de alta confiabilidad para procesos industriales y comunicaciones.',
+      category: itemCategory,
+      quantity: 1
+    };
+
+    addToCart(cartItem);
+    alert(`¡${item.name} agregado a la lista de cotización!`);
+  };
 
   if (error) {
     return (
@@ -103,10 +122,10 @@ export default function CatalogGrid({ onSelectInstrument }) {
                     </button>
                   ) : (
                     <button 
-                      onClick={() => setQuoteProduct(item)}
-                      className="w-full py-2 bg-green-700 text-white font-medium rounded hover:bg-green-600 transition-colors"
+                      onClick={() => handleAddToCartDirect(item)}
+                      className="w-full py-2 bg-emerald-600 text-white font-medium rounded hover:bg-emerald-700 transition-colors flex items-center justify-center gap-2"
                     >
-                      Solicitar Cotización
+                      🛒 Agregar a Cotización
                     </button>
                   )}
                 </div>
@@ -116,7 +135,7 @@ export default function CatalogGrid({ onSelectInstrument }) {
         </div>
       )}
 
-      {/* Modal de Cotización Directa para Productos Estándar */}
+      {/* Modal de Cotización Directa (Fallback opcional) */}
       {quoteProduct && (
         <QuoteForm 
           modelCode={quoteProduct.name} 

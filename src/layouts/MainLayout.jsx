@@ -1,20 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import NavBar from '../components/NavBar';
 import SiteFooter from '../components/SiteFooter';
 import { QuoteCartModal } from '../components/Builder/QuoteCartModal';
+import { useQuoteCart } from '../context/QuoteContext';
 
 export default function MainLayout({ children }) {
-  const [isCartOpen, setIsCartOpen] = useState(false);
-
-  const handleProceedToCheckout = () => {
-    setIsCartOpen(false);
-    // Redirige al contacto o abre el formulario final de cotización
-    window.location.href = '/contact';
-  };
+  const { isCartOpen, closeCart } = useQuoteCart();
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <NavBar onOpenCart={() => setIsCartOpen(true)} />
+      <NavBar />
       
       <main style={{ flex: 1 }}>
         {children}
@@ -22,11 +17,10 @@ export default function MainLayout({ children }) {
 
       <SiteFooter />
 
-      {/* Modal del Carrito Global */}
+      {/* Modal del Carrito Global controlado por QuoteContext */}
       <QuoteCartModal 
         isOpen={isCartOpen} 
-        onClose={() => setIsCartOpen(false)} 
-        onProceedToCheckout={handleProceedToCheckout}
+        onClose={closeCart} 
       />
     </div>
   );

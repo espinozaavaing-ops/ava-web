@@ -1,96 +1,182 @@
 import React, { useState } from 'react';
 
-export default function QuoteForm({ modelCode, imageSrc, onClose }) {
+export default function QuoteForm({ cartItems = [], onSuccess, onBack }) {
   const [formData, setFormData] = useState({
-    nombre: '',
-    empresa: '',
+    fullName: '',
+    company: '',
     email: '',
-    telefono: '',
-    detalles: ''
+    phone: '',
+    details: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(`Cotización enviada con éxito para el modelo: ${modelCode}\nPronto un ingeniero se pondrá en contacto.`);
-    onClose();
+    setIsSubmitting(true);
+
+    try {
+      // Aquí se enviaría la data al backend/Nodemailer
+      console.log('Enviando cotización con items:', cartItems, 'y datos:', formData);
+      
+      // Simulación de envío exitoso
+      setTimeout(() => {
+        setIsSubmitting(false);
+        if (onSuccess) onSuccess();
+      }, 1000);
+    } catch (error) {
+      console.error('Error al enviar cotización:', error);
+      setIsSubmitting(false);
+    }
   };
+
+  // Determinar la imagen principal a mostrar en el panel izquierdo
+  const firstItemImage = cartItems.length > 0 && cartItems[0].image ? cartItems[0].image : null;
 
   return (
-    <div className="fixed inset-0 bg-black/60 z-50 flex justify-center items-center p-4 backdrop-blur-sm">
-      <div className="bg-white rounded-xl shadow-2xl w-full max-w-4xl overflow-hidden flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row gap-6 bg-white rounded-lg">
+      
+      {/* Panel Izquierdo: Resumen dinámico y Marca */}
+      <div className="w-full md:w-1/3 bg-slate-50 p-5 rounded-lg border border-slate-200 flex flex-col items-center text-center">
+        {/* Logo de Ava Ingeniería */}
+        <div className="h-14 flex items-center justify-center mb-4">
+          <img 
+            src="/assets/ORIGINAL.png" 
+            alt="AVA Ingeniería" 
+            className="max-h-full w-auto object-contain"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = '/ORIGINAL.png';
+            }}
+          />
+        </div>
+
+        <h3 className="font-bold text-gray-800 text-lg mb-1">
+          {cartItems.length > 1 ? 'Resumen de Cotización' : 'Detalles de la Solicitud'}
+        </h3>
         
-        {/* Left Side: Summary */}
-        <div className="bg-gray-50 p-8 md:w-1/3 border-b md:border-b-0 md:border-r border-gray-200 flex flex-col items-center text-center">
-          <img src="/LOGO AVA INGENIERIA/LOGOS/Original-01.png" alt="AVA Ingeniería" className="h-12 mb-6 object-contain" />
-          <h3 className="text-xl font-bold text-gray-800 mb-2">Resumen de Configuración</h3>
-          <p className="text-sm text-gray-500 mb-6">Su instrumento personalizado</p>
-          
-          <div className="bg-white p-4 rounded-lg shadow-inner w-full mb-6 border border-gray-200">
-            <div className="text-xs text-gray-500 mb-1">CÓDIGO GENERADO:</div>
-            <div className="font-mono text-lg font-bold text-blue-900 break-all">{modelCode}</div>
+        <p className="text-xs text-gray-500 mb-4">
+          {cartItems.length > 0 
+            ? `${cartItems.length} producto(s) en la lista` 
+            : 'Solicitud B2B directa'}
+        </p>
+
+        {/* Vista dinámica de imágenes / lista */}
+        <div className="w-full bg-white p-3 rounded-md border border-gray-200 mb-4 text-left max-h-48 overflow-y-auto">
+          {cartItems.length > 0 ? (
+            <ul className="space-y-2 divide-y divide-gray-100">
+              {cartItems.map((item) => (
+                <li key={item.cartItemId || item.id} className="pt-2 first:pt-0 flex justify-between items-center text-xs">
+                  <span className="font-medium text-gray-700 truncate pr-2">{item.name}</span>
+                  <span className="bg-slate-100 text-slate-700 font-bold px-1.5 py-0.5 rounded text-[10px]">
+                    x{item.quantity}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-xs text-gray-400 text-center py-4">Sin productos seleccionados</p>
+          )}
+        </div>
+
+        {/* Muestra la imagen individual solo si existe 1 producto con imagen específica */}
+        {cartItems.length === 1 && firstItemImage && (
+          <div className="w-32 h-32 mx-auto flex items-center justify-center p-2 bg-white rounded border">
+            <img src={firstItemImage} alt={cartItems[0].name} className="max-h-full max-w-full object-contain" />
           </div>
-          
-          <img src={imageSrc || '/img/apt3100.png'} alt="Instrumento" className="max-w-[200px] object-contain drop-shadow-md" />
-        </div>
-
-        {/* Right Side: Form */}
-        <div className="p-8 md:w-2/3 relative">
-          <button 
-            onClick={onClose}
-            className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none w-8 h-8 rounded-full hover:bg-gray-100 flex items-center justify-center transition-colors"
-          >
-            &times;
-          </button>
-          
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">Solicitar Cotización Formal</h2>
-          
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Nombre Completo *</label>
-                <input required type="text" name="nombre" value={formData.nombre} onChange={handleChange} className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-900 focus:border-blue-900 outline-none transition-shadow" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Empresa *</label>
-                <input required type="text" name="empresa" value={formData.empresa} onChange={handleChange} className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-900 focus:border-blue-900 outline-none transition-shadow" />
-              </div>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Correo Electrónico *</label>
-                <input required type="email" name="email" value={formData.email} onChange={handleChange} className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-900 focus:border-blue-900 outline-none transition-shadow" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Teléfono</label>
-                <input type="tel" name="telefono" value={formData.telefono} onChange={handleChange} className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-900 focus:border-blue-900 outline-none transition-shadow" />
-              </div>
-            </div>
-            
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Detalles Adicionales del Proyecto</label>
-              <textarea rows="4" name="detalles" value={formData.detalles} onChange={handleChange} className="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-900 focus:border-blue-900 outline-none transition-shadow resize-y"></textarea>
-            </div>
-            
-            <div className="pt-4 flex justify-end gap-3 border-t border-gray-100">
-              <button type="button" onClick={onClose} className="px-6 py-2 border border-gray-300 text-gray-700 rounded hover:bg-gray-50 font-medium transition-colors">
-                Cancelar
-              </button>
-              <button type="submit" className="px-6 py-2 bg-green-600 text-white rounded hover:bg-green-500 font-medium shadow-md hover:shadow-lg transition-all">
-                Enviar Solicitud B2B
-              </button>
-            </div>
-          </form>
-        </div>
-
+        )}
       </div>
+
+      {/* Panel Derecho: Formulario */}
+      <div className="w-full md:w-2/3">
+        <h2 className="text-xl font-bold text-gray-800 mb-4">Solicitar Cotización Formal</h2>
+        
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs font-semibold text-gray-700 mb-1">Nombre Completo *</label>
+              <input
+                type="text"
+                name="fullName"
+                required
+                value={formData.fullName}
+                onChange={handleChange}
+                className="w-full p-2 text-sm border rounded-md focus:ring-1 focus:ring-emerald-500 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-gray-700 mb-1">Empresa *</label>
+              <input
+                type="text"
+                name="company"
+                required
+                value={formData.company}
+                onChange={handleChange}
+                className="w-full p-2 text-sm border rounded-md focus:ring-1 focus:ring-emerald-500 focus:outline-none"
+              />
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs font-semibold text-gray-700 mb-1">Correo Electrónico *</label>
+              <input
+                type="email"
+                name="email"
+                required
+                value={formData.email}
+                onChange={handleChange}
+                className="w-full p-2 text-sm border rounded-md focus:ring-1 focus:ring-emerald-500 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-gray-700 mb-1">Teléfono</label>
+              <input
+                type="tel"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                className="w-full p-2 text-sm border rounded-md focus:ring-1 focus:ring-emerald-500 focus:outline-none"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className="block text-xs font-semibold text-gray-700 mb-1">Detalles Adicionales del Proyecto</label>
+            <textarea
+              name="details"
+              rows="3"
+              value={formData.details}
+              onChange={handleChange}
+              placeholder="Indica condiciones de entrega, ubicación de la obra o especificaciones adicionales..."
+              className="w-full p-2 text-sm border rounded-md focus:ring-1 focus:ring-emerald-500 focus:outline-none"
+            ></textarea>
+          </div>
+
+          <div className="flex justify-end gap-3 pt-2">
+            {onBack && (
+              <button
+                type="button"
+                onClick={onBack}
+                className="px-4 py-2 border rounded-md text-gray-600 hover:bg-gray-100 text-sm font-medium"
+              >
+                Volver
+              </button>
+            )}
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="px-6 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 text-sm font-bold transition-colors disabled:opacity-50"
+            >
+              {isSubmitting ? 'Enviando...' : 'Enviar Solicitud B2B'}
+            </button>
+          </div>
+        </form>
+      </div>
+
     </div>
   );
 }

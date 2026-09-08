@@ -4,16 +4,26 @@ import { useQuoteCart } from '../context/QuoteContext';
 export default function ProductCard({ product }) {
   const { addToCart } = useQuoteCart();
 
+  const title = product.title || product.name || product.nombre || 'Producto';
+  const image = product.img || product.image || product.imagen;
+  const description = product.desc || product.description || product.descripcion;
+  const category = product.category || product.categoria;
+
   const handleAddToCart = (e) => {
     e.stopPropagation();
-    addToCart(product);
-    alert(`¡${product.name || product.titulo || 'Producto'} agregado a la lista de cotización!`);
-  };
 
-  const title = product.name || product.titulo || product.nombre;
-  const image = product.image || product.imagen || product.img;
-  const description = product.description || product.descripcion;
-  const category = product.category || product.categoria;
+    const cartItem = {
+      id: product.id || title.toLowerCase().replace(/\s+/g, '-'),
+      name: title,
+      image: image,
+      description: description,
+      category: category || 'General',
+      quantity: 1
+    };
+
+    addToCart(cartItem);
+    alert(`¡${title} agregado a la lista de cotización!`);
+  };
 
   return (
     <div className="bg-white rounded-lg border border-gray-200 shadow-sm overflow-hidden flex flex-col h-full hover:shadow-md transition-shadow">
@@ -42,7 +52,7 @@ export default function ProductCard({ product }) {
         <div className="mt-auto pt-4 border-t border-gray-100">
           <button
             onClick={handleAddToCart}
-            className="w-full py-2.5 px-4 bg-blue-900 hover:bg-blue-800 text-white font-bold rounded-md text-sm transition-colors flex items-center justify-center gap-2 shadow-sm"
+            className="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-md text-sm transition-colors flex items-center justify-center gap-2 shadow-sm"
           >
             🛒 Agregar a Cotización
           </button>

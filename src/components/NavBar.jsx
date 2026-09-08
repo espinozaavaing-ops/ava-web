@@ -9,14 +9,14 @@ import images from '../images.json';
 const { Header } = Layout;
 const { useBreakpoint } = Grid;
 
-export default function NavBar({ onOpenCart }) {
+export default function NavBar() {
   const location = useLocation();
   const navigate = useNavigate();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const screens = useBreakpoint();
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const { cart } = useQuoteCart();
+  const { cart, openCart } = useQuoteCart();
   const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
 
   useEffect(() => {
@@ -99,7 +99,7 @@ export default function NavBar({ onOpenCart }) {
               <Badge count={totalItems} overflowCount={99} showZero={false}>
                 <Button 
                   icon={<ShoppingCartOutlined style={{ fontSize: 18 }} />} 
-                  onClick={onOpenCart}
+                  onClick={openCart}
                 >
                   Cotización
                 </Button>
@@ -116,7 +116,7 @@ export default function NavBar({ onOpenCart }) {
               <Button
                 type="text"
                 icon={<ShoppingCartOutlined style={{ fontSize: 22 }} />}
-                onClick={onOpenCart}
+                onClick={openCart}
               />
             </Badge>
             <Button
@@ -150,7 +150,7 @@ export default function NavBar({ onOpenCart }) {
               block
               icon={<ShoppingCartOutlined />}
               onClick={() => {
-                onOpenCart();
+                openCart();
                 setDrawerOpen(false);
               }}
             >

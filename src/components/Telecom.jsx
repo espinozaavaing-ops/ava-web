@@ -27,14 +27,21 @@ export default function Telecom() {
     navigate(`/services/telecomunicaciones/${key}`);
   };
 
-  const handleAddToCart = (product) => {
-    addToCart({
+  const handleAddToCart = (e, product) => {
+    e.stopPropagation();
+    console.log("Agregando producto de telecom al carrito:", product);
+
+    const cartItem = {
+      id: product.id || `telecom-${(product.title || product.name || 'item').toLowerCase().replace(/\s+/g, '-')}`,
       name: product.title || product.name,
       image: product.img || product.image,
       description: product.desc || product.description,
-      category: currentCategoryData.title
-    });
-    alert(`¡${product.title || product.name} agregado a la lista de cotización!`);
+      category: currentCategoryData.title || 'Telecomunicaciones',
+      quantity: 1
+    };
+
+    addToCart(cartItem);
+    alert(`¡${cartItem.name} agregado a la lista de cotización!`);
   };
 
   return (
@@ -85,7 +92,7 @@ export default function Telecom() {
             {currentCategoryData.products.length > 0 ? (
               <Row gutter={[20, 20]}>
                 {currentCategoryData.products.map((product, idx) => (
-                  <Col xs={24} sm={12} lg={8} key={idx}>
+                  <Col xs={24} sm={12} lg={8} key={product.id || idx}>
                     <Card
                       hoverable
                       className="product-catalog-card"
@@ -107,7 +114,7 @@ export default function Telecom() {
                           <Button 
                             type="primary" 
                             icon={<ShoppingCartOutlined />}
-                            onClick={() => handleAddToCart(product)}
+                            onClick={(e) => handleAddToCart(e, product)}
                             style={{ backgroundColor: '#059669', borderColor: '#059669', fontWeight: 'bold' }}
                           >
                             Agregar a Cotización
