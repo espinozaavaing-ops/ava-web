@@ -16,15 +16,18 @@ export const QuoteProvider = ({ children }) => {
     const productImage = product.image || product.img || product.imagen;
     const productCategory = product.category || product.categoria || 'General';
     
-    const cartItemId = config ? `${productId}-${config.generatedCode}` : (product.cartItemId || productId);
+    const generatedCode = config?.generatedCode || '';
+    const cartItemId = `${productId}-${generatedCode}`;
 
     setCart((prevCart) => {
-      const existingIndex = prevCart.findIndex((item) => item.cartItemId === cartItemId);
+      const existingItem = prevCart.find((item) => item.cartItemId === cartItemId);
 
-      if (existingIndex > -1) {
-        const updated = [...prevCart];
-        updated[existingIndex].quantity += (product.quantity || 1);
-        return updated;
+      if (existingItem) {
+        return prevCart.map((item) =>
+          item.cartItemId === cartItemId
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
       }
 
       return [
@@ -34,8 +37,8 @@ export const QuoteProvider = ({ children }) => {
           id: productId,
           name: productName,
           category: productCategory,
-          reference: config?.generatedCode || productName,
-          quantity: product.quantity || 1,
+          reference: generatedCode || productName,
+          quantity: 1,
           image: productImage,
           description: product.description || product.desc
         }

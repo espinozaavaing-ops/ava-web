@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useConfigurator } from './useConfigurator';
 import Timeline from './Timeline';
 import ConfigPanel from './ConfigPanel';
@@ -7,6 +7,7 @@ import { useQuoteCart } from '../../context/QuoteContext';
 export default function InstrumentBuilder({ instrumentPath, instrumentImage, onBackToCatalog }) {
   const configurator = useConfigurator();
   const { addToCart } = useQuoteCart();
+  const [isAddingToCart, setIsAddingToCart] = useState(false);
 
   // Cargar datos del instrumento cuando cambie la ruta
   React.useEffect(() => {
@@ -36,13 +37,20 @@ export default function InstrumentBuilder({ instrumentPath, instrumentImage, onB
   const currentStep = configurator.steps[configurator.currentStepIndex];
 
   // Función para guardar el equipo configurado en el carrito global
-  const handleAddToCart = () => {
+  const handleAddToCart = (e) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    if (isAddingToCart) return;
+    setIsAddingToCart(true);
+
     addToCart(configurator.data.instrument, {
       generatedCode: configurator.modelCode,
       details: configurator.selections,
     });
     alert(`¡${configurator.data.instrument.name} (${configurator.modelCode}) agregado a la lista de cotización!`);
-    
+
     if (onBackToCatalog) {
       onBackToCatalog();
     }
@@ -98,9 +106,10 @@ export default function InstrumentBuilder({ instrumentPath, instrumentImage, onB
               </div>
             </div>
             {configurator.isComplete && (
-              <button 
+              <button
                 onClick={handleAddToCart}
-                className="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-2"
+                disabled={isAddingToCart}
+                className="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 🛒 Agregar a Cotización
               </button>
@@ -118,9 +127,8 @@ export default function InstrumentBuilder({ instrumentPath, instrumentImage, onB
             onPrev={configurator.prevStep}
             isFirst={configurator.currentStepIndex === 0}
             isLast={configurator.currentStepIndex === configurator.steps.length - 1}
-            product={configurator.data.instrument}
-            generatedCode={configurator.modelCode}
             onFinish={handleAddToCart}
+            isSubmitting={isAddingToCart}
           />
         </div>
 

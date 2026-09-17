@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import QuoteForm from './QuoteForm';
 import { useQuoteCart } from '../../context/QuoteContext';
+
+const DEFAULT_CATEGORY = 'Instrumentación';
+const FALLBACK_IMAGE = '/img/catalog/pressure.png';
+
+const getImageSrc = (image) => (image ? `/${image.replace(/^\/+/, '')}` : FALLBACK_IMAGE);
 
 export default function CatalogGrid({ onSelectInstrument }) {
   const [catalog, setCatalog] = useState([]);
   const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('Todos');
-  const [quoteProduct, setQuoteProduct] = useState(null);
 
   const { addToCart } = useQuoteCart();
 
@@ -17,16 +21,17 @@ export default function CatalogGrid({ onSelectInstrument }) {
         return res.json();
       })
       .then(data => setCatalog(data))
-      .catch(err => setError(err.message));
+      .catch(err => setError(err.message))
+      .finally(() => setIsLoading(false));
   }, []);
 
   const handleAddToCartDirect = (item) => {
-    const itemCategory = item.category || 'Telecomunicaciones';
-    
+    const itemCategory = item.category || DEFAULT_CATEGORY;
+
     const cartItem = {
-      id: item.id || `item-${item.name.toLowerCase().replace(/\s+/g, '-')}`,
+      id: item.id || `item-${(item.name || 'producto').toLowerCase().replace(/\s+/g, '-')}`,
       name: item.name,
-      image: item.image ? `/${item.image}` : '/img/catalog/pressure.png',
+      image: getImageSrc(item.image),
       description: item.description || 'Equipo de alta confiabilidad para procesos industriales y comunicaciones.',
       category: itemCategory,
       quantity: 1
@@ -45,7 +50,7 @@ export default function CatalogGrid({ onSelectInstrument }) {
     );
   }
 
-  if (catalog.length === 0) {
+  if (isLoading) {
     return <div className="text-center p-16 text-gray-500">Cargando catálogo...</div>;
   }
 
@@ -53,7 +58,7 @@ export default function CatalogGrid({ onSelectInstrument }) {
 
   const filteredCatalog = catalog.filter(item => {
     if (selectedCategory === 'Todos') return true;
-    const category = item.category || 'Instrumentación';
+    const category = item.category || DEFAULT_CATEGORY;
     return category.toLowerCase() === selectedCategory.toLowerCase();
   });
 
@@ -88,18 +93,18 @@ export default function CatalogGrid({ onSelectInstrument }) {
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {filteredCatalog.map(item => {
+          {filteredCatalog.map((item, index) => {
             const isConfigurable = item.configurable !== false && Boolean(item.file);
-            const itemCategory = item.category || 'Instrumentación';
+            const itemCategory = item.category || DEFAULT_CATEGORY;
 
             return (
-              <div 
-                key={item.id} 
+              <div
+                key={item.id || `catalog-item-${index}`}
                 className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-gray-100 flex flex-col"
               >
-                <div 
+                <div
                   className="h-48 w-full bg-cover bg-center bg-no-repeat bg-gray-50 border-b border-gray-100"
-                  style={{ backgroundImage: `url('/${item.image || 'img/catalog/pressure.png'}')` }}
+                  style={{ backgroundImage: `url('${getImageSrc(item.image)}')` }}
                 ></div>
 
                 <div className="p-5 flex-grow flex flex-col justify-between">
@@ -133,15 +138,6 @@ export default function CatalogGrid({ onSelectInstrument }) {
             );
           })}
         </div>
-      )}
-
-      {/* Modal de Cotización Directa (Fallback opcional) */}
-      {quoteProduct && (
-        <QuoteForm 
-          modelCode={quoteProduct.name} 
-          imageSrc={quoteProduct.image ? `/${quoteProduct.image}` : '/img/catalog/pressure.png'}
-          onClose={() => setQuoteProduct(null)} 
-        />
       )}
     </div>
   );

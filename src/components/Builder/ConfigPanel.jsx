@@ -1,34 +1,31 @@
 import React from 'react';
-import { useQuoteCart } from '../../context/QuoteContext';
 
-export default function ConfigPanel({ 
-  step, 
-  selections, 
-  onSelectOption, 
-  onNext, 
-  onPrev, 
-  isFirst, 
-  isLast, 
+export default function ConfigPanel({
+  step,
+  selections,
+  onSelectOption,
+  onNext,
+  onPrev,
+  isFirst,
+  isLast,
   onFinish,
-  product,
-  generatedCode
+  isSubmitting = false
 }) {
-  const { addToCart } = useQuoteCart();
-
   if (!step) return null;
 
   const currentSelections = selections[step.stepId] || [];
   const canProceed = !step.required || currentSelections.length > 0;
 
-  const handleFinish = () => {
-    if (product) {
-      addToCart(product, {
-        generatedCode: generatedCode || product.name,
-        details: selections
-      });
+  // La adición real al carrito ocurre una sola vez, en InstrumentBuilder.handleAddToCart
+  // (recibido aquí como onFinish). Este panel solo debe delegar el evento, nunca llamar
+  // addToCart directamente, para evitar duplicar la línea del carrito en un solo clic.
+  const handleFinish = (e) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
     }
     if (onFinish) {
-      onFinish();
+      onFinish(e);
     }
   };
 
@@ -92,10 +89,10 @@ export default function ConfigPanel({
             Siguiente
           </button>
         ) : (
-          <button 
+          <button
             onClick={handleFinish}
-            disabled={!canProceed}
-            className={`px-8 py-2.5 rounded font-medium transition-colors ${canProceed ? 'bg-emerald-600 text-white hover:bg-emerald-500 shadow-md hover:shadow-lg' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
+            disabled={!canProceed || isSubmitting}
+            className={`px-8 py-2.5 rounded font-medium transition-colors ${canProceed && !isSubmitting ? 'bg-emerald-600 text-white hover:bg-emerald-500 shadow-md hover:shadow-lg' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
           >
             🛒 Agregar a Cotización
           </button>
