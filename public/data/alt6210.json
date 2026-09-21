@@ -1,0 +1,73 @@
+{
+  "instrument": {
+    "id": "alt6210",
+    "name": "Transmisor de Nivel de Radar Inteligente Autrol ALT 6210",
+    "brand": "Autrol / Duon System",
+    "baseModel": "ALT 6210",
+    "description": "Transmisor de nivel por radar de pulsos de 26 GHz, sin contacto, de 2 hilos, con ángulo de haz estrecho, para líquidos y lodos en condiciones exigentes de proceso.",
+    "features": [
+      "Precisión: ±3 mm",
+      "Ángulo de haz estrecho y recto: 10°",
+      "Antena resistente a la condensación, mínimo mantenimiento",
+      "Temperatura de funcionamiento: -40 a 80°C (-104 a 176°F)",
+      "Alimentación y carga: 250 a 360 ohmios a 24 V CC, alimentación por bucle"
+    ],
+    "steps": [
+      {
+        "stepId": "tipo_antena",
+        "label": "Tipo de Antena",
+        "shortLabel": "Antena",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione el tipo y tamaño de antena según el tanque y la aplicación.",
+        "options": [
+          { "code": "H2", "label": "Antena de Bocina 2\"", "description": "Antena de bocina de 2 pulgadas.", "constraints": {} },
+          { "code": "H3", "label": "Antena de Bocina 3\"", "description": "Antena de bocina de 3 pulgadas.", "constraints": {} },
+          { "code": "H4", "label": "Antena de Bocina 4\"", "description": "Antena de bocina de 4 pulgadas.", "constraints": {} },
+          { "code": "S3", "label": "Antena Sellada 3\"", "description": "Antena sellada de 3 pulgadas.", "constraints": {} },
+          { "code": "S4", "label": "Antena Sellada 4\"", "description": "Antena sellada de 4 pulgadas.", "constraints": {} },
+          { "code": "ENC", "label": "Antena Encapsulada", "description": "Antena encapsulada para ambientes agresivos.", "constraints": {} },
+          { "code": "PARAB", "label": "Antena Parabólica", "description": "Antena parabólica de alta directividad.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "alcance",
+        "label": "Alcance de Medición",
+        "shortLabel": "Alcance",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Alcance estándar u opcional extendido.",
+        "options": [
+          { "code": "R30", "label": "Estándar (0.5 a 30 m)", "description": "Alcance estándar de fábrica.", "constraints": {} },
+          { "code": "R70", "label": "Extendido (hasta 70 m)", "description": "Alcance extendido opcional.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Protocolo de comunicación digital disponible.",
+        "options": [
+          { "code": "HART", "label": "HART", "description": "4-20 mA DC con comunicación digital HART.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion_proteccion",
+        "label": "Certificación y Protección",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Certificación y grado de protección disponibles para este modelo.",
+        "options": [
+          { "code": "CE_ROHS_IP66", "label": "CE, RoHS, IP66/67", "description": "Conformidad CE, RoHS y protección de envolvente IP66/IP67.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

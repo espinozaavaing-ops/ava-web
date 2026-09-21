@@ -1,0 +1,65 @@
+{
+  "instrument": {
+    "id": "yokogawa_oxigeno_circonio",
+    "name": "Analizadores de Oxígeno de Circonio",
+    "brand": "Yokogawa",
+    "baseModel": "ZR22G/ZR802G",
+    "description": "Analizadores de oxígeno tipo Zirconia para optimización y control de combustión en hornos y calderas.",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "longitud_sonda",
+        "label": "Longitud de Sonda",
+        "shortLabel": "Longitud",
+        "helpText": "Longitud de la sonda de detección según el diámetro del ducto o chimenea.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "L04", "label": "0.4 Metros", "description": "0.4 Metros", "constraints": {} },
+          { "code": "L07", "label": "0.7 Metros", "description": "0.7 Metros", "constraints": {} },
+          { "code": "L10", "label": "1.0 Metro", "description": "1.0 Metro", "constraints": {} },
+          { "code": "L15", "label": "1.5 Metros", "description": "1.5 Metros", "constraints": {} },
+          { "code": "L20", "label": "2.0 Metros", "description": "2.0 Metros", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "temperatura_proceso",
+        "label": "Temperatura de Proceso",
+        "shortLabel": "Temperatura",
+        "helpText": "Rango de temperatura de operación del proceso de combustión.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "STD700", "label": "Estándar (hasta 700°C)", "description": "Estándar (hasta 700°C)", "constraints": {} },
+          { "code": "HT1400", "label": "Alta Temperatura (hasta 1400°C con adaptador)", "description": "Alta Temperatura (hasta 1400°C con adaptador)", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "material_brida",
+        "label": "Material de Brida",
+        "shortLabel": "Brida",
+        "helpText": "Material y estándar de la brida de montaje.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "JISANSI", "label": "JIS 5K / ANSI 150 4 pulgadas Acero Inoxidable", "description": "JIS 5K / ANSI 150 4 pulgadas Acero Inoxidable", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "convertidor_remoto",
+        "label": "Convertidor Remoto",
+        "shortLabel": "Convertidor",
+        "helpText": "Unidad convertidora remota asociada a la sonda.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "ZR802G", "label": "ZR802G Convertidor Pantalla Táctil a Color 4-20mA HART", "description": "ZR802G Convertidor Pantalla Táctil a Color 4-20mA HART", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "instrument": {
+    "id": "apt3700n",
+    "name": "Transmisor de Presión Inteligente Autrol APT 3700N",
+    "brand": "Autrol / Duon System",
+    "baseModel": "APT 3700N",
+    "description": "Transmisor de presión inteligente de alto rendimiento con entrada de sensor flexible (DP, GP, AP, Vacío), calificado para aplicaciones nucleares y sísmicas según normas IEEE Std 344 / 323 y Guía Reguladora NRC 1.180.",
+    "features": [
+      "Precisión de referencia: ±0.075% del rango calibrado",
+      "Estabilidad a largo plazo: ±0.25% de la URL cada 24 meses",
+      "Rangeabilidad 100:1",
+      "Límite de temperatura de funcionamiento: -40 a 120°C (-104 a 248°F)",
+      "Calificado según IEEE Std 344-1987/2004 e IEEE Std 323-1983/2003, Guía Reguladora NRC 1.180 (Rev.1)"
+    ],
+    "steps": [
+      {
+        "stepId": "transmitter_type",
+        "label": "Tipo de Transmisor",
+        "shortLabel": "Tipo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione el principio de medición según la variable de proceso a medir.",
+        "options": [
+          { "code": "D", "label": "Diferencial (DP)", "description": "Medición de presión diferencial entre dos puntos de proceso.", "constraints": {} },
+          { "code": "G", "label": "Manométrico (GP)", "description": "Medición de presión relativa respecto a la atmosférica.", "constraints": {} },
+          { "code": "A", "label": "Absoluto (AP)", "description": "Medición de presión referida al vacío absoluto.", "constraints": {} },
+          { "code": "V", "label": "Vacío", "description": "Medición en aplicaciones de vacío.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "calibration_range",
+        "label": "Rango de Calibración",
+        "shortLabel": "Rango",
+        "prefix": "",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Determine el rango de presión según las condiciones del proceso.",
+        "options": [
+          { "code": "3", "label": "Rango 3 — Ultra Bajo", "description": "Rango ultra bajo para baja presión diferencial.", "specs": "0.025 a 6.22 kPa (0.1 a 25 inH₂O)", "constraints": {} },
+          { "code": "4", "label": "Rango 4 — Bajo", "description": "Rango bajo para presiones moderadas.", "specs": "0.25 a 62.2 kPa (1 a 250 inH₂O)", "constraints": {} },
+          { "code": "5", "label": "Rango 5 — Medio", "description": "Rango medio para aplicaciones estándar.", "specs": "1.04 a 689 kPa (0.15 a 100 psi)", "constraints": {} },
+          { "code": "6", "label": "Rango 6 — Alto", "description": "Rango alto para sistemas de alta presión.", "specs": "0.34 a 6,890 kPa (0.05 a 1000 psi)", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "flange_material",
+        "label": "Material de Brida y Diafragma",
+        "shortLabel": "Material",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "El material del diafragma sensor debe ser compatible con el fluido de proceso.",
+        "options": [
+          { "code": "M11", "label": "316 Stainless Steel (SS)", "description": "Acero inoxidable 316, uso general.", "constraints": {} },
+          { "code": "M12", "label": "Hastelloy® C-276", "description": "Ambientes oxidantes y reductores severos.", "constraints": {} },
+          { "code": "M13", "label": "Monel® 400 (Ni-Cu)", "description": "Ambientes marinos y alcalinos.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "area_certification",
+        "label": "Certificación de Área Clasificada",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Certificaciones disponibles para esta serie, orientada a instalaciones nucleares y sísmicas.",
+        "options": [
+          { "code": "KO", "label": "Uso General (Sin certificación Ex)", "description": "Para instalación en áreas no clasificadas.", "constraints": {} },
+          { "code": "KOSHA", "label": "KOSHA (A Prueba de Explosión)", "description": "Aprobación coreana KOSHA a prueba de explosión.", "constraints": {} },
+          { "code": "NUC", "label": "Calificado Nuclear / Sísmico", "description": "Calificado según IEEE Std 344-1987/2004, IEEE Std 323-1983/2003 y Guía Reguladora NRC 1.180 (Rev.1).", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "process_connection",
+        "label": "Conexión de Proceso",
+        "shortLabel": "Proceso",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Conexión mecánica al proceso.",
+        "options": [
+          { "code": "S", "label": "1/4\"-18 NPT, Female Adapter", "description": "Conexión NPT hembra de 1/4\".", "constraints": {} },
+          { "code": "T", "label": "1/2\"-14 NPT, Female Adapter", "description": "Conexión NPT hembra de 1/2\".", "constraints": {} },
+          { "code": "V", "label": "1/2\"-14 NPT, Coplanar Flange", "description": "Brida coplanar con conexión de 1/2\" NPT.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "electrical_connection",
+        "label": "Conexión Eléctrica",
+        "shortLabel": "Eléctrica",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Entrada de cable o conduit al transmisor.",
+        "options": [
+          { "code": "2", "label": "1/2\"-14 NPT Male", "description": "Rosca NPT de 1/2\" macho.", "constraints": {} },
+          { "code": "3", "label": "M20 × 1.5 Male (Metric)", "description": "Rosca métrica M20 macho.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "additional_options",
+        "label": "Opciones Adicionales",
+        "shortLabel": "Opciones",
+        "prefix": "-",
+        "required": false,
+        "multiSelect": true,
+        "helpText": "Accesorios y funcionalidades adicionales, opcionales.",
+        "options": [
+          { "code": "M1", "label": "Indicador LCD Local", "description": "Pantalla LCD de 5 dígitos con gráfico de barras.", "constraints": {} },
+          { "code": "BA", "label": "Soporte Montaje SS (Ángulo)", "description": "Soporte angular en acero inoxidable 316.", "constraints": {} },
+          { "code": "TP", "label": "Tag Plate (Placa de Identificación)", "description": "Placa de identificación con grabado láser.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "instrument": {
+    "id": "alt6300",
+    "name": "Transmisor de Nivel Inteligente Autrol ALT 6300",
+    "brand": "Autrol / Duon System",
+    "baseModel": "ALT 6300",
+    "description": "Transmisor de nivel ultrasónico sin contacto, de precio competitivo, para determinar de forma fiable el nivel en aplicaciones con sólidos y superficies irregulares.",
+    "features": [
+      "Precisión: ±10 mm",
+      "Extensión de montaje de hasta 600 mm",
+      "Condiciones de aplicación: sin ruido, depósito simple, alta viscosidad, sin presión",
+      "Temperatura de funcionamiento: -20 a 80°C (-4 a 176°F)",
+      "Alimentación y carga: 250 a 340 ohmios a 24 V CC, alimentación por bucle"
+    ],
+    "steps": [
+      {
+        "stepId": "alcance",
+        "label": "Alcance de Medición",
+        "shortLabel": "Alcance",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Alcance estándar u opcional extendido.",
+        "options": [
+          { "code": "R5", "label": "Estándar (5 m)", "description": "Alcance estándar de fábrica.", "constraints": {} },
+          { "code": "R10", "label": "Opcional (10 m)", "description": "Alcance extendido opcional.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Protocolo de comunicación digital disponible.",
+        "options": [
+          { "code": "HART", "label": "HART", "description": "4-20 mA DC con comunicación digital HART.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion_proteccion",
+        "label": "Certificación y Protección",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Certificación y grado de protección disponibles para este modelo.",
+        "options": [
+          { "code": "CE_ROHS_IP66", "label": "CE, RoHS, IP66/67", "description": "Conformidad CE, RoHS y protección de envolvente IP66/IP67.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

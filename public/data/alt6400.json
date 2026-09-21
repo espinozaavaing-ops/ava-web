@@ -1,0 +1,55 @@
+{
+  "instrument": {
+    "id": "alt6400",
+    "name": "Transmisor de Nivel de Flotador Autrol ALT 6400",
+    "brand": "Autrol / Duon System",
+    "baseModel": "ALT 6400",
+    "description": "Transmisor de nivel de contacto por esfera de flotación, de precio competitivo, para detección de nivel de líquidos de todo tipo.",
+    "features": [
+      "Precisión: ±15 mm",
+      "Rango de medición: 0.1 a 4 metros",
+      "Condiciones de aplicación: sin espuma, sin adherencia, sin lodo, sin vacío",
+      "Temperatura de funcionamiento: -40 a 80°C (-104 a 176°F)",
+      "Alimentación y carga: 250 a 550 ohmios a 24 V CC, alimentación por bucle"
+    ],
+    "steps": [
+      {
+        "stepId": "tamano_esfera",
+        "label": "Tamaño de la Esfera de Flotación",
+        "shortLabel": "Esfera",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione el tamaño de la esfera de flotación.",
+        "options": [
+          { "code": "25MM", "label": "25 mm", "description": "Esfera de flotación de 25 mm.", "constraints": {} },
+          { "code": "50MM", "label": "50 mm", "description": "Esfera de flotación de 50 mm.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Protocolo de comunicación digital disponible.",
+        "options": [
+          { "code": "HART", "label": "HART", "description": "4-20 mA DC con comunicación digital HART.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion",
+        "label": "Certificación y Protección",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Certificación y grado de protección disponibles para este modelo.",
+        "options": [
+          { "code": "KCS_IP66_EXD", "label": "KCs, IP66 (Ex d)", "description": "Certificación coreana KCs, protección IP66, envolvente a prueba de explosión Ex d.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

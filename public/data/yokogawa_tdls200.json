@@ -1,0 +1,67 @@
+{
+  "instrument": {
+    "id": "yokogawa_tdls200",
+    "name": "Analizador Laser TDLS200",
+    "brand": "Yokogawa",
+    "baseModel": "TDLS200",
+    "description": "Analizador de gas por espectroscopía de diodo láser sintonizable para mediciones in-situ sin contacto.",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "gas_a_medir",
+        "label": "Gas a Medir",
+        "shortLabel": "Gas",
+        "helpText": "Seleccione el componente gaseoso objetivo de la medición.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "O2", "label": "Oxígeno (O2)", "description": "Oxígeno (O2)", "constraints": {} },
+          { "code": "CO", "label": "Monóxido de Carbono (CO)", "description": "Monóxido de Carbono (CO)", "constraints": {} },
+          { "code": "H2O", "label": "H2O en trazas / Humedad", "description": "H2O en trazas / Humedad", "constraints": {} },
+          { "code": "CH4", "label": "Metano (CH4)", "description": "Metano (CH4)", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "longitud_optica_trayectoria",
+        "label": "Longitud de Trayectoria Óptica",
+        "shortLabel": "Trayectoria",
+        "helpText": "Distancia óptica entre el emisor y el receptor láser.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "L1", "label": "0.5 a 1 Metro", "description": "0.5 a 1 Metro", "constraints": {} },
+          { "code": "L2", "label": "1 a 2 Metros", "description": "1 a 2 Metros", "constraints": {} },
+          { "code": "L3", "label": "2 a 6 Metros", "description": "2 a 6 Metros", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "purga_optica",
+        "label": "Purga Óptica",
+        "shortLabel": "Purga",
+        "helpText": "Medio de purga para proteger las ópticas del analizador.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "N2", "label": "Purga con Nitrógeno N2", "description": "Purga con Nitrógeno N2", "constraints": {} },
+          { "code": "AIR", "label": "Purga con Aire Instrumental Seco", "description": "Purga con Aire Instrumental Seco", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion_area",
+        "label": "Certificación de Área",
+        "shortLabel": "Certificación",
+        "helpText": "Certificación requerida según la clasificación del área de instalación.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "GP", "label": "Uso General", "description": "Uso General", "constraints": {} },
+          { "code": "EXZ1", "label": "FM / CSA Clase I Div 1 / ATEX Zone 1", "description": "FM / CSA Clase I Div 1 / ATEX Zone 1", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

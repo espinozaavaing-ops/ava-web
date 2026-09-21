@@ -1082,6 +1082,55 @@
           "title": "Medidores de flujo de presión diferencial",
           "desc": "Caudalímetro primario para la medición de gases, líquidos y vapores en tuberías y conductos, basado en los principios de medición de presión diferencial (DP).",
           "img": "/assets/instrumentacion/41.png"
+        },
+        {
+          "id": "yokogawa-admag-axf",
+          "title": "Yokogawa ADMAG AXF",
+          "desc": "Instrumento de medición de flujo líquido con alta precisión, estabilidad frente al ruido de proceso por doble frecuencia y diagnóstico continuo de incrustación en electrodos.",
+          "img": "/img/catalog/yokogawa-axf.png",
+          "tag": "ADMAG AXF",
+          "funcionesClave": [
+            { "etiqueta": "Precisión", "detalle": "±0.35% estándar, ±0.2% opcional con calibración de alta precisión" },
+            { "etiqueta": "Rango de diámetros", "detalle": "DN2.5 (0.1\") a DN400 (16\")" },
+            { "etiqueta": "Salida de pulsos", "detalle": "Configurable hasta 10,000 pps" },
+            { "etiqueta": "Diagnóstico continuo", "detalle": "Detección de incrustación (coating) en electrodos" },
+            { "etiqueta": "Estabilidad de señal", "detalle": "Excitación de doble frecuencia, inmune al ruido de proceso" },
+            { "etiqueta": "Comunicación digital", "detalle": "BRAIN, HART, FOUNDATION Fieldbus y PROFIBUS PA" }
+          ],
+          "pestanas": {
+            "caracteristicas": {
+              "columnaIzquierda": [
+                "Conductividad mínima requerida del fluido: 1 µS/cm",
+                "Revestimientos (lining) disponibles: PFA, Goma de Poliuretano, Goma Natural Blanda y Cerámica de Alúmina 99.9%",
+                "Electrodos intercambiables en SUS316L, Hastelloy C-276, Titanio, Tantalio, Platino-Iridio, Carburo de Tungsteno o Cermet Platino-Alúmina",
+                "Salida analógica estándar 4-20 mA DC en todas las configuraciones"
+              ],
+              "columnaDerecha": [
+                "Conexiones Wafer, bridadas (ANSI/DIN/JIS), por unión roscada/soldada o sanitarias (Tri-Clamp, DIN 11851, ISO 2852, SMS)",
+                "Protección de envolvente IP66/IP67, con opción IP68 sumergible hasta 50 m",
+                "Certificaciones a prueba de explosión e ignición: ATEX, FM, CSA e IECEx",
+                "Alimentación 100-240 VAC o 24 VDC/VAC"
+              ]
+            },
+            "especificaciones": [
+              { "etiqueta": "Modelo", "detalle": "ADMAG AXF" },
+              { "etiqueta": "Precisión", "detalle": "±0.35% (estándar) / ±0.2% (alta precisión, opcional)" },
+              { "etiqueta": "Conductividad mínima", "detalle": "1 µS/cm" },
+              { "etiqueta": "Rango de diámetros", "detalle": "DN2.5 (0.1\") a DN400 (16\")" },
+              { "etiqueta": "Salida de pulsos", "detalle": "Hasta 10,000 pps" },
+              { "etiqueta": "Salida analógica", "detalle": "4-20 mA DC" },
+              { "etiqueta": "Comunicación digital", "detalle": "BRAIN, HART, FOUNDATION Fieldbus, PROFIBUS PA" },
+              { "etiqueta": "Revestimiento (Lining)", "detalle": "PFA, Goma de Poliuretano, Goma Natural Blanda, Cerámica (Alúmina 99.9%)" },
+              { "etiqueta": "Materiales de electrodos", "detalle": "SUS316L, Hastelloy C-276, Titanio, Tantalio, Platino-Iridio, Carburo de Tungsteno, Cermet Platino-Alúmina" },
+              { "etiqueta": "Conexiones de proceso", "detalle": "Wafer, Bridada (ANSI/DIN/JIS), Unión roscada/soldada, Sanitarias (Tri-Clamp, DIN 11851, ISO 2852, SMS)" },
+              { "etiqueta": "Grado de protección", "detalle": "IP66/IP67 (opcional IP68 sumergible a 50 m)" },
+              { "etiqueta": "Alimentación", "detalle": "100-240 VAC / 24 VDC/VAC" }
+            ],
+            "documentos": [
+              { "nombre": "Ficha Técnica ADMAG AXF (PDF)", "url": "#" }
+            ],
+            "certificaciones": "Certificaciones a prueba de explosión e ignición: ATEX, FM, CSA e IECEx."
+          }
         }
       ]
     }

@@ -1,0 +1,250 @@
+{
+  "instrument": {
+    "id": "yokogawa_rotamass",
+    "name": "Rotamass Total Insight - Serie Prime",
+    "brand": "Yokogawa",
+    "baseModel": "RAMC",
+    "description": "Caudalímetro másico y medidor de densidad por efecto Coriolis Yokogawa Rotamass Total Insight, Serie Prime, en configuración Integral o Remota.",
+    "features": [
+      "Partes húmedas en acero inoxidable 316L (1.4404)",
+      "Precisión de flujo másico líquido: ±0.1% (Ultimate) / ±0.2% (Essential)",
+      "Precisión de densidad de líquido: ±0.5 g/l (Ultimate) / ±4 g/l (Essential)",
+      "Precisión de flujo másico de gas: ±0.35% (Ultimate) / ±0.75% (Essential)",
+      "Precisión de temperatura: ±1.0 °C (±1.8 °F) | Repetibilidad: D/2",
+      "Contención secundaria del sensor: 30 a 49 bar",
+      "Temperatura ambiente del transmisor: -40 a 60 °C | Temperatura ambiente del sensor: -50 a 80 °C"
+    ],
+    "steps": [
+      {
+        "stepId": "tipo_transmisor",
+        "label": "Tipo de Transmisor",
+        "shortLabel": "Transmisor",
+        "helpText": "Seleccione la línea de transmisor. Essential cubre HART y Modbus; Ultimate agrega PROFIBUS PA, FOUNDATION Fieldbus y diagnóstico Tube Health Check.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "",
+        "options": [
+          {
+            "code": "ESS",
+            "label": "Essential (HART, Modbus)",
+            "description": "Transmisor Essential con protocolos HART y Modbus.",
+            "specs": "Precisión flujo másico líquido: ±0.2% | Densidad líquido: ±4 g/l | Flujo másico gas: ±0.75%",
+            "constraints": {}
+          },
+          {
+            "code": "ULT",
+            "label": "Ultimate (HART, Modbus, PROFIBUS PA, FOUNDATION Fieldbus, Tube Health Check)",
+            "description": "Transmisor Ultimate con protocolos avanzados y diagnóstico de integridad del tubo.",
+            "specs": "Precisión flujo másico líquido: ±0.1% | Densidad líquido: ±0.5 g/l | Flujo másico gas: ±0.35%",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "helpText": "PROFIBUS PA y FOUNDATION Fieldbus solo están disponibles con el transmisor Ultimate.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "HART",
+            "label": "HART",
+            "description": "Protocolo HART sobre salida 4-20 mA.",
+            "constraints": {}
+          },
+          {
+            "code": "MB",
+            "label": "Modbus",
+            "description": "Comunicación digital Modbus RS485.",
+            "constraints": {}
+          },
+          {
+            "code": "PA",
+            "label": "PROFIBUS PA",
+            "description": "Bus de campo PROFIBUS PA (requiere transmisor Ultimate).",
+            "constraints": {
+              "incompatibleWith": {
+                "tipo_transmisor": ["ESS"]
+              }
+            }
+          },
+          {
+            "code": "FF",
+            "label": "FOUNDATION Fieldbus",
+            "description": "Bus de campo FOUNDATION Fieldbus (requiere transmisor Ultimate).",
+            "constraints": {
+              "incompatibleWith": {
+                "tipo_transmisor": ["ESS"]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "stepId": "diagnostico_avanzado",
+        "label": "Diagnóstico Avanzado",
+        "shortLabel": "Diagnóstico",
+        "helpText": "Función opcional de monitoreo continuo de integridad del tubo, disponible solo con transmisor Ultimate.",
+        "required": false,
+        "multiSelect": true,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "THC",
+            "label": "Tube Health Check",
+            "description": "Monitoreo continuo de la integridad mecánica del tubo de medición (requiere transmisor Ultimate).",
+            "constraints": {
+              "incompatibleWith": {
+                "tipo_transmisor": ["ESS"]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "stepId": "tamano_modelo",
+        "label": "Tamaño y Modelo",
+        "shortLabel": "Tamaño",
+        "helpText": "Seleccione el tamaño del sensor según el caudal nominal y máximo requerido por el proceso.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "P25",
+            "label": "Prime 25 — DN25 (1\")",
+            "description": "Prime 25, conexión DN25 (1\").",
+            "specs": "Qnom: 1.60 t/h (59 lb/min) | Qmax: 2.30 t/h (85 lb/min)",
+            "constraints": {}
+          },
+          {
+            "code": "P40",
+            "label": "Prime 40 — DN40 (1½\")",
+            "description": "Prime 40, conexión DN40 (1½\").",
+            "specs": "Qnom: 4.70 t/h (170 lb/min) | Qmax: 7.00 t/h (260 lb/min)",
+            "constraints": {}
+          },
+          {
+            "code": "P50",
+            "label": "Prime 50 — DN50 (2\")",
+            "description": "Prime 50, conexión DN50 (2\").",
+            "specs": "Qnom: 20.00 t/h (730 lb/min) | Qmax: 29.00 t/h (1100 lb/min)",
+            "constraints": {}
+          },
+          {
+            "code": "P80",
+            "label": "Prime 80 — DN80 (3\")",
+            "description": "Prime 80, conexión DN80 (3\").",
+            "specs": "Qnom: 51.00 t/h (1900 lb/min) | Qmax: 76.00 t/h (2800 lb/min)",
+            "constraints": {}
+          },
+          {
+            "code": "P1H",
+            "label": "Prime 1H — DN100 (4\")",
+            "description": "Prime 1H, conexión DN100 (4\").",
+            "specs": "Qnom: 170 t/h (6200 lb/min) | Qmax: 255 t/h (9400 lb/min)",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "tipo_montaje",
+        "label": "Tipo de Montaje",
+        "shortLabel": "Montaje",
+        "helpText": "El montaje Integral ubica el transmisor directamente sobre el sensor; el Remoto lo separa mediante cable de señal, ampliando el rango de temperatura de proceso admisible.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          {
+            "code": "INT",
+            "label": "Integral",
+            "description": "Transmisor montado directamente sobre el sensor.",
+            "specs": "Temp. de Proceso: -50 a 150 °C",
+            "constraints": {}
+          },
+          {
+            "code": "REM",
+            "label": "Remoto",
+            "description": "Transmisor separado del sensor mediante cable de señal.",
+            "specs": "Temp. de Proceso: -70 a 200 °C | Temp. del Sensor: -50 a 80 °C",
+            "constraints": {}
+          }
+        ]
+      },
+      {
+        "stepId": "conexion_proceso",
+        "label": "Conexión de Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Estándar y clase de brida o rosca de conexión al proceso.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "ASME150", "label": "ASME 150", "description": "Brida ASME Clase 150.", "constraints": {} },
+          { "code": "ASME300", "label": "ASME 300", "description": "Brida ASME Clase 300.", "constraints": {} },
+          { "code": "ASME600", "label": "ASME 600", "description": "Brida ASME Clase 600.", "constraints": {} },
+          { "code": "PN40", "label": "EN PN40", "description": "Brida EN PN40.", "constraints": {} },
+          { "code": "PN100", "label": "EN PN100", "description": "Brida EN PN100.", "constraints": {} },
+          { "code": "JIS10K", "label": "JIS 10K", "description": "Brida JIS 10K.", "constraints": {} },
+          { "code": "JIS20K", "label": "JIS 20K", "description": "Brida JIS 20K.", "constraints": {} },
+          { "code": "NPTG", "label": "NPT/G (hasta 300 bar)", "description": "Conexión roscada NPT o G para servicio de alta presión.", "specs": "Presión máxima: 300 bar", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "material_carcasa_sensor",
+        "label": "Material de Carcasa del Sensor",
+        "shortLabel": "Carcasa Sensor",
+        "helpText": "Material de la carcasa protectora del sensor.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "SS304", "label": "Acero Inoxidable 304", "description": "Acero Inoxidable 304.", "constraints": {} },
+          { "code": "SS316L", "label": "Acero Inoxidable 316L", "description": "Acero Inoxidable 316L.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "material_carcasa_transmisor",
+        "label": "Material de Carcasa del Transmisor",
+        "shortLabel": "Carcasa Transmisor",
+        "helpText": "Material de la carcasa del transmisor.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "ALSI", "label": "Aluminio Al-Si10Mg(Fe)", "description": "Aleación de aluminio Al-Si10Mg(Fe).", "constraints": {} },
+          { "code": "CF8M", "label": "Acero Inoxidable CF8M", "description": "Acero inoxidable fundido CF8M.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "grado_proteccion",
+        "label": "Grado de Protección (IP)",
+        "shortLabel": "Protección IP",
+        "helpText": "Grado de protección del envolvente contra polvo y agua.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "IP66", "label": "IP66", "description": "Protección IP66.", "constraints": {} },
+          { "code": "IP67", "label": "IP67", "description": "Protección IP67.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "material_partes_humedas",
+        "label": "Material de Partes Húmedas",
+        "shortLabel": "Partes Húmedas",
+        "helpText": "Material estándar en contacto con el fluido de proceso.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "SS316L1_4404", "label": "Acero Inoxidable 316L (1.4404)", "description": "Acero Inoxidable 316L (1.4404), material estándar de partes húmedas.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

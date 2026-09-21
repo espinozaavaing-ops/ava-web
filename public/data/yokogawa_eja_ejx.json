@@ -1,0 +1,99 @@
+{
+  "instrument": {
+    "id": "yokogawa_eja_ejx",
+    "name": "Transmisores de Presión EJA y EJX",
+    "brand": "Yokogawa",
+    "baseModel": "EJA/EJX",
+    "description": "Transmisores de presión diferencial, absoluta y manométrica series DPharp con sensor resonante de silicio.",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "tipo_medicion",
+        "label": "Tipo de Medición",
+        "shortLabel": "Tipo",
+        "helpText": "Seleccione el principio de medición y la serie de transmisor requerida.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "",
+        "options": [
+          { "code": "EJA110E", "label": "Presión Diferencial (EJA110E)", "description": "Presión Diferencial (EJA110E)", "constraints": {} },
+          { "code": "EJA510E", "label": "Presión Absoluta (EJA510E)", "description": "Presión Absoluta (EJA510E)", "constraints": {} },
+          { "code": "EJA430E", "label": "Presión Manométrica (EJA430E)", "description": "Presión Manométrica (EJA430E)", "constraints": {} },
+          { "code": "EJX110A", "label": "Alta Precisión (EJX110A)", "description": "Alta Precisión (EJX110A)", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "rango_medicion",
+        "label": "Rango de Medición",
+        "shortLabel": "Rango",
+        "helpText": "Seleccione la cápsula sensora según el rango de presión del proceso.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "M", "label": "Cápsula M (0.5 a 100 kPa / 0.05 a 1 bar)", "description": "Cápsula M (0.5 a 100 kPa / 0.05 a 1 bar)", "constraints": {} },
+          { "code": "H", "label": "Cápsula H (5 a 500 kPa / 0.05 a 5 bar)", "description": "Cápsula H (5 a 500 kPa / 0.05 a 5 bar)", "constraints": {} },
+          { "code": "V", "label": "Cápsula V (0.14 a 14 MPa / 1.4 a 140 bar)", "description": "Cápsula V (0.14 a 14 MPa / 1.4 a 140 bar)", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "material_diafragma",
+        "label": "Material del Diafragma",
+        "shortLabel": "Material",
+        "helpText": "El material del diafragma en contacto con el proceso debe ser compatible con el fluido.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "SS316L", "label": "Acero Inoxidable 316L", "description": "Acero Inoxidable 316L", "constraints": {} },
+          { "code": "HC276", "label": "Hastelloy C-276", "description": "Hastelloy C-276", "constraints": {} },
+          { "code": "TA", "label": "Tántalo", "description": "Tántalo", "constraints": {} },
+          { "code": "MO", "label": "Monel", "description": "Monel", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "conexion_proceso",
+        "label": "Conexión de Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Conexión mecánica al proceso.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "N14", "label": "1/4 NPT Hembra", "description": "1/4 NPT Hembra", "constraints": {} },
+          { "code": "N12", "label": "1/2 NPT Hembra con conectores de proceso", "description": "1/2 NPT Hembra con conectores de proceso", "constraints": {} },
+          { "code": "CF", "label": "Conexión por Brida Coplanar", "description": "Conexión por Brida Coplanar", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "helpText": "Seleccione el protocolo de salida y comunicación digital.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "HART7", "label": "4-20 mA DC con HART 7", "description": "4-20 mA DC con HART 7", "constraints": {} },
+          { "code": "BRAIN", "label": "BRAIN Protocol", "description": "BRAIN Protocol", "constraints": {} },
+          { "code": "FF", "label": "FOUNDATION Fieldbus", "description": "FOUNDATION Fieldbus", "constraints": {} },
+          { "code": "PA", "label": "PROFIBUS PA", "description": "PROFIBUS PA", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion_explosion",
+        "label": "Certificación de Área Clasificada",
+        "shortLabel": "Certificación",
+        "helpText": "Seleccione la certificación de protección contra explosión requerida.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "GP", "label": "Uso General / Sin Clasificar", "description": "Uso General / Sin Clasificar", "constraints": {} },
+          { "code": "IA", "label": "ATEX / IECEx Intrínsecamente Seguro (Ex ia)", "description": "ATEX / IECEx Intrínsecamente Seguro (Ex ia)", "constraints": {} },
+          { "code": "EXD", "label": "ATEX / IECEx A prueba de Explosión (Ex d)", "description": "ATEX / IECEx A prueba de Explosión (Ex d)", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

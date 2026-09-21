@@ -1,0 +1,55 @@
+{
+  "instrument": {
+    "id": "alt6500",
+    "name": "Transmisor de Nivel Magnetostrictivo Autrol ALT 6500",
+    "brand": "Autrol / Duon System",
+    "baseModel": "ALT 6500",
+    "description": "Transmisor de nivel magnetostrictivo de contacto, con flotador de nivel de tanque y pulso eléctrico de alta resolución, para aplicaciones de interfaz.",
+    "features": [
+      "Precisión: ±1 mm o ±0.01% de CS (lo que sea mayor)",
+      "Rango de medición: 4 metros",
+      "Condiciones de aplicación: sin espuma, sin residuos pegajosos, sin lodos, sin vacío",
+      "Presión máxima: 20 bar en tanque hasta 100°C",
+      "Temperatura de funcionamiento: -40 a 80°C (-104 a 176°F)",
+      "Alimentación y carga: 250 a 550 ohmios a 24 V CC, alimentación por bucle"
+    ],
+    "steps": [
+      {
+        "stepId": "rango_medicion",
+        "label": "Rango de Medición",
+        "shortLabel": "Rango",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Rango de medición disponible para este modelo.",
+        "options": [
+          { "code": "R4", "label": "4 m", "description": "Rango de medición estándar del ALT 6500.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Protocolo de comunicación digital disponible.",
+        "options": [
+          { "code": "HART", "label": "HART", "description": "4-20 mA DC con comunicación digital HART.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion",
+        "label": "Certificación y Protección",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Certificación y grado de protección disponibles para este modelo.",
+        "options": [
+          { "code": "KCS_IP66_EXD", "label": "KCs, IP66 (Ex d)", "description": "Certificación coreana KCs, protección IP66, envolvente a prueba de explosión Ex d.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

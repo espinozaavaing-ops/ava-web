@@ -1,0 +1,68 @@
+{
+  "instrument": {
+    "id": "alt6100",
+    "name": "Transmisor de Nivel Inteligente Autrol ALT 6100",
+    "brand": "Autrol / Duon System",
+    "baseModel": "ALT 6100",
+    "description": "Reflectómetro de dominio temporal (TDR) por radar de onda guiada para detección de nivel de contacto en líquidos de baja viscosidad, poca emulsión o espuma.",
+    "features": [
+      "Precisión: ±3 mm o ±0.03% de SC (lo que sea mayor)",
+      "Rango de medición: 0.15 a 20 m",
+      "Mide materiales con constante dieléctrica muy baja (hasta 1.4), como butano y GNL",
+      "Temperatura de funcionamiento: -40 a 80°C (-104 a 176°F)",
+      "Alimentación y carga: 250 a 360 ohmios a 24 V CC, alimentación por bucle"
+    ],
+    "steps": [
+      {
+        "stepId": "tipo_sonda",
+        "label": "Tipo de Sonda",
+        "shortLabel": "Sonda",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione el tipo de sonda guiada según la aplicación.",
+        "options": [
+          { "code": "VAR", "label": "Varilla", "description": "Sonda rígida tipo varilla.", "constraints": {} },
+          { "code": "COAX", "label": "Coaxial", "description": "Sonda coaxial, para tanques pequeños o con obstrucciones internas.", "constraints": {} },
+          { "code": "CABLE", "label": "Cable", "description": "Sonda flexible tipo cable, para tanques de gran altura.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "rango_medicion",
+        "label": "Rango de Medición",
+        "shortLabel": "Rango",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Rango de medición disponible para este modelo.",
+        "options": [
+          { "code": "R20", "label": "0.15 a 20 m", "description": "Rango de medición estándar del ALT 6100.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Protocolo de comunicación digital disponible.",
+        "options": [
+          { "code": "HART7", "label": "HART 7", "description": "4-20 mA DC con comunicación digital HART 7.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion",
+        "label": "Certificación de Calidad",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Certificación de calidad disponible para este modelo.",
+        "options": [
+          { "code": "SIL2", "label": "SIL2 (TUV, FMEDA)", "description": "Certificación de calidad internacional SIL2.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

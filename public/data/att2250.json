@@ -1,0 +1,74 @@
+{
+  "instrument": {
+    "id": "att2250",
+    "name": "Transmisor de Temperatura Autrol ATT 2250",
+    "brand": "Autrol / Duon System",
+    "baseModel": "ATT 2250",
+    "description": "Transmisor de temperatura montado en cabeza, de doble canal, con comunicación HART y comandos específicos de dispositivo para parámetros de rendimiento mejorados.",
+    "features": [
+      "Funciones: referenciación de sensores, linealización personalizada, detección de fallos en sensor, calibración por el usuario, preajuste de corriente de salida",
+      "Límite de temperatura ambiente: -40 a 85°C (-104 a 185°F)",
+      "Alimentación y carga: 250 a 500 ohmios a 30 V CC, alimentación por bucle"
+    ],
+    "steps": [
+      {
+        "stepId": "tipo_entrada_sensor",
+        "label": "Tipo de Entrada de Sensor",
+        "shortLabel": "Entrada",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione el tipo de sensor de entrada y su estándar de calibración.",
+        "options": [
+          { "code": "RTD385", "label": "RTD (α=0.00385, KS/JIS/DIN/IEC)", "description": "Entrada RTD según estándar internacional KS, JIS, DIN, IEC.", "constraints": {} },
+          { "code": "RTD391", "label": "RTD (α=0.00391, estándar US)", "description": "Entrada RTD según estándar norteamericano.", "constraints": {} },
+          { "code": "TCKSC", "label": "Termopar (KSC 1602-1982)", "description": "Entrada de termopar según norma coreana KSC 1602-1982.", "constraints": {} },
+          { "code": "TCJISC", "label": "Termopar (JISC 1602-1981)", "description": "Entrada de termopar según norma japonesa JISC 1602-1981.", "constraints": {} },
+          { "code": "TCANSI", "label": "Termopar (ANSI MC96.1-1982)", "description": "Entrada de termopar según norma ANSI MC96.1-1982.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "modo_canal_doble",
+        "label": "Modo de Canal Doble",
+        "shortLabel": "Canal Doble",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Modo de procesamiento para las dos entradas de sensor (RTD o conexión de 2 hilos).",
+        "options": [
+          { "code": "PROM", "label": "Promedio", "description": "Promedio entre los dos canales de entrada.", "constraints": {} },
+          { "code": "APB", "label": "A+B", "description": "Suma de los canales A y B.", "constraints": {} },
+          { "code": "AMB", "label": "A-B", "description": "Diferencia entre los canales A y B.", "constraints": {} },
+          { "code": "MAX", "label": "Máximo", "description": "Selecciona el valor máximo entre ambos canales.", "constraints": {} },
+          { "code": "MIN", "label": "Mínimo", "description": "Selecciona el valor mínimo entre ambos canales.", "constraints": {} },
+          { "code": "RED", "label": "Redundancia", "description": "Conmutación automática al canal de respaldo ante fallo.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Protocolos de comunicación digital disponibles.",
+        "options": [
+          { "code": "HART5", "label": "HART 5", "description": "4-20 mA DC con comunicación digital HART 5.", "constraints": {} },
+          { "code": "HART7", "label": "HART 7", "description": "4-20 mA DC con comunicación digital HART 7.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion_area",
+        "label": "Certificación de Área Clasificada",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Certificación disponible para este modelo.",
+        "options": [
+          { "code": "ATEXIA", "label": "ATEX Ex ia (Seguridad Intrínseca)", "description": "Certificación ATEX de seguridad intrínseca.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

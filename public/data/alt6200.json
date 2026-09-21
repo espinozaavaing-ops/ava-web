@@ -1,0 +1,71 @@
+{
+  "instrument": {
+    "id": "alt6200",
+    "name": "Transmisor de Nivel de Radar Inteligente Autrol ALT 6200",
+    "brand": "Autrol / Duon System",
+    "baseModel": "ALT 6200",
+    "description": "Transmisor de nivel por radar de pulsos de 6.3 GHz, sin contacto, de 2 hilos, para líquidos y lodos, con inmunidad a cambios de temperatura, presión, densidad, turbulencia y constante dieléctrica.",
+    "features": [
+      "Precisión: ±10 mm",
+      "Rango de medición: 0.5 a 30 metros",
+      "Ángulo de haz amplio: 24°",
+      "Sin partes móviles, mínimo mantenimiento",
+      "Temperatura de funcionamiento: -40 a 80°C (-104 a 176°F)",
+      "Alimentación y carga: 250 a 360 ohmios a 24 V CC, alimentación por bucle"
+    ],
+    "steps": [
+      {
+        "stepId": "tipo_antena",
+        "label": "Tipo de Antena",
+        "shortLabel": "Antena",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione el tipo y tamaño de antena según el tanque y la aplicación.",
+        "options": [
+          { "code": "H3", "label": "Antena de Bocina 3\"", "description": "Antena de bocina de 3 pulgadas.", "constraints": {} },
+          { "code": "H4", "label": "Antena de Bocina 4\"", "description": "Antena de bocina de 4 pulgadas.", "constraints": {} },
+          { "code": "H6", "label": "Antena de Bocina 6\"", "description": "Antena de bocina de 6 pulgadas.", "constraints": {} },
+          { "code": "H8", "label": "Antena de Bocina 8\"", "description": "Antena de bocina de 8 pulgadas.", "constraints": {} },
+          { "code": "ROD", "label": "Antena de Varilla", "description": "Antena tipo varilla.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "rango_medicion",
+        "label": "Rango de Medición",
+        "shortLabel": "Rango",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Rango de medición disponible para este modelo.",
+        "options": [
+          { "code": "R30", "label": "0.5 a 30 m", "description": "Rango de medición estándar del ALT 6200.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Protocolo de comunicación digital disponible.",
+        "options": [
+          { "code": "HART", "label": "HART", "description": "4-20 mA DC con comunicación digital HART.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion",
+        "label": "Certificación de Calidad",
+        "shortLabel": "Certificación",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Certificación de calidad disponible para este modelo.",
+        "options": [
+          { "code": "SIL2", "label": "SIL2 (TUV, FMEDA)", "description": "Certificación de calidad internacional SIL2.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

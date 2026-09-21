@@ -1,0 +1,176 @@
+{
+  "instrument": {
+    "id": "yokogawa_axf",
+    "slug": "yokogawa-admag-axf",
+    "name": "Yokogawa ADMAG AXF",
+    "brand": "Yokogawa",
+    "baseModel": "AXF",
+    "category": "Caudalímetros Magnéticos / Instrumentación de Flujo",
+    "description": "Instrumento de medición de flujo líquido con alta precisión, estabilidad frente al ruido de proceso por doble frecuencia y diagnóstico continuo de incrustación en electrodos.",
+    "features": [
+      "Conductividad mínima requerida del fluido: 1 µS/cm",
+      "Salida de pulsos configurable hasta 10,000 pps",
+      "Salida analógica estándar 4-20 mA DC en todas las configuraciones",
+      "Diagnóstico continuo de incrustación (coating) en electrodos",
+      "Estabilidad frente al ruido de proceso mediante excitación de doble frecuencia"
+    ],
+    "steps": [
+      {
+        "stepId": "diametro_nominal",
+        "label": "Diámetro Nominal",
+        "shortLabel": "Diámetro",
+        "helpText": "Seleccione el diámetro nominal de la línea de proceso. Rango disponible: 2.5 mm (0.1\") a 400 mm (16\").",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "DN2_5", "label": "DN2.5 (0.1\")", "description": "DN2.5 (0.1\")", "constraints": {} },
+          { "code": "DN3", "label": "DN3 (0.125\")", "description": "DN3 (0.125\")", "constraints": {} },
+          { "code": "DN5", "label": "DN5 (0.2\")", "description": "DN5 (0.2\")", "constraints": {} },
+          { "code": "DN8", "label": "DN8 (0.3\")", "description": "DN8 (0.3\")", "constraints": {} },
+          { "code": "DN10", "label": "DN10 (0.4\")", "description": "DN10 (0.4\")", "constraints": {} },
+          { "code": "DN15", "label": "DN15 (1/2\")", "description": "DN15 (1/2\")", "constraints": {} },
+          { "code": "DN20", "label": "DN20 (3/4\")", "description": "DN20 (3/4\")", "constraints": {} },
+          { "code": "DN25", "label": "DN25 (1\")", "description": "DN25 (1\")", "constraints": {} },
+          { "code": "DN32", "label": "DN32 (1 1/4\")", "description": "DN32 (1 1/4\")", "constraints": {} },
+          { "code": "DN40", "label": "DN40 (1 1/2\")", "description": "DN40 (1 1/2\")", "constraints": {} },
+          { "code": "DN50", "label": "DN50 (2\")", "description": "DN50 (2\")", "constraints": {} },
+          { "code": "DN65", "label": "DN65 (2 1/2\")", "description": "DN65 (2 1/2\")", "constraints": {} },
+          { "code": "DN80", "label": "DN80 (3\")", "description": "DN80 (3\")", "constraints": {} },
+          { "code": "DN100", "label": "DN100 (4\")", "description": "DN100 (4\")", "constraints": {} },
+          { "code": "DN125", "label": "DN125 (5\")", "description": "DN125 (5\")", "constraints": {} },
+          { "code": "DN150", "label": "DN150 (6\")", "description": "DN150 (6\")", "constraints": {} },
+          { "code": "DN200", "label": "DN200 (8\")", "description": "DN200 (8\")", "constraints": {} },
+          { "code": "DN250", "label": "DN250 (10\")", "description": "DN250 (10\")", "constraints": {} },
+          { "code": "DN300", "label": "DN300 (12\")", "description": "DN300 (12\")", "constraints": {} },
+          { "code": "DN350", "label": "DN350 (14\")", "description": "DN350 (14\")", "constraints": {} },
+          { "code": "DN400", "label": "DN400 (16\")", "description": "DN400 (16\")", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "nivel_precision",
+        "label": "Nivel de Precisión",
+        "shortLabel": "Precisión",
+        "helpText": "La precisión estándar cubre la mayoría de aplicaciones; la calibración de alta precisión es opcional.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "STD", "label": "Estándar (±0.35%)", "description": "Precisión estándar de fábrica.", "specs": "±0.35% del valor medido", "constraints": {} },
+          { "code": "HP", "label": "Alta Precisión (±0.2%, calibración opcional)", "description": "Calibración opcional de alta precisión.", "specs": "±0.2% del valor medido", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "revestimiento_interior",
+        "label": "Revestimiento Interior (Lining)",
+        "shortLabel": "Revestimiento",
+        "helpText": "Material de revestimiento en contacto con el fluido, según compatibilidad química y abrasión.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "PFA", "label": "PFA", "description": "Revestimiento de PFA.", "constraints": {} },
+          { "code": "PU", "label": "Goma de Poliuretano", "description": "Revestimiento de goma de poliuretano, resistente a la abrasión.", "constraints": {} },
+          { "code": "SR", "label": "Goma Natural Blanda", "description": "Revestimiento de goma natural blanda.", "constraints": {} },
+          { "code": "CER", "label": "Cerámica (Alúmina 99.9%)", "description": "Revestimiento cerámico de alúmina al 99.9%, para fluidos altamente abrasivos.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "material_electrodos",
+        "label": "Material de Electrodos",
+        "shortLabel": "Electrodos",
+        "helpText": "Material de los electrodos según compatibilidad química con el fluido de proceso.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "SUS316L", "label": "SUS316L", "description": "Acero inoxidable SUS316L.", "constraints": {} },
+          { "code": "HC276", "label": "Hastelloy C-276", "description": "Aleación Hastelloy C-276.", "constraints": {} },
+          { "code": "TI", "label": "Titanio", "description": "Titanio.", "constraints": {} },
+          { "code": "TA", "label": "Tantalio", "description": "Tantalio.", "constraints": {} },
+          { "code": "PTIR", "label": "Platino-Iridio", "description": "Aleación Platino-Iridio.", "constraints": {} },
+          { "code": "WC", "label": "Carburo de Tungsteno", "description": "Carburo de Tungsteno, alta resistencia a la abrasión.", "constraints": {} },
+          { "code": "CERMET", "label": "Cermet Platino-Alúmina", "description": "Cermet de Platino-Alúmina.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "conexion_proceso",
+        "label": "Conexión de Proceso",
+        "shortLabel": "Conexión",
+        "helpText": "Tipo de conexión mecánica al proceso.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "WAFER", "label": "Wafer", "description": "Conexión tipo Wafer, sin bridas.", "constraints": {} },
+          { "code": "FLGANSI", "label": "Bridada ANSI", "description": "Conexión bridada según norma ANSI.", "constraints": {} },
+          { "code": "FLGDIN", "label": "Bridada DIN", "description": "Conexión bridada según norma DIN.", "constraints": {} },
+          { "code": "FLGJIS", "label": "Bridada JIS", "description": "Conexión bridada según norma JIS.", "constraints": {} },
+          { "code": "UNION", "label": "Unión Roscada/Soldada", "description": "Conexión por unión roscada o soldada.", "constraints": {} },
+          { "code": "TRICLAMP", "label": "Sanitaria Tri-Clamp", "description": "Conexión sanitaria tipo Tri-Clamp.", "constraints": {} },
+          { "code": "DIN11851", "label": "Sanitaria DIN 11851", "description": "Conexión sanitaria según DIN 11851.", "constraints": {} },
+          { "code": "ISO2852", "label": "Sanitaria ISO 2852", "description": "Conexión sanitaria según ISO 2852.", "constraints": {} },
+          { "code": "SMS", "label": "Sanitaria SMS", "description": "Conexión sanitaria según norma SMS.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "helpText": "Todas las opciones incluyen salida analógica 4-20 mA DC. Seleccione el protocolo digital de comunicación.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "BRAIN", "label": "BRAIN", "description": "Protocolo BRAIN sobre 4-20 mA DC.", "constraints": {} },
+          { "code": "HART", "label": "HART", "description": "Protocolo HART sobre 4-20 mA DC.", "constraints": {} },
+          { "code": "FF", "label": "FOUNDATION Fieldbus", "description": "Bus de campo FOUNDATION Fieldbus.", "constraints": {} },
+          { "code": "PA", "label": "PROFIBUS PA", "description": "Bus de campo PROFIBUS PA.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "alimentacion",
+        "label": "Alimentación",
+        "shortLabel": "Alimentación",
+        "helpText": "Tensión de alimentación eléctrica del equipo.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "AC100240", "label": "100-240 VAC", "description": "100-240 VAC", "constraints": {} },
+          { "code": "DC24", "label": "24 VDC/VAC", "description": "24 VDC/VAC", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "grado_proteccion",
+        "label": "Grado de Protección (IP)",
+        "shortLabel": "Protección IP",
+        "helpText": "Grado de protección del envolvente. IP68 permite instalación sumergible hasta 50 m.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "IP66", "label": "IP66", "description": "Protección IP66.", "constraints": {} },
+          { "code": "IP67", "label": "IP67", "description": "Protección IP67.", "constraints": {} },
+          { "code": "IP68", "label": "IP68 (Sumergible a 50m)", "description": "Protección IP68, instalación sumergible hasta 50 metros.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "certificacion_area",
+        "label": "Certificación de Área Clasificada",
+        "shortLabel": "Certificación",
+        "helpText": "Certificación de protección contra explosión e ignición según la clasificación del área de instalación.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "GP", "label": "Uso General / Sin Clasificar", "description": "Sin certificación de área clasificada.", "constraints": {} },
+          { "code": "ATEX", "label": "ATEX", "description": "Certificación ATEX a prueba de explosión e ignición.", "constraints": {} },
+          { "code": "FM", "label": "FM", "description": "Certificación FM (Factory Mutual).", "constraints": {} },
+          { "code": "CSA", "label": "CSA", "description": "Certificación CSA.", "constraints": {} },
+          { "code": "IECEX", "label": "IECEx", "description": "Certificación IECEx.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

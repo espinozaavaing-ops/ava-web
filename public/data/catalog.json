@@ -6,7 +6,128 @@
     "configurable": true,
     "file": "apt3100.json",
     "image": "img/catalog/apt3100.png",
-    "description": "Transmisor de presión inteligente con protocolo HART para medición de presión diferencial, manométrica y absoluta."
+    "description": "Transmisor de presión inteligente con protocolo HART para medición de presión diferencial, manométrica y absoluta.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "apt3200",
+    "name": "Autrol APT 3200",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "apt3200.json",
+    "image": "assets/instrumentacion/24.png",
+    "description": "Transmisor de presión inteligente con sensor piezoeléctrico para medición manométrica, absoluta, de nivel y alta presión estática.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "apt3500",
+    "name": "Autrol APT 3500",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "apt3500.json",
+    "image": "assets/instrumentacion/25.png",
+    "description": "Transmisor de presión inteligente de alto rendimiento para medición diferencial, manométrica, absoluta, de nivel, alta presión estática y presión de caudal.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "apt3700n",
+    "name": "Autrol APT 3700N",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "apt3700n.json",
+    "image": "assets/instrumentacion/26.png",
+    "description": "Transmisor de presión inteligente con entrada de sensor flexible (DP, GP, AP, Vacío), calificado para aplicaciones nucleares y sísmicas.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "alt6100",
+    "name": "Autrol ALT 6100",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "alt6100.json",
+    "image": "assets/instrumentacion/27.png",
+    "description": "Transmisor de nivel por radar de onda guiada (TDR) de contacto, para líquidos de baja viscosidad, poca emulsión o espuma.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "alt6200",
+    "name": "Autrol ALT 6200",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "alt6200.json",
+    "image": "assets/instrumentacion/28.png",
+    "description": "Transmisor de nivel por radar de pulsos de 6.3 GHz, sin contacto, para líquidos y lodos.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "alt6210",
+    "name": "Autrol ALT 6210",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "alt6210.json",
+    "image": "assets/instrumentacion/29.png",
+    "description": "Transmisor de nivel por radar de pulsos de 26 GHz, sin contacto, con ángulo de haz estrecho para condiciones exigentes de proceso.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "alt6300",
+    "name": "Autrol ALT 6300",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "alt6300.json",
+    "image": "assets/instrumentacion/30.png",
+    "description": "Transmisor de nivel ultrasónico sin contacto, para determinar de forma fiable el nivel en aplicaciones con sólidos.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "alt6400",
+    "name": "Autrol ALT 6400",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "alt6400.json",
+    "image": "assets/instrumentacion/31.png",
+    "description": "Transmisor de nivel de contacto por esfera de flotación, para detección de nivel de líquidos de todo tipo.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "alt6500",
+    "name": "Autrol ALT 6500",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "alt6500.json",
+    "image": "assets/instrumentacion/30.png",
+    "description": "Transmisor de nivel magnetostrictivo de contacto, con pulso eléctrico de alta resolución.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "att2100",
+    "name": "Autrol ATT 2100",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "att2100.json",
+    "image": "assets/instrumentacion/33.png",
+    "description": "Transmisor de temperatura inteligente de montaje en campo, con entrada y salida de sensor flexibles y comunicación HART.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "att2200",
+    "name": "Autrol ATT 2200",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "att2200.json",
+    "image": "assets/instrumentacion/34.png",
+    "description": "Transmisor de temperatura inteligente para montaje en riel DIN, con comunicación HART multidrop.",
+    "brand": "Autrol"
+  },
+  {
+    "id": "att2250",
+    "name": "Autrol ATT 2250",
+    "category": "Instrumentación",
+    "configurable": true,
+    "file": "att2250.json",
+    "image": "assets/instrumentacion/35.png",
+    "description": "Transmisor de temperatura montado en cabeza, de doble canal, con comunicación HART.",
+    "brand": "Autrol"
   },
   {
     "id": "tek_cor 1100a",
@@ -15,7 +136,8 @@
     "configurable": true,
     "file": "tek_cor 1100a.json",
     "image": "img/catalog/tek-cor-1100a.png",
-    "description": "Caudalímetro masivo tipo Coriolis para medición precisa de líquidos y gases en aplicaciones críticas."
+    "description": "Caudalímetro masivo tipo Coriolis para medición precisa de líquidos y gases en aplicaciones críticas.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_vor 1300c",
@@ -24,7 +146,8 @@
     "configurable": true,
     "file": "tek_vor 1300c.json",
     "image": "img/catalog/tek-vor-1300c.png",
-    "description": "Medidor de flujo Vortex para vapor, gases y líquidos de baja viscosidad."
+    "description": "Medidor de flujo Vortex para vapor, gases y líquidos de baja viscosidad.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_flo mass 1300d",
@@ -33,7 +156,8 @@
     "configurable": true,
     "file": "tek_flo mass 1300d.json",
     "image": "img/catalog/tek-flo-mass-1300d.png",
-    "description": "Flujómetro masivo térmico para monitoreo preciso en tuberías industriales."
+    "description": "Flujómetro masivo térmico para monitoreo preciso en tuberías industriales.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_flux 1400a",
@@ -42,7 +166,8 @@
     "configurable": true,
     "file": "tek_flux 1400a.json",
     "image": "img/catalog/tek-flux-1400a.png",
-    "description": "Flujómetro electromagnético para líquidos conductores y fluidos abrasivos."
+    "description": "Flujómetro electromagnético para líquidos conductores y fluidos abrasivos.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_flux 1400b",
@@ -51,7 +176,8 @@
     "configurable": true,
     "file": "tek_flux 1400b.json",
     "image": "img/catalog/tek-flux-1400b.png",
-    "description": "Flujómetro electromagnético de inserción para grandes tuberías de proceso."
+    "description": "Flujómetro electromagnético de inserción para grandes tuberías de proceso.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_flux 1400c",
@@ -60,7 +186,8 @@
     "configurable": true,
     "file": "tek_flux 1400c.json",
     "image": "img/catalog/tek-flux-1400c.png",
-    "description": "Flujómetro electromagnético alimentado por batería para aplicaciones de agua potable y efluentes."
+    "description": "Flujómetro electromagnético alimentado por batería para aplicaciones de agua potable y efluentes.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_dp 1610d",
@@ -69,7 +196,8 @@
     "configurable": true,
     "file": "tek_dp 1610d.json",
     "image": "img/catalog/tek-dp-1610d.png",
-    "description": "Sensor de presión diferencial de alta exactitud para cálculo de caudal y nivel."
+    "description": "Sensor de presión diferencial de alta exactitud para cálculo de caudal y nivel.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_dp 1620a",
@@ -78,7 +206,8 @@
     "configurable": true,
     "file": "tek_dp 1620a.json",
     "image": "img/catalog/tek-dp-1620a.png",
-    "description": "Elemento primario de presión diferencial para medición confiable en vapor y gases."
+    "description": "Elemento primario de presión diferencial para medición confiable en vapor y gases.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_dp 1640a",
@@ -87,7 +216,8 @@
     "configurable": true,
     "file": "tek_dp 1640a.json",
     "image": "img/catalog/tek-dp-1640a.png",
-    "description": "Tubo Venturi de baja pérdida de carga para fluidos de alta viscosidad."
+    "description": "Tubo Venturi de baja pérdida de carga para fluidos de alta viscosidad.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_dp 1650a",
@@ -96,7 +226,8 @@
     "configurable": true,
     "file": "tek_dp 1650a.json",
     "image": "img/catalog/tek-dp-1650a.png",
-    "description": "Tobera de flujo para medición de fluidos a alta velocidad y alta temperatura."
+    "description": "Tobera de flujo para medición de fluidos a alta velocidad y alta temperatura.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_thermal 1700b",
@@ -105,7 +236,8 @@
     "configurable": true,
     "file": "tek_thermal 1700b.json",
     "image": "img/catalog/tek-thermal-1700b.png",
-    "description": "Medidor de flujo masico térmico de gas para quemadores y sistemas de aire comprimido."
+    "description": "Medidor de flujo masico térmico de gas para quemadores y sistemas de aire comprimido.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_temp 2100a",
@@ -114,7 +246,8 @@
     "configurable": true,
     "file": "tek_temp 2100a.json",
     "image": "img/catalog/tek-temp-2100a.png",
-    "description": "Transmisor de temperatura universal para termocuplas y RTD Pt100."
+    "description": "Transmisor de temperatura universal para termocuplas y RTD Pt100.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_bar 3110a",
@@ -123,7 +256,8 @@
     "configurable": true,
     "file": "tek_bar 3110a.json",
     "image": "img/catalog/tek-bar-3110a.png",
-    "description": "Transmisor de presión de precisión para procesos industriales demandantes."
+    "description": "Transmisor de presión de precisión para procesos industriales demandantes.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_bar 3110b_d",
@@ -132,7 +266,8 @@
     "configurable": true,
     "file": "tek_bar 3110b_d.json",
     "image": "img/catalog/tek-bar-3110b-d.png",
-    "description": "Transmisor de presión diferencial con diafragma empotrado sanitario."
+    "description": "Transmisor de presión diferencial con diafragma empotrado sanitario.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_bar 3120a",
@@ -141,7 +276,8 @@
     "configurable": true,
     "file": "tek_bar 3120a.json",
     "image": "img/catalog/tek-bar-3120a.png",
-    "description": "Transmisor de presión relativa para monitoreo general de tuberías."
+    "description": "Transmisor de presión relativa para monitoreo general de tuberías.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_bar 3120b",
@@ -150,7 +286,8 @@
     "configurable": true,
     "file": "tek_bar 3120b.json",
     "image": "img/catalog/tek-bar-3120b.png",
-    "description": "Transmisor de presión absoluta de alta estabilidad a largo plazo."
+    "description": "Transmisor de presión absoluta de alta estabilidad a largo plazo.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_bar 3120s",
@@ -159,7 +296,8 @@
     "configurable": true,
     "file": "tek_bar 3120s.json",
     "image": "img/catalog/tek-bar-3120s.png",
-    "description": "Transmisor de presión inteligente de alto desempeño con pantalla digital."
+    "description": "Transmisor de presión inteligente de alto desempeño con pantalla digital.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_bar 3800e",
@@ -168,7 +306,8 @@
     "configurable": true,
     "file": "tek_bar 3800e.json",
     "image": "img/catalog/tek-bar-3800e.png",
-    "description": "Transmisor compacto de presión económica para OEM y maquinaria."
+    "description": "Transmisor compacto de presión económica para OEM y maquinaria.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_bar 3800xa",
@@ -177,7 +316,8 @@
     "configurable": true,
     "file": "tek_bar 3800xa.json",
     "image": "img/catalog/tek-bar-3800xa.png",
-    "description": "Transmisor de presión a prueba de explosión para zonas clasificadas."
+    "description": "Transmisor de presión a prueba de explosión para zonas clasificadas.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_flex 4100a",
@@ -186,7 +326,8 @@
     "configurable": true,
     "file": "tek_flex 4100a.json",
     "image": "img/catalog/tek-flex-4100a.png",
-    "description": "Transmisor de nivel por onda guiada (TDR) para sólidos y líquidos."
+    "description": "Transmisor de nivel por onda guiada (TDR) para sólidos y líquidos.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_flex 4100b",
@@ -195,7 +336,8 @@
     "configurable": true,
     "file": "tek_flex 4100b.json",
     "image": "img/catalog/tek-flex-4100b.png",
-    "description": "Radar de onda guiada para medición de interfaz líquido/líquido."
+    "description": "Radar de onda guiada para medición de interfaz líquido/líquido.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_wave_4300b",
@@ -204,7 +346,8 @@
     "configurable": true,
     "file": "tek_wave_4300b.json",
     "image": "img/catalog/tek-wave-4300b.png",
-    "description": "Radar de nivel de 80 GHz para tanques de almacenamiento y silos."
+    "description": "Radar de nivel de 80 GHz para tanques de almacenamiento y silos.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_wave 4300c_g",
@@ -213,7 +356,8 @@
     "configurable": true,
     "file": "tek_wave 4300c_g.json",
     "image": "img/catalog/tek-wave-4300c-g.png",
-    "description": "Transmisor de nivel por ultrasónico de alta precisión sin contacto."
+    "description": "Transmisor de nivel por ultrasónico de alta precisión sin contacto.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_hydro 4500a_g",
@@ -222,7 +366,8 @@
     "configurable": true,
     "file": "tek_hydro 4500a_g.json",
     "image": "img/catalog/tek-hydro-4500a-g.png",
-    "description": "Transmisor hidrostatico sumergible para medición de nivel en pozos y tanques."
+    "description": "Transmisor hidrostatico sumergible para medición de nivel en pozos y tanques.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_flex 4500ad",
@@ -231,7 +376,8 @@
     "configurable": true,
     "file": "tek_flex 4500ad.json",
     "image": "img/catalog/tek-flex-4500ad.png",
-    "description": "Medidor de nivel capacitivo para ambientes de alta presión y temperatura."
+    "description": "Medidor de nivel capacitivo para ambientes de alta presión y temperatura.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_sub 4800a",
@@ -240,7 +386,8 @@
     "configurable": true,
     "file": "tek_sub 4800a.json",
     "image": "img/catalog/tek-sub-4800a.png",
-    "description": "Sensor de nivel sumergible para aguas residuales y efluentes corrosivos."
+    "description": "Sensor de nivel sumergible para aguas residuales y efluentes corrosivos.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_sub 4800b",
@@ -249,7 +396,8 @@
     "configurable": true,
     "file": "tek_sub 4800b.json",
     "image": "img/catalog/tek-sub-4800b.png",
-    "description": "Transmisor sumergible de titanio para agua de mar y soluciones ácidas."
+    "description": "Transmisor sumergible de titanio para agua de mar y soluciones ácidas.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_ tek_sub 4800c",
@@ -258,7 +406,8 @@
     "configurable": true,
     "file": "tek_ tek_sub 4800c.json",
     "image": "img/catalog/tek-sub-4800c.png",
-    "description": "Sonda de nivel sumergible de pequeño diámetro para pozos profundos."
+    "description": "Sonda de nivel sumergible de pequeño diámetro para pozos profundos.",
+    "brand": "Tektrol"
   },
   {
     "id": "tek_sub 4800d",
@@ -267,7 +416,8 @@
     "configurable": true,
     "file": "tek_sub 4800d.json",
     "image": "img/catalog/tek-sub-4800d.png",
-    "description": "Sensor hidroeléctrico para monitoreo constante en presas y ríos."
+    "description": "Sensor hidroeléctrico para monitoreo constante en presas y ríos.",
+    "brand": "Tektrol"
   },
   {
     "id": "belfone_bf_td511",
@@ -275,7 +425,8 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/belfone-bf-td511.png",
-    "description": "Radio digital portátil DMR resistente con pantalla a color, teclado completo, GPS opcional y protección IP67 para campo severo."
+    "description": "Radio digital portátil DMR resistente con pantalla a color, teclado completo, GPS opcional y protección IP67 para campo severo.",
+    "brand": "Belfone"
   },
   {
     "id": "belfone_bf_td510",
@@ -283,7 +434,8 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/belfone-bf-td510.png",
-    "description": "Radio portátil digital DMR compacto sin pantalla, ideal para brigadas operativas de comunicación rápida."
+    "description": "Radio portátil digital DMR compacto sin pantalla, ideal para brigadas operativas de comunicación rápida.",
+    "brand": "Belfone"
   },
   {
     "id": "belfone_bf_td930",
@@ -291,7 +443,8 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/belfone-bf-td930.png",
-    "description": "Radio DMR intrínsecamente seguro con certificación Ex / ATEX para áreas clasificadas con riesgo de explosión."
+    "description": "Radio DMR intrínsecamente seguro con certificación Ex / ATEX para áreas clasificadas con riesgo de explosión.",
+    "brand": "Belfone"
   },
   {
     "id": "belfone_bf_tm8250",
@@ -299,7 +452,8 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/belfone-bf-tm8250.png",
-    "description": "Transceptor móvil DMR para vehículos y estaciones base en salas de control con potencia de hasta 45W."
+    "description": "Transceptor móvil DMR para vehículos y estaciones base en salas de control con potencia de hasta 45W.",
+    "brand": "Belfone"
   },
   {
     "id": "belfone_bf_tr900",
@@ -307,7 +461,8 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/belfone-bf-tr900.png",
-    "description": "Estación repetidora DMR de alta potencia para extender la cobertura en redes de radiocomunicación industrial y plantas."
+    "description": "Estación repetidora DMR de alta potencia para extender la cobertura en redes de radiocomunicación industrial y plantas.",
+    "brand": "Belfone"
   },
   {
     "id": "switch_industrial_poe_8p",
@@ -315,7 +470,8 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/switch-poe-8p.png",
-    "description": "Switch administrable para riel DIN con puertos Gigabit PoE+ e inmunidad a interferencia electromagnética."
+    "description": "Switch administrable para riel DIN con puertos Gigabit PoE+ e inmunidad a interferencia electromagnética.",
+    "brand": "Genérico"
   },
   {
     "id": "switch_industrial_fibra_16p",
@@ -323,7 +479,8 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/switch-managed-16p.png",
-    "description": "Switch de red industrial de alta velocidad con slots SFP para enlaces de fibra óptica de larga distancia."
+    "description": "Switch de red industrial de alta velocidad con slots SFP para enlaces de fibra óptica de larga distancia.",
+    "brand": "Genérico"
   },
   {
     "id": "antena_base_uhf",
@@ -331,7 +488,8 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/antena-base-uhf.png",
-    "description": "Antena de estación base en fibra de vidrio resistente a vientos severos y ambientes marinos."
+    "description": "Antena de estación base en fibra de vidrio resistente a vientos severos y ambientes marinos.",
+    "brand": "Genérico"
   },
   {
     "id": "fuente_redundante_24v",
@@ -339,6 +497,87 @@
     "category": "Telecomunicaciones",
     "configurable": false,
     "image": "img/telecom/fuente-redundante-24v.png",
-    "description": "Fuente industrial para riel DIN con respaldo de batería y conmutación automática sin interrupción."
+    "description": "Fuente industrial para riel DIN con respaldo de batería y conmutación automática sin interrupción.",
+    "brand": "Genérico"
+  },
+  {
+    "id": "yokogawa_rotamass",
+    "name": "Caudalímetros Coriolis RotaMASS",
+    "category": "Instrumentación",
+    "brand": "Yokogawa",
+    "configurable": true,
+    "file": "yokogawa_rotamass.json",
+    "image": "img/catalog/yokogawa-rotamass.png",
+    "description": "Caudalímetro masivo tipo Coriolis RotaMASS de alta precisión para medición de flujo y densidad en procesos exigentes."
+  },
+  {
+    "id": "yokogawa_axf",
+    "name": "Caudalímetros Magnéticos AXF",
+    "category": "Instrumentación",
+    "brand": "Yokogawa",
+    "configurable": true,
+    "file": "yokogawa_axf.json",
+    "image": "img/catalog/yokogawa-axf.png",
+    "description": "Caudalímetro electromagnético serie AXF para líquidos conductores, pulpas y fluidos de alta corrosión."
+  },
+  {
+    "id": "yokogawa_eja_ejx",
+    "name": "Transmisores de Presión EJA y EJX",
+    "category": "Instrumentación",
+    "brand": "Yokogawa",
+    "configurable": true,
+    "file": "yokogawa_eja_ejx.json",
+    "image": "img/catalog/yokogawa-eja-ejx.png",
+    "description": "Transmisores de presión diferencial, absoluta y manométrica series DPharp con sensor resonante de silicio."
+  },
+  {
+    "id": "yokogawa_temp_superficial",
+    "name": "Transductores de Temperatura Superficial",
+    "category": "Instrumentación",
+    "brand": "Yokogawa",
+    "configurable": true,
+    "file": "yokogawa_temp_superficial.json",
+    "image": "img/catalog/yokogawa-temp-superficial.png",
+    "description": "Sensores y transductores de temperatura de contacto para monitoreo en superficies de tuberías y tanques."
+  },
+  {
+    "id": "yokogawa_analizadores_fluidos",
+    "name": "Analizadores de Fluidos y Sensores",
+    "category": "Instrumentación",
+    "brand": "Yokogawa",
+    "configurable": true,
+    "file": "yokogawa_analizadores_fluidos.json",
+    "image": "img/catalog/yokogawa-analizadores-fluidos.png",
+    "description": "Analizadores líquidos multiparámetro para monitoreo continuo de pH, ORP y conductividad en planta."
+  },
+  {
+    "id": "yokogawa_tdls200",
+    "name": "Analizador Laser TDLS200",
+    "category": "Instrumentación",
+    "brand": "Yokogawa",
+    "configurable": true,
+    "file": "yokogawa_tdls200.json",
+    "image": "img/catalog/yokogawa-tdls200.png",
+    "description": "Analizador de gas por espectroscopía de diodo láser sintonizable para mediciones in-situ sin contacto."
+  },
+  {
+    "id": "yokogawa_gd402",
+    "name": "Analizador de Densidad de Gas GD402",
+    "category": "Instrumentación",
+    "brand": "Yokogawa",
+    "configurable": true,
+    "file": "yokogawa_gd402.json",
+    "image": "img/catalog/yokogawa-gd402.png",
+    "description": "Detector y analizador continuo de densidad y peso específico en mezclas gaseosas."
+  },
+  {
+    "id": "yokogawa_oxigeno_circonio",
+    "name": "Analizadores de Oxígeno de Circonio",
+    "category": "Instrumentación",
+    "brand": "Yokogawa",
+    "configurable": true,
+    "file": "yokogawa_oxigeno_circonio.json",
+    "image": "img/catalog/yokogawa-oxigeno-circonio.png",
+    "description": "Analizadores de oxígeno tipo Zirconia para optimización y control de combustión en hornos y calderas."
   }
 ]

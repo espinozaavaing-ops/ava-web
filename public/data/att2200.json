@@ -1,0 +1,47 @@
+{
+  "instrument": {
+    "id": "att2200",
+    "name": "Transmisor de Temperatura Inteligente Autrol ATT 2200",
+    "brand": "Autrol / Duon System",
+    "baseModel": "ATT 2200",
+    "description": "Transmisor de temperatura inteligente para montaje en riel DIN, con comunicación HART multidrop de hasta 1.5 km y conexión de hasta 15 transmisores por host.",
+    "features": [
+      "Compensación automática y linealización de entrada de sensor",
+      "Estabilidad RTD: 2 años (±0.12% de lectura o 0.15°C, lo mayor); T/C: 1 año (igual criterio)",
+      "Temperatura ambiente: -40 a 85°C (-104 a 185°F)",
+      "Alimentación y carga: 250 a 550 ohmios a 24 V CC, alimentación por bucle",
+      "Conformidad CE EMC (EN50081-2, EN50082-2)",
+      "Montaje en riel DIN"
+    ],
+    "steps": [
+      {
+        "stepId": "tipo_entrada_sensor",
+        "label": "Tipo de Entrada de Sensor",
+        "shortLabel": "Entrada",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Seleccione el tipo de sensor de entrada y su estándar de calibración.",
+        "options": [
+          { "code": "RTD385", "label": "RTD (α=0.00385, KS/JIS/DIN/IEC)", "description": "Entrada RTD según estándar internacional KS, JIS, DIN, IEC.", "constraints": {} },
+          { "code": "RTD391", "label": "RTD (α=0.00391, estándar US)", "description": "Entrada RTD según estándar norteamericano.", "constraints": {} },
+          { "code": "TCKSC", "label": "Termopar (KSC 1602-1982)", "description": "Entrada de termopar según norma coreana KSC 1602-1982.", "constraints": {} },
+          { "code": "TCJISC", "label": "Termopar (JISC 1602-1981)", "description": "Entrada de termopar según norma japonesa JISC 1602-1981.", "constraints": {} },
+          { "code": "TCANSI", "label": "Termopar (ANSI MC96.1-1982)", "description": "Entrada de termopar según norma ANSI MC96.1-1982.", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "protocolo_comunicacion",
+        "label": "Protocolo de Comunicación",
+        "shortLabel": "Protocolo",
+        "prefix": "-",
+        "required": true,
+        "multiSelect": false,
+        "helpText": "Protocolo de comunicación digital disponible.",
+        "options": [
+          { "code": "HART7", "label": "HART 7", "description": "4-20 mA DC con comunicación digital HART 7.", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "instrument": {
+    "id": "yokogawa_temp_superficial",
+    "name": "Transductores de Temperatura Superficial",
+    "brand": "Yokogawa",
+    "baseModel": "Surface Temp",
+    "description": "Sensores y transductores de temperatura de contacto para monitoreo en superficies de tuberías y tanques.",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "tipo_elemento",
+        "label": "Tipo de Elemento Sensor",
+        "shortLabel": "Elemento",
+        "helpText": "Tipo de elemento sensor de temperatura.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "RTDPT100", "label": "RTD Pt100 Dúplex (3 hilos)", "description": "RTD Pt100 Dúplex (3 hilos)", "constraints": {} },
+          { "code": "TCK", "label": "Termocupla Tipo K", "description": "Termocupla Tipo K", "constraints": {} },
+          { "code": "TCJ", "label": "Termocupla Tipo J", "description": "Termocupla Tipo J", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "montaje_superficie",
+        "label": "Montaje en Superficie",
+        "shortLabel": "Montaje",
+        "helpText": "Tipo de fijación del sensor a la superficie de medición.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "BLK2", "label": "Bloque de Sujeción para Tubería 2\"", "description": "Bloque de Sujeción para Tubería 2\"", "constraints": {} },
+          { "code": "BLK4", "label": "Bloque para Tubería 4\"", "description": "Bloque para Tubería 4\"", "constraints": {} },
+          { "code": "MAG", "label": "Montaje Magnético de Alta Adherencia", "description": "Montaje Magnético de Alta Adherencia", "constraints": {} },
+          { "code": "WELD", "label": "Montaje Soldable", "description": "Montaje Soldable", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "longitud_cable",
+        "label": "Longitud de Cable",
+        "shortLabel": "Cable",
+        "helpText": "Longitud y protección del cable de conexión.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "3M", "label": "3 Metros recubierto en teflón", "description": "3 Metros recubierto en teflón", "constraints": {} },
+          { "code": "5M", "label": "5 Metros con malla de acero inoxidable", "description": "5 Metros con malla de acero inoxidable", "constraints": {} },
+          { "code": "10M", "label": "10 Metros", "description": "10 Metros", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "transmisor_cabeza",
+        "label": "Transmisor de Cabeza",
+        "shortLabel": "Transmisor",
+        "helpText": "Con o sin transmisor de cabeza incorporado.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "NOTX", "label": "Sin Transmisor (Salida directa)", "description": "Sin Transmisor (Salida directa)", "constraints": {} },
+          { "code": "HARTTX", "label": "Transmisor 4-20mA HART incorporado", "description": "Transmisor 4-20mA HART incorporado", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

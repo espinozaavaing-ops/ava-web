@@ -1,0 +1,67 @@
+{
+  "instrument": {
+    "id": "yokogawa_analizadores_fluidos",
+    "name": "Analizadores de Fluidos y Sensores",
+    "brand": "Yokogawa",
+    "baseModel": "Fluid Analyzer",
+    "description": "Analizadores líquidos multiparámetro para monitoreo continuo de pH, ORP y conductividad en planta.",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "parametro_medicion",
+        "label": "Parámetro de Medición",
+        "shortLabel": "Parámetro",
+        "helpText": "Seleccione el parámetro de proceso a analizar y la serie del equipo.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "",
+        "options": [
+          { "code": "PH450", "label": "pH / ORP (Serie PH450)", "description": "pH / ORP (Serie PH450)", "constraints": {} },
+          { "code": "ISC450", "label": "Conductividad Inductiva (Serie ISC450)", "description": "Conductividad Inductiva (Serie ISC450)", "constraints": {} },
+          { "code": "DO450", "label": "Oxígeno Disuelto (Serie DO450)", "description": "Oxígeno Disuelto (Serie DO450)", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "montaje_analizador",
+        "label": "Montaje del Analizador",
+        "shortLabel": "Montaje",
+        "helpText": "Tipo de instalación física del analizador.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "PANEL", "label": "Montaje en Panel IP66", "description": "Montaje en Panel IP66", "constraints": {} },
+          { "code": "PIPE2", "label": "Montaje en Tubería/Tubo 2\"", "description": "Montaje en Tubería/Tubo 2\"", "constraints": {} },
+          { "code": "NEMA4X", "label": "Gabinete NEMA 4X para Intemperie", "description": "Gabinete NEMA 4X para Intemperie", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "sensor_asociado",
+        "label": "Sensor Asociado",
+        "shortLabel": "Sensor",
+        "helpText": "Tipo de sensor de proceso asociado al analizador.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "PHCOMB", "label": "Electrodo de pH analógico combinado", "description": "Electrodo de pH analógico combinado", "constraints": {} },
+          { "code": "INDPEEK", "label": "Sensor Inductivo PEEK PFA", "description": "Sensor Inductivo PEEK PFA", "constraints": {} },
+          { "code": "OPTO2", "label": "Sensor Óptico de Oxígeno", "description": "Sensor Óptico de Oxígeno", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "salida_senal",
+        "label": "Salida de Señal",
+        "shortLabel": "Salida",
+        "helpText": "Protocolo de comunicación y salida de señal.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "HART7", "label": "Dual 4-20 mA + HART 7", "description": "Dual 4-20 mA + HART 7", "constraints": {} },
+          { "code": "PROFIBUS", "label": "PROFIBUS DP", "description": "PROFIBUS DP", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}

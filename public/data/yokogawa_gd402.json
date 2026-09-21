@@ -1,0 +1,64 @@
+{
+  "instrument": {
+    "id": "yokogawa_gd402",
+    "name": "Analizador de Densidad de Gas GD402",
+    "brand": "Yokogawa",
+    "baseModel": "GD402",
+    "description": "Detector y analizador continuo de densidad y peso específico en mezclas gaseosas.",
+    "features": [],
+    "steps": [
+      {
+        "stepId": "gas_de_aplicacion",
+        "label": "Gas de Aplicación",
+        "shortLabel": "Gas",
+        "helpText": "Tipo de gas o mezcla gaseosa del proceso.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "NG", "label": "Gas Natural / Biogás", "description": "Gas Natural / Biogás", "constraints": {} },
+          { "code": "H2", "label": "Hidrógeno (H2)", "description": "Hidrógeno (H2)", "constraints": {} },
+          { "code": "HC", "label": "Mezclas de Hidrocarburos Ligeros", "description": "Mezclas de Hidrocarburos Ligeros", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "rango_densidad",
+        "label": "Rango de Densidad",
+        "shortLabel": "Rango",
+        "helpText": "Rango de densidad de gas a medir.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "R2", "label": "0 a 2 kg/m3", "description": "0 a 2 kg/m3", "constraints": {} },
+          { "code": "R20", "label": "0 a 20 kg/m3", "description": "0 a 20 kg/m3", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "pantalla_interfaz",
+        "label": "Pantalla / Interfaz",
+        "shortLabel": "Interfaz",
+        "helpText": "Presentación local o control remoto del equipo.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "LCD", "label": "Unidad de control local con Display LCD", "description": "Unidad de control local con Display LCD", "constraints": {} },
+          { "code": "REMOTE", "label": "Transmisor ciego remoto", "description": "Transmisor ciego remoto", "constraints": {} }
+        ]
+      },
+      {
+        "stepId": "salida",
+        "label": "Salida",
+        "shortLabel": "Salida",
+        "helpText": "Tipo de señal de salida del analizador.",
+        "required": true,
+        "multiSelect": false,
+        "prefix": "-",
+        "options": [
+          { "code": "OUT1", "label": "4-20 mA DC + Alarma de contacto Relé", "description": "4-20 mA DC + Alarma de contacto Relé", "constraints": {} }
+        ]
+      }
+    ]
+  }
+}
