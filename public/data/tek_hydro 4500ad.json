@@ -1,10 +1,10 @@
 {
   "instrument": {
-    "id": "tek_flex 4500ad",
-    "name": "Tek-Flex 4500AD",
+    "id": "tek_hydro 4500ad",
+    "name": "Tek-Hydro 4500AD",
     "brand": "Tektrol",
-    "baseModel": "Tek-Flex 4500AD",
-    "description": "Configurator for Tek-Flex 4500AD",
+    "baseModel": "Tek-Hydro 4500AD",
+    "description": "Configurator for Tek-Hydro 4500AD",
     "features": [],
     "steps": [
       {

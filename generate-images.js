@@ -13,7 +13,7 @@ const catalogImages = [
   'tek-temp-2100a.png', 'tek-bar-3110a.png', 'tek-bar-3110b-d.png', 'tek-bar-3120a.png',
   'tek-bar-3120b.png', 'tek-bar-3120s.png', 'tek-bar-3800e.png', 'tek-bar-3800xa.png',
   'tek-flex-4100a.png', 'tek-flex-4100b.png', 'tek-wave-4300b.png', 'tek-wave-4300c-g.png',
-  'tek-hydro-4500a-g.png', 'tek-flex-4500ad.png', 'tek-sub-4800a.png', 'tek-sub-4800b.png',
+  'tek-hydro-4500a-g.png', 'tek-hydro-4500ad.png', 'tek-sub-4800a.png', 'tek-sub-4800b.png',
   'tek-sub-4800c.png', 'tek-sub-4800d.png',
   'yokogawa-rotamass.png', 'yokogawa-axf.png', 'yokogawa-eja-ejx.png',
   'yokogawa-temp-superficial.png', 'yokogawa-analizadores-fluidos.png',

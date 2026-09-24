@@ -370,12 +370,12 @@
     "brand": "Tektrol"
   },
   {
-    "id": "tek_flex 4500ad",
-    "name": "Tek-Flex 4500AD",
+    "id": "tek_hydro 4500ad",
+    "name": "Tek-Hydro 4500AD",
     "category": "Instrumentación",
     "configurable": true,
-    "file": "tek_flex 4500ad.json",
-    "image": "img/catalog/tek-flex-4500ad.png",
+    "file": "tek_hydro 4500ad.json",
+    "image": "img/catalog/tek-hydro-4500ad.png",
     "description": "Medidor de nivel capacitivo para ambientes de alta presión y temperatura.",
     "brand": "Tektrol"
   },
